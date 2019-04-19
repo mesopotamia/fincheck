@@ -3,7 +3,8 @@ import {Page} from "puppeteer";
 
 const {Equifax_user, Equifax_password} = process.env;
 
-const getScore = async (page: Page)  => {
+export const getScore = async (page: Page)  => {
+    console.log('getting score');
     await page.waitForSelector('#ppeData > div.agencyBoxScaleMid > p.bigScore');
     const score = await page.evaluate(() =>
         document.querySelector('#ppeData > div.agencyBoxScaleMid > p.bigScore').textContent
@@ -31,10 +32,11 @@ const login = async (page: Page, url: string, username: string, password: string
     console.log('loaded main page');
 };
 
+/*
 (async () => {
     const page = await init();
     const loginUrl = 'https://www.econsumer.equifax.ca/canadaotc/showmyequifax.ehtml?locale_code=en_ca&_ga=2.19025976.1079285246.1555198618-331063922.1555198618';
     await login(page, loginUrl, Equifax_user, Equifax_password);
     const score = await getScore(page);
     console.log(score);
-})();
+})();*/
