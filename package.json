@@ -1,13 +1,11 @@
 {
-  "name": "node-typescript-jest-starter",
+  "name": "fincheck",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && tsc && node dist/index.js",
-    "start": "nodemon --exec ts-node -r dotenv/config src/cibc.ts --watch src",
-    "start2": "nodemon --exec ts-node -r dotenv/config src/equifax.ts --watch src",
-    "server": "nodemon --exec ts-node -r dotenv/config src/server.ts --watch src",
+    "start": "nodemon --exec ts-node -r dotenv/config src/server.ts --watch src",
     "test": "jest --watch",
     "coverage": "jest --coverage"
   },
