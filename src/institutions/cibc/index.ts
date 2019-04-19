@@ -1,5 +1,5 @@
 import {Page} from "puppeteer";
-import {login} from "./helpers/login";
+import {login} from "../../helpers/login";
 
 
 export const getSummary = async (page: Page, url: string, {username, password}) => {
@@ -7,7 +7,7 @@ export const getSummary = async (page: Page, url: string, {username, password}) 
     await page.goto(url, {waitUntil: "networkidle2"});
     const usernameSelector = await page.$$('input');
     const passwordSelector = await page.$$('input');
-    await login(page, url, username, password, usernameSelector[9], passwordSelector[11]);
+    await login(page, username, password, usernameSelector[9], passwordSelector[11]);
     await page.waitForNavigation();
     console.log('loaded accounts page');
     return await page.evaluate(() => {

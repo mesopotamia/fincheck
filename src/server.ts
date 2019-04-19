@@ -1,7 +1,6 @@
 import {init} from "./index";
-import {getSummary} from "./cibc";
-import {getScore} from "./equifax";
-import {login, logout} from "./helpers/login";
+import {getSummary} from "./institutions/cibc";
+import {getScore} from "./institutions/equifax";
 const express = require('express');
 const timeout = require('connect-timeout');
 const app = express();
@@ -14,8 +13,6 @@ app.get('/summary', async (req, res) => {
     try {
         page = await init(true);
         const summary = await getSummary(page, 'https://www.cibc.com/en/personal-banking.html', {username, password});
-        /*const logoutButton = await page.$('.signout .ui-wrapper');
-        await logout(page, logoutButton);*/
         await page.browser().close();
         res.send(summary)
     }
@@ -29,18 +26,8 @@ app.get('/credit-score', async (req, res) => {
     console.log('got query', req.query);
     let page;
     try {
-        page = await init(false);
-        await page.setViewport({width: 1375, height: 1000});
-        await page.goto('https://www.econsumer.equifax.ca/canadaotc/showmyequifax.ehtml?locale_code=en_ca&_ga=2.19025976.1079285246.1555198618-331063922.1555198618', {waitUntil: "networkidle2"});
-        await login(
-            page,
-            'https://www.econsumer.equifax.ca/canadaotc/showmyequifax.ehtml?locale_code=en_ca&_ga=2.19025976.1079285246.1555198618-331063922.1555198618',
-            username,
-            password,
-            await page.$('#userName'),
-            await page.$('#consumerPwd')
-        );
-        const score = await getScore(page);
+        page = await init(true);
+        const score = await getScore(page, 'https://www.econsumer.equifax.ca/canadaotc/showmyequifax.ehtml?locale_code=en_ca&_ga=2.19025976.1079285246.1555198618-331063922.1555198618', {username, password});
         console.log('got score', score);
         await page.browser().close();
         res.send(score)
@@ -50,4 +37,4 @@ app.get('/credit-score', async (req, res) => {
         res.send(e.message)
     }
 });
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`FinCheck listening on port ${port}!`));
