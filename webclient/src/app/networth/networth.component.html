@@ -1,0 +1,27 @@
+<div class="cf">
+  <div class="fl w-20"><img src="../../assets/Money_Flat_Icon.svg" width="200"/></div>
+  <div class="fl w-80 f3">
+    <div class="pv1">
+      You total assets
+    </div>
+    <div class="b">
+      {{assets | currency}}
+    </div>
+  </div>
+  <div class="fl w-80 f3 mv3">
+    <div class="pv1">
+      Your total liabilities:
+    </div>
+    <div class="b">
+      {{liabilities | currency}}
+    </div>
+  </div>
+  <div class="fl w-80 f3 mv3">
+    <div class="pv1">
+      Your net worth:
+    </div>
+    <div class="b net-worth">
+      {{netWorth | currency}}
+    </div>
+  </div>
+</div>
