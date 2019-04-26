@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'webclient';
+  onLogin(event: LoginEvent) {
+    switch (event.type) {
+      case 'CIBC':
+        console.log('calling CIBC');
+        console.log('with credentials', event.loginModel);
+        break;
+
+    }
+  }
 }
