@@ -11,9 +11,11 @@ export const getSummary = async (page: Page, url: string, {username, password}) 
     await page.waitForNavigation();
     console.log('loaded accounts page');
     return await page.evaluate(() => {
+        const assets = document.querySelectorAll('div > div > span > span.category-balance > span')[0].textContent;
+        const liabilities =  document.querySelectorAll('div > div > span > span.category-balance > span')[1].textContent;
         return {
-            assets: document.querySelectorAll('div > div > span > span.category-balance > span')[0].textContent,
-            liabilities: document.querySelectorAll('div > div > span > span.category-balance > span')[1].textContent
+            assets: assets.replace('$', '').replace(',', ''),
+            liabilities: liabilities.replace('$', '').replace(',', '')
         }
     });
 };
