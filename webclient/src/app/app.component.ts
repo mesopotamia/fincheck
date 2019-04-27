@@ -8,7 +8,13 @@ import {AccountsService} from "./accounts.service";
 })
 export class AppComponent {
   accountSummary: AccountSummary;
-  constructor(private accountsService: AccountsService) {}
+  constructor(private accountsService: AccountsService) {
+    this.accountSummary = {
+      netWorth: Number(localStorage.getItem('netWorth')),
+      liabilities: Number(localStorage.getItem('liabilities')),
+      assets: Number(localStorage.getItem('assets'))
+    };
+  }
   onLogin(event: LoginEvent) {
     switch (event.type) {
       case 'CIBC':
@@ -27,6 +33,9 @@ export class AppComponent {
         ...accountSummary,
         netWorth
       };
+      localStorage.setItem('assets', String(assets));
+      localStorage.setItem('liabilities', String(liabilities));
+      localStorage.setItem('netWorth', String(netWorth));
     })
   }
 }
