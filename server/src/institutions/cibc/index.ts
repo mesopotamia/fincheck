@@ -14,8 +14,8 @@ export const getSummary = async (page: Page, url: string, {username, password}) 
         const assets = document.querySelectorAll('div > div > span > span.category-balance > span')[0].textContent;
         const liabilities =  document.querySelectorAll('div > div > span > span.category-balance > span')[1].textContent;
         return {
-            assets: assets.replace('$', '').replace(',', ''),
-            liabilities: liabilities.replace('$', '').replace(',', '')
+            assets: Number(assets.replace('$', '').replace(',', '')),
+            liabilities: Number(liabilities.replace('$', '').replace(',', ''))
         }
     });
 };

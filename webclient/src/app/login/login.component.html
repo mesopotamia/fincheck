@@ -1,8 +1,8 @@
 <h2>{{loginType}}</h2>
 <form (ngSubmit)="onSubmit()">
-  <label for="username">Username</label>
-  <input name="username" type="text" id="username" [(ngModel)]="model.username">
-  <label for="password">Password</label>
-  <input name="password" type="password" id="password" [(ngModel)]="model.password">
+  <label [for]="loginType + '_username'">Username</label>
+  <input [name]="loginType + '_username'" type="text" [id]="loginType + '_username'" [(ngModel)]="model.username">
+  <label [for]="loginType + '_password'">Password</label>
+  <input [name]="loginType + '_password'" type="password" id="loginType + '_password'" [(ngModel)]="model.password">
   <button type="submit">Login</button>
 </form>

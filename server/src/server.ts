@@ -3,8 +3,14 @@ import {getSummary} from "./institutions/cibc";
 import {getScore} from "./institutions/equifax";
 const express = require('express');
 const timeout = require('connect-timeout');
+
 const app = express();
 const port = 3000;
+const allowCrossDomain = function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', '*');
+    next();
+};
+app.use(allowCrossDomain);
 app.use(timeout('60s'));
 app.get('/summary', async (req, res) => {
     const {username, password} = req.query;

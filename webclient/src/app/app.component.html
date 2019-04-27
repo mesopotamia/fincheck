@@ -1,2 +1,2 @@
-<fc-networth [netWorth]="300000" [liabilities]="400000" [assets]="700000"></fc-networth>
+<fc-networth [netWorth]="accountSummary?.netWorth" [liabilities]="accountSummary?.liabilities" [assets]="accountSummary?.assets"></fc-networth>
 <fc-login loginType="CIBC" (loginEvent)="onLogin($event)"></fc-login>

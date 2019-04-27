@@ -6,3 +6,8 @@ interface LoginModel {
   username: string;
   password: string;
 }
+interface AccountSummary {
+  assets: number;
+  liabilities: number;
+  netWorth?: number
+}
