@@ -9,9 +9,6 @@
     "paths": {
       "*": [
         "node_modules/"
-      ],
-      "typings/*": [
-        "src/typings/*"
       ]
     }
   },
