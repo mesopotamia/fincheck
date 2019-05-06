@@ -1,7 +1,7 @@
 export interface Action {
     selector?: string;
     url?: string;
-    type: ActionType.click | ActionType.navigate
+    type?: any
 }
 export interface ClickAction extends Action{
     type: ActionType.click;
@@ -11,9 +11,14 @@ export interface NavigateAction extends Action{
     type: ActionType.navigate
     url: string;
 }
+export interface TypeIntoFieldAction extends Action {
+    value: string;
+    type: ActionType.typeIntoField
+}
 export enum ActionType {
     click = 'click',
-    navigate = 'navigate'
+    navigate = 'navigate',
+    typeIntoField = 'typeIntoField'
 }
 export interface TextExtractor {
     selector: string;
