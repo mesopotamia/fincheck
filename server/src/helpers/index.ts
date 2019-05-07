@@ -12,17 +12,21 @@ export const navigate = async (page: Page, url: string) => {
         waitUntil: "networkidle2"
     });
 };
+export const pressEnter = async(page) => {
+    await Promise.all([
+        page.waitForNavigation({waitUntil: "networkidle2"}),
+        page.keyboard.press('Enter')
+    ]);
+};
 export const navigateByClick = async (page: Page, selector: string) => {
     await page.waitForSelector(selector);
-    await page.evaluate((selector) => {
-        document.querySelector(selector).click();
-    }, selector)
+    const button = await page.$(selector);
+    await button.click();
 };
 export const typeIntoField = async (page: Page, selector: string, value: string) => {
     await page.waitForSelector(selector);
-    await page.evaluate((selector, value) => {
-        document.querySelector(selector).value = value;
-    }, selector, value)
+    const field = await page.$(selector);
+    await field.type(value);
 };
 export const executeActions = async(page: Page, actions: Action[]) => {
     for(const action of actions) {
