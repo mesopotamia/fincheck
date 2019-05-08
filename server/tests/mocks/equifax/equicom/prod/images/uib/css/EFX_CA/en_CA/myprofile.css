@@ -1,0 +1,2243 @@
+	@charset "utf-8";
+/* yourProfile styles */
+
+/* --- myprofile errors ---*/
+#error ul {
+	margin: 5px 0;	
+	padding-left: 45px;
+}
+#order_error {
+	clear: both;
+	padding: 7px;
+	width: 98%;
+	border: 1px solid #999;
+	margin: 10px 10px 5px0;
+	background: #eee url(../../../images/icons/icon_alert.gif) no-repeat 0% 50%;
+}
+#order_error p {
+	padding-left: 30px;
+}
+#order_error ul {
+	margin: 5px 0;	
+	padding-left: 45px;
+}
+
+/* -- yourProfile page --*/
+.yourProfileFirstPara {
+	margin: 20px 0 -10px 0;	
+}
+.myProfileLabel {
+	width: 16%;
+	padding: 2px 5px 0 0;	
+	text-align: right;
+	margin-left: 26px;
+}
+.ButtonCancel{
+	background: transparent url(../../../images/btns/button_cancel.png) no-repeat scroll 0 0;
+	font: bold 1em/1em Arial,Helvetica,sans-serif;
+	padding: 11px 2px 12px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.ButtonCancel a:link, .ButtonCancel a:visited, .ButtonCancel a:hover, .ButtonCancel a:focus {
+	font: bold 1em/1em Arial,Helvetica,sans-serif;
+	padding: 10px 8px 7px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.formInfo {
+	margin: 25px 0 0 40px;
+}
+.formInfoItem {
+	margin: 18px 0 18px 0px;
+}
+.fakeLabelTxt {
+	float:right;
+	margin: -1px 0 2px 0;
+	text-align:right;
+}
+.userInfo {
+	margin: 25px 0 0 0;
+}
+.userInfoItem {
+	margin: 18px 0 18px 0;	
+}
+/*.errorMessageDisplayInlineAlt {
+	margin: 10px 0 0 0;
+	display: block;
+}*/
+
+/* Payment Info page */
+.productHeader {
+	width: 100%;
+}
+.productHeader p {
+	float: left;
+	font-weight: bold;
+}
+.product {
+	width: 41%;	
+}
+.nextRenewal {
+	width: 20%;
+}
+.priceTerm {
+	width: 19%;
+}
+.editUpdateHeader {
+	float: left;
+	padding: 0 0 0 10px;
+}
+#credWatchGold {
+	margin: 25px 0 0 0;
+}
+#credWatchGold p {
+	float: left;
+}
+#credReportControl {
+	margin: 25px 0 0 0;
+}
+#credReportControl p {
+	float: left;	
+}
+#scoreWatch {
+	margin: 25px 0 0 0;
+}
+#scoreWatch p {
+	float: left;	
+}
+.goldFamHeader {
+	
+	
+}
+.goldFamHeader p {
+	float: left;		
+}
+.goldFamMemStatus {
+	width: 25%;	
+}
+.goldFamMemName {
+	width: 17%;	
+}
+.goldFamNextRenewal {
+	width: 18%;	
+}
+.goldFamPriceTerm {
+	width: 20%;	
+}
+.goldFameditUpdate {
+	width: 12%;
+	padding: 0 0 0 20px;	
+}
+.indiFamMember {
+	padding: 20px 0 0 0;	
+}
+.indiFamMember p {
+	float: left;	
+}
+
+.innerTable {
+	border: none;
+    padding: 13px 30px;
+}
+/*Web detect Cancel button*/
+.ButtonRightRed {
+    background: url("http://www.equifax.com/CMS/images/btns/red_btn_right.png") no-repeat scroll right top transparent;
+    float: left;
+    padding-right: 10px;
+}
+ 
+.ButtonLeftRed {
+    background: url("http://www.equifax.com/CMS/images/btns/red_btn_left.png") no-repeat scroll 184px 9px transparent;
+    float: left;
+    padding-top: 9px;
+}
+ 
+.ButtonRed {
+    background: url("http://www.equifax.com/CMS/images/btns/red_btn_middle.png") repeat-x scroll 0 0 #F26522;
+    float: left;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+ 
+.ButtonCenterRed {
+    float: left;
+    margin: 0 0 7px 194px;
+}
+.ButtonRed a:link, .ButtonRed a:visited, .ButtonRed a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 4px 10px 0px 4px;
+	text-decoration: none;
+	height: 28px;
+}
+
+.ButtonCenterRed_WD {
+	float: left;
+    margin: 0 0 7px 124px;
+    padding-left: 6px;
+	
+}
+	
+.ButtonCenterRed_WD_Cancel {
+	float: left;
+    margin: 0 0 7px 13px;
+    padding-left: 6px;
+	
+}
+
+.ButtonLeftRed_WD {
+     background: url("http://www.equifax.com/CMS/images/btns/red_btn_left.png") no-repeat scroll 113px 9px transparent;
+    float: left;
+    padding-top: 9px;
+}
+
+.ButtonLeftRed_WD_Cancel {
+    background: url("http://www.equifax.com/CMS/images/btns/red_btn_left.png") no-repeat scroll 3px 28px transparent;
+    float: left;
+    padding-top: 28px;
+}
+	
+.ButtonLeftRed_WD_Cancel_SSN{
+ background: url("http://www.equifax.com/CMS/images/btns/red_btn_left.png") no-repeat scroll 3px 9px transparent;
+    float: left;
+    padding-top: 9px;
+}	
+
+/*Web detect Cancel button End*/
+
+/* Global Button + Over-rides */
+.redButton, .redButtonDisabled { /* Basic Red button - expandable no need to adjust width */
+	float: right;
+	height: 1.8em;
+	margin: 10px 7px 0 10px;
+	padding: 0;
+}
+.redButtonDisabled { 
+	float: left;
+	height: 2.3em;
+}
+.redButtonLeft, .redButtonLeftDisabled {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 6px;
+}
+html>body .redButtonLeft, html>body .redButtonLeftDisabled { padding: 0 0 0 10px; }
+
+.redButtonRight, .redButtonRightDisabled {
+	float: left;
+	margin: 0;
+	padding: 2px 20px 0 0;
+}
+.redButton a:link, .redButton a:visited, .redButton a:hover, .redButtonDisabled a:link, .redButtonDisabled a:visited, .redButtonDisabled a:hover {
+	color: #fff;
+	font: 1.0em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 20px 5px 0;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 0;	
+}
+.redButton { /*old button html - new styles - it isn't the red button! it is orange! I am not color-confused, I just had to use old html for the new look of MC*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.wizardActionButton {
+	float: left;
+	margin: 15px 0 0 137px;
+}
+.ButtonCenter {
+	float: left;
+	margin: 8px 0 0 35px;
+}
+.redButtonLeft {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.redButtonRight {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+.redButton a:link, .redButton a:visited, .redButton a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.040em/2.00em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 1px 23px 1px 8px;
+	text-decoration: none;
+}
+
+/* Payment Information page Red Button Adjust */
+.paymentDetailsContainer .redButton {
+	height: auto!important;
+	margin-top: 0;
+}
+.paymentDetailsContainer .redButtonDisabled {
+	height: auto!important;	
+	margin-top: 0;
+	padding-bottom: 10px;
+}
+html>body .paymentDetailsContainer .redButtonDisabled {
+	height: auto!important;	
+	padding-bottom: 3px;
+}
+.paymentDetailsContainer .redButton a:link, .paymentDetailsContainer .redButton a:visited, .paymentDetailsContainer .redButton a:hover, .paymentDetailsContainer .redButtonDisabled a:link, .paymentDetailsContainer .redButtonDisabled a:visited, .paymentDetailsContainer .redButtonDisabled a:hover {
+	padding: 2px 20px 0px 10px!important;	
+}
+html>body .redButtonDisabled a:link, .redButtonDisabled a:visited, .redButtonDisabled a:hover,
+html>body .redButton a:link, .redButton a:visited, .redButton a:hover { text-indent: 5px; }
+/* Payment Information page Red Button Adjust for newer browsers */
+html>body .paymentDetailsContainer .redButton a:link, html>body .redButton a:visited, html>body .redButton a:hover, html>body .paymentDetailsContainer .redButtonDisabled a:link, html>body .paymentDetailsContainer .redButtonDisabled a:visited, html>body .paymentDetailsContainer .redButtonDisabled a:hover {
+	text-indent: 0!important;	
+}
+/* Global Green Button */
+.greenButtonLeft {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.greenButtonRight {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.greenButton a:link, .greenButton a:visited, .greenButton a:hover {
+	color: #fff;
+	float: left;
+	font: 0.9em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 3px 15px 5px 9px;
+	text-decoration: none;
+}
+.textLink { /* basic text link - sits next to the red button */
+	float: right;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+.textLink p {
+	float: left;
+	line-height: 2.2em;
+	margin: 0;
+	padding: 0;
+}
+.textLink a:link, .textLink a:visited, .textLink a:hover {
+	color: #002157;
+	font: 0.9em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.textLink a span.noUnderline {
+	text-decoration: none;
+	padding-right: 3px;
+}
+.textLink a:hover { color: #444; }
+.textLinkWithButton { float: left; display: inline; margin-top: 6px; }
+
+html>body .blueButtonLeft {
+	padding: 0 0 0 10px;
+}
+.blueButton a:link, .blueButton a:visited, .blueButton a:hover {
+	color: #fff;
+	font: 1.0em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 20px 5px 0;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 0;	
+}
+html>body .blueButton a:link, .blueButton a:visited, .blueButton a:hover { text-indent: 5px; }
+
+/* Payment Info */
+.paymentDetailsContainer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	vertical-align: top;
+	font-size: 1.0em;
+}
+.paymentDetailsContainer a img { border: none; }
+.paymentDetailsContainer label { font-weight: bold; }
+.paymentDetailsContainer label em { font-size: 1.1em; font-style: normal; }
+.paymentDetailsContainer p { 
+	display: inline; 
+	width: 100%; 
+	float: left;
+}
+.paymentDetailsContainer .paymentType1, .paymentDetailsContainer .paymentType2 { 
+	float: left;
+	margin: 5px 0 5px 0;
+	padding: 5px 0 5px 0;
+	width: 22%;
+}
+.paymentDetailsContainer .paymentType2 {
+	clear: left; 
+	border-top: solid 2px #d1cece;
+}
+.paymentDetailsContainer .paymentSpecContainer {
+	float: left;
+	margin: 0 0 5px 0;
+	padding: 5px 0 0 0;
+	width: 77%;		
+}
+.paymentDetailsContainer .paymentSpecs1, .paymentDetailsContainer .paymentSpecs2 { 
+	float: left;
+	margin: 5px 0 5px 0;
+	padding: 0 0 5px 0;
+}
+.paymentDetailsContainer .paymentSpecs1 { 
+	width: 100%;
+}
+.paymentDetailsContainer .paymentSpecs2 {
+	width: 77%;
+	height: 5em;
+	margin: 5px 0 0 0;
+	padding: 5px 0 0 0;
+	border-top: solid 2px #d1cece; 
+	vertical-align: top;
+}
+.paymentDetailsContainer .paymentSpecs2 img { vertical-align: top; }
+
+.paymentDetailsContainer .paymentSpecs1 label {
+	width: 21%; 
+	float: left;
+}
+.paymentDetailsContainer .paymentSpecs2 label {
+	width: 21%; 
+	float: left;
+}
+.paymentDetailsContainer .paymentSpecs1 .appPayToAll {
+	float: left;
+    margin: -26px 0 0 34em;
+}
+.paymentDetailsContainer .paymentSpecs1 .appPayToAll label {
+	width: 100%;
+}
+.paymentDetailsContainer .paymentSpecs1 input, .paymentDetailsContainer .paymentSpecs1 select { 
+	float: left;
+	vertical-align: top;
+}
+select#creditdebitCardExpireYear { margin-left: 10px; }
+.errorMessageDisplayInline { 
+	float: left;
+	padding: 0 0 0 3px;
+	color: #900;
+	font-size: 0.85em;
+	font-weight: bold;
+	width: 95px;
+}
+.errorMessageDisplayInlineAlt { 
+	display: block;
+	padding: 0;
+	color: #900;
+	font-size: 0.85em;
+	font-weight: bold;
+	vertical-align: middle;
+	width: 60%;
+	margin: 0px 0 0 18.5%;
+}
+.paymentDetailsContainer .redButton { 
+	float: left;
+	height: 2.2em;
+}
+.paymentApply { 
+	display: inline;
+	float: right;
+	width: 20%;
+	padding-right: 24px;
+	line-height: 1.0em;
+	vertical-align: top; 
+}
+.paymentApply input { 
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.fieldEnterPromo { 
+	float: left;
+	margin-top: 4px;
+}
+.labelDisabled { color: #777; }
+.waitLabel { 
+	float: left;
+	margin-top: 6px;
+	padding-left: 2px;
+	width: auto;
+	color: #666;
+	font-size: 1.0em;
+}
+.paymentDetailsAlertMessage { 
+	background: transparent url(../../../images/icons/icon_alert.gif) no-repeat 0 0;
+	margin: 0 0 5px 0;
+	padding: 0;
+	width: 90%;
+	min-height: 25px;
+	font-size: 1.1em;
+	vertical-align: top;
+}
+.paymentDetailsAlertMessage p { 
+	padding-left: 32px; 
+	color: #900;
+	font-weight: bold;
+}
+.fieldHelpText { 
+	padding-left: 10px;
+	font-size: 0.9em;
+	font-style: italic;
+}
+.statusComplete, .statusInProcess, .statusCancel, .statusExpire, .statusFail { font-weight: bold; }
+.statusComplete { color: #060; }
+.statusInProcess { color: #036; }
+.statusExpire em { color: #900; font-style: normal; }
+.statusCancel { color: #900; }
+.statusExpire { color: #000; }
+.statusFail { color: #960; }
+
+/* New Report Manager - 2011.8.1 release */
+table.reportManager {
+	clear: both;
+	width: 100%;	
+}
+table.reportManager thead { background-color: #d5dce3; }
+table.reportManager thead tr { text-align: left; }
+table.reportManager tr.prodCanceled { color: #999999;}
+table.reportManager th { padding: 13px 10px; text-align: left;}
+table.reportManager td { padding: 13px 10px; border-bottom: dotted 1px #d5dce3;}
+table.reportManager td.Complete { background: url("../../../images/icons/icon-check-mark.png") no-repeat scroll transparent;}
+table.reportManager td.Expired { background: url("../../../images/icons/icon-unavailable.png") no-repeat scroll transparent; }
+table.reportManager td.Exchanged { background: url("../../../images/icons/icon-exchange.png") no-repeat scroll transparent; }
+table.reportManager td.Cancelled { background: url("../../../images/icons/icon-no.png") no-repeat scroll transparent; }
+table.reportManager td.last { border-bottom: none;}
+table.reportManager td.noPadding { padding: 0; }
+ul.reportManagerNav { 
+	clear: both;
+	float: left;
+	list-style: none;
+	padding: 0 0 10px 20px;	
+}
+ul.reportManagerNav li { 
+	float: left;
+}
+ul.reportManagerNav li:after {
+	/*content: "|";*/
+}
+ul.reportManagerNav li.last:after {
+	content: "";
+}
+ul.reportManagerNav li span {
+	color: #0076a3;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 10px; 
+	padding-right: 10px; 
+}
+ul.reportManagerNav li span.on { font-weight: bold; }
+/* // ENDS New Report Manager - 2011.8.1 release */
+
+/* My Account - Order History */
+.showTableAlt { 
+	color: #0076a3;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.trToggleShowHide {
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+}
+table.embeddedTable { background-color: #e8f0f0; border: solid 1px #b8c0e0; }
+table.embeddedTable th { 
+	background-color: #a8b8d8; 
+	color: #203050; 
+	padding: 8px 15px;
+}
+table.embeddedTable td { 
+	border-top: solid 1px #b8c0e0; 
+	border-right: solid 1px #b8c0e0; 
+	padding: 8px 15px;
+}
+/* Ends My Account - Order History */
+
+/* My Account pages - tabs*/
+/*Score Trending Tabs */
+#myAccountTabs {
+	font-weight: bold;
+	float: left;
+	margin: 0 0 0 -14px;
+    padding: 0 19px 2px 9px;
+	text-decoration: none; 
+	cursor: pointer; 
+}
+
+#myAccountTabs:hover { cursor: pointer; }
+.activeTabProfile, .activeTabPreferences, .activeTabInformation, .activeTabHistory, .activeTabManager {
+	background: transparent url(../../../images/bgs/bg-myAccount-active-center.png) repeat-x;
+	color: #000;
+	font-size: 1.1em;
+	float: left;
+	margin: 0px 3px 0px 3px;
+	padding: 11px 30px 12px 30px;	
+}	
+
+.activeTabProfile a, .activeTabPreferences a, .activeTabInformation a, .activeTabHistory a, .activeTabManager a {
+	color: #000;
+	text-decoration:none;
+}	
+
+.activeTabLeftProfile, .activeTabLeftPreferences, .activeTabLeftInformation, .activeTabLeftHistory, .activeTabLeftManager {
+	background: transparent url(../../../images/bgs/bg-compareProducts-tab-active-left2011.gif) no-repeat top left;
+	float: left;	
+	margin-left: 5px;
+}
+.activeTabRightProfile, .activeTabRightPreferences, .activeTabRightInformation, .activeTabRightHistory, .activeTabRightManager {
+	background: transparent url(../../../images/bgs/bg-compareProducts-tab-active-right2011.gif) no-repeat top right;
+	float: left;
+}
+.inactiveTabProfile, .inactiveTabPreferences, .inactiveTabInformation, .inactiveTabHistory, .inactiveTabManager {
+	background: transparent url(../../../images/bgs/bg-compareProducts-tab-inactive-center2011.gif) repeat-x;
+	color: #fff;
+	font-size: 1em;
+	float: left;
+	margin: 0;
+	padding: 6px 40px 7px 40px;
+}
+.inactiveTabProfile a, .inactiveTabPreferences a, .inactiveTabInformation a, .inactiveTabHistory a, .inactiveTabManager a {
+	color: #fff;
+	text-decoration:none;
+}
+.inactiveTabLeftProfile, .inactiveTabLeftPreferences, .inactiveTabLeftInformation, .inactiveTabLeftHistory, .inactiveTabLeftManager {
+	background: transparent url(../../../images/bgs/bg-compareProducts-tab-inactive-left2011.gif) no-repeat top left;
+	float: left;
+	margin: 5px 0 0 5px;
+}
+.inactiveTabRightProfile, .inactiveTabRightPreferences, .inactiveTabRightInformation, .inactiveTabRightHistory, .inactiveTabRightManager {
+	background: transparent url(../../../images/bgs/bg-compareProducts-tab-inactive-right2011.gif) no-repeat top right;
+	float: left;
+}
+.myAccountContainerTop {
+    background: url("../../../images/bgs/bg-myAccountContainerTop.png") no-repeat scroll 0 35px transparent;
+    width: 100%;
+	
+}
+.ProductToU {
+	float: right;
+    /*font-weight: bold;*/
+    margin: -39px -7px 0 0;
+    padding-bottom: 10px;
+}
+.container {
+	padding: 10px 0 0 0;
+	}
+.myAccountError {
+    background: #eae8db url("../../../images/icons/icon_alert.gif") no-repeat scroll 20px 5px;
+    color: #000;
+    height: 100%;
+    padding: 7px;
+	margin:0;
+    width: 99%;
+}
+.errorText {
+	margin: 0.2em 0 0.4em 4.7em;
+	font-size: 1.1em;
+	}
+
+
+.display_error_icon{
+	/* width:90px; */
+	color:#b93a2e;
+	font-weight:bold;
+	padding-top:18px;
+	margin:-40px 0 0 134px;
+	margin:-15px 0px 0px 0px\9;
+	visibility:hidden;
+	position: absolute;
+}
+	
+
+.show{
+	visibility:visible!important;
+}	
+.myaccountHR {
+	margin: 8px -14px 0 0px;
+	}
+#form_section h4 {
+	 background: transparent url("../../../images/arrows/arrow-grey-myaccount.png") no-repeat scroll 0px 1px;
+	 padding: 0 0 0 27px;
+}
+.privacyPolicy {
+	margin: 10px 0 0 7.3%;
+}
+
+.privacyPolicyOptOut {
+	margin: 10px 0 0 18.3%;
+}
+
+.formError {
+	background-color: #ffddb6;
+	padding: 5px 10px 10px 6px;
+	margin: 0 -3px 8px -30px;
+}
+.formNoError {
+	padding: 1px 0 2px 14px;
+	margin: 0 -3px 8px -40px;
+}
+.formNoError  .errorMessageDisplayInlineAlt {
+    display: none;
+}
+	
+.ButtonMP { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterMP {
+	float: left;
+	margin: 15px 0 0px 37px;
+}
+.ButtonLeftMP {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+	height: 28px;
+}
+.ButtonRightMP {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+	height: 28px;
+}
+.ButtonMP a:link, .ButtonMP a:visited, .ButtonMP a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+	height: 28px;
+}
+#showForm {
+    background: url("../../../images/arrows/arrow-up.png") no-repeat scroll right 0.3em transparent;
+    color: #0076A3;
+    cursor: pointer;
+    float: right;
+    margin: -31px 0.1em 0 0;
+    padding-right: 1.3em;
+    position: relative;
+}
+.selectionBox {
+    margin: 15px 0 0 28px;
+    padding: 0;
+    /*height: 70px;*/
+}
+.selectionBox h6 { 
+	padding: 5px 0 0 0;
+}
+.selectionBox p { 
+	padding: 6px 0 6px 0;
+	margin: 0.5em 0 0 -0.1em;
+}
+
+.selectionBoxMyProfile {
+    margin: 15px 0 0 28px;
+    padding: 0;
+}
+.selectionBoxMyProfile h6 { 
+	padding: 5px 0 0 0;
+}
+.selectionBoxMyProfile p { 
+	padding: 6px 0 6px 0;
+	/*margin: 0.5em 0 0 -0.1em;*/
+}
+
+
+.myAlertsError {
+    background: url("../../../images/icons/icon-!-orange.png") no-repeat scroll 20px 5px #EAE8DB;
+    color: #000000;
+    height: 100%;
+    margin: 0 0 0 -30px;
+    padding: 7px 7px 7px 37px;
+    width: 99%;
+}
+.myAlertsError .errorText {
+    font-size: 1.1em;
+    margin: 0.1em 0 0.4em 3.1em;
+	padding:0;
+}
+.shortHR {
+	margin: 10px -2px 10px -30px;
+}
+.alertPreferences {
+	padding: 3px 0 20px 0;
+}
+.alertPreferences p {
+	padding: 3px 0 0 0;
+}
+table.paymentInfo {
+    clear: both;
+    width: 100%;
+	margin: 10px 0 0 0;
+}
+.paymentInfoHeader {
+	font-size: 1.1em;
+	background-color:#d5dce3;
+}
+.paymentInfoHeader th {
+	text-align:left;
+	padding:15px 0 10px 15px;
+}
+.paymentInfo td {
+	padding:2px 0 2px 17px;
+	vertical-align:middle;
+	margin: 0;
+}
+.paymentInfo .prodTitleOK {
+	/*padding: 0 0 0 45px;
+	background: transparent url(../../../images/icons/icon-check-mark.png) no-repeat scroll 5px 5px;*/
+}
+.paymentInfo .prodTitleCancelled{
+	/*padding: 0 0 0 45px;
+	background: transparent url(../../../images/icons/icon-no.png) no-repeat scroll 5px 5px;*/
+}
+.ButtonPI { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterPI {
+	float: left;
+	margin: 9px 0 2px 0;
+}
+.ButtonLeftPI {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.ButtonRightPI {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+.ButtonPI a:link, .ButtonPI a:visited, .ButtonPI a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+.ButtonUpdate { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterUpdate {
+	float: left;
+	margin: 42px 0 10px -316px;
+}
+.ButtonLeftUpdate {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.ButtonRightUpdate {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+.ButtonUpdate a:link, .ButtonUpdate a:visited, .ButtonUpdate a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+.PricePI {
+	color: #790000;
+}
+.expandedPI {
+	background: transparent url(../../../images/bgs/bg_paymentInfo.png) repeat-x 0 0;
+	margin: 0 0 0 -16px;
+	padding: 5px;
+	border: 1px solid #b9ae8f;
+}
+.formInfoPI {
+    margin: 3px 0 0 40px;
+}
+.formCheckBox {
+	margin: 1px 0 8px 14.4%;
+}
+.formCheckBoxCard {
+	margin: 1px 0 8px 14%;
+}
+.dottedLine {
+	border-bottom: dotted 1px #ccc;
+}
+.FormUpdate {
+	margin: -40px 0 70px 44em;
+}
+.applyPromoCode {
+	background-color: #d0c8b0;
+	padding: 12px 7px 42px 20px;
+	margin: 0 -5px -5px -5px;
+}
+.applyCodeBtn {
+	/*margin: -28px 0 50px 34em;*/
+    	margin: 0px 0 11px 3em
+}
+.formCheckBoxPromoCode {
+    margin: 1px 0 8px 15.2%;
+}
+.promoField {
+	 margin: 1px 0 8px 15.4%;
+}
+
+.ButtonPromo { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterPromo {
+	float: left;
+	margin: 32px 0 2px -187px;
+}
+
+/*html>body .ButtonCenterPromo {
+	margin-top: 52px;
+}
+*/
+
+*+html .ButtonCenterPromo {
+	margin-top: 52px;
+}
+.ButtonLeftPromo {
+	background: transparent url(../../../images/btns/btn-orange-left-promo.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.ButtonRightPromo {
+	background: transparent url(../../../images/btns/btn-orange-right-promo.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+.ButtonPromo a:link, .ButtonPromo a:visited, .ButtonPromo a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+.myAccountH2 {
+	font-size:1.8em;
+	padding: 8px 0  21px 5px;
+	color: #000;
+}
+.formBtn {
+	margin: 0 0 0 194px;
+}
+.bigLinkForm {
+	margin: -12px 0 0 20px;
+}
+.aster {
+    color: #9D0A0E;
+    font-size: 16px;
+    font-weight: bold;
+}
+.myAccountSuccess {
+   /*background: #eae8db url("../../../images/icons/icon-check-mark.png") no-repeat scroll 20px 5px;*/
+    background-color: #eae8db;
+    color: #000;
+    height: 100%;
+    padding: 7px;
+	margin:10px 0 5px 0;
+    width: 99%;
+}
+
+.formRadio {
+    margin: 1px 0 8px 8px;
+}
+input, select {
+    vertical-align:text-bottom;
+}
+.radioPromo {
+    padding: 0 0 0 25px;
+}
+.prodCanceled {
+	color:#999
+}
+.mobileAlerts {
+	margin: 5px 0 5px 20px;
+}
+.bulletBoxContainer {
+	border: 1px solid #CCCCCC;
+	overflow: auto;
+}
+.bulletBox {
+    float: left;
+    min-height: 1.8em;
+    width: 24.5%;
+}
+.bulletBox ul {
+	margin: 0 0 0 20px;
+	padding: 8px;
+}
+.alertTable{
+	cellspacing: 5px;
+	cellpadding: 5px;
+	/*border: 1px solid #CCCCCC;*/
+}
+.alertTr{
+	/*border: 1px solid #CCCCCC;*/
+}
+.alertTd{
+	/*border: 1px solid #CCCCCC;*/
+	padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+.alertTdChk {
+	/*border: 1px solid #CCCCCC;*/
+	padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: 15%;
+}
+.legend {
+	margin-top: 20px;
+}
+.legendTable {
+	border: 1px solid #CCCCCC;
+}
+.legendCol1 {
+	padding: 6px 10px;	
+}
+.legendText {
+	vertical-align: super;
+}
+.legendCol2 {
+	padding-left: 20px;	
+	padding-right: 20px;
+}
+.statusLegend {
+	font-weight:bold;
+	vertical-align: middle;
+	padding-left: 6px;
+}
+.alertTableMobile {
+	margin-left:80px;
+}
+.mobileAlert {
+	font-weight:bold;
+}
+.mobile_phone_text {
+	margin-left: 10px;
+}
+.mobile_phone_area_code {	
+	margin-left: 5px;
+}
+.carrierType {
+	margin-left: -138px;
+}
+.ButtonMPTop { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterMPTop {
+	float: left;
+	margin: 15px 0 25px 3px;
+}
+.ButtonLeftMPTop {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.ButtonRightMPTop {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+.ButtonMPTop a:link, .ButtonMPTop a:visited, .ButtonMPTop a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+.myProfileLabelPhone {
+    margin-left: 26px;
+   	padding: 2px 143px 0 0;
+    	width: auto;
+}
+.myProfileLabelPhone1 {
+   	margin-left: 26px;
+    	padding: 2px 0px 0 0;
+    	width: auto;
+}
+.ButtonMPMyProfile { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+
+.ButtonFinishMyProfile { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: right;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+
+.ButtonCenterMPMyProfile {
+	float: left;
+	margin: 15px 0 25px 190px;
+}
+.ButtonLeftMPMyProfile {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.ButtonFinishLeftMPMyProfile {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: right;
+	padding: 0 0 0 15px;
+}
+.ButtonRightMPMyProfile {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+
+.ButtonFinishRightMPMyProfile {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+
+.ButtonMPMyProfile a:link, .ButtonMPMyProfile a:visited, .ButtonMPMyProfile a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+
+.ButtonFinishMyProfile a:link, .ButtonFinishMyProfile a:visited, .ButtonFinishMyProfile a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+
+.showTable {
+	font-size: 1em;
+    line-height: normal;
+    margin: 0 35px 7px;
+    /*margin-left: -47px;*/
+    margin: 0 59px 7px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    color: #002157;
+    cursor: pointer;
+    /*float: right;*/
+    text-decoration: underline;
+}
+.tableDetails {
+	margin-left:233px;
+}
+
+/* New Report Manager - 2011.8.1 release */
+table.reportManagerDetail {
+	clear: both;
+	width: 50%;	
+}
+table.reportManagerDetail thead { background-color: #d5dce3; }
+table.reportManagerDetail thead tr { text-align: left; }
+table.reportManagerDetail th { padding: 7px 1px 0 8px; }
+table.reportManagerDetail th.colMinWidth { min-width: 90px; }
+table.reportManagerDetail th.colProd { min-width: 250px; text-align: center;}
+table.reportManagerDetail th.colPayment { min-width: 194px;}
+table.reportManagerDetail td { text-align: left; border-bottom: 1px dotted #D5DCE3; /*padding: 13px 10px;*/}
+table.reportManagerDetail td.noPadding { padding: 0; }
+table.reportManagerDetail td.first { border-left: 1px dotted #d5dce3; border-bottom: 1px dotted #D5DCE3;}
+table.reportManagerDetail td.last { border-right: 1px dotted #d5dce3; border-bottom: 1px dotted #D5DCE3;} 
+
+.ButtonUpdatePayment { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterUpdatePayment {
+	float: left;
+	margin: 42px 0 10px -292px;
+}
+
+/*html>body .ButtonCenterUpdate {
+	margin-left: -308px;
+}*/
+
+.ButtonLeftUpdatePayment {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.ButtonRightUpdatePayment {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+.ButtonUpdatePayment a:link, .ButtonUpdatePayment a:visited, .ButtonUpdatePayment a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+.formCheckBoxPayment {
+	margin: 1px 0 8px 16.4%;
+}
+.formNoErrorPayment {
+	padding: 1px 0 2px 14px;
+	margin: 0 -3px 8px -40px;
+}
+
+
+.learnMoreLinkForm {
+	margin: -12px 0 0 20px;
+}
+
+.learnMoreLink, .learnMoreLink a:link, .learnMoreLink a:visited {
+    display: inline;
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 11px;
+    padding-top: 16px;
+    width: auto;
+}
+.ButtonLearnMore { /* button*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterLearnMore {
+	float: left;
+	margin: 15px 0 25px 0px;
+}
+.ButtonLeftLearnMore {
+	background: transparent url(../../../images/btns/btn-orange-left.png) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.ButtonRightLearnMore {
+	background: transparent url(../../../images/btns/btn-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+.ButtonLearnMore a:link, .ButtonLearnMore a:visited, .ButtonLearnMore a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+.formInfoWebDetect {
+	margin: 25px 0 0 40px;
+}
+html > body .SmActiveContent {
+    padding: 0 13px 25px;
+}
+
+.SmActiveContent {
+    float: left;
+    margin: 0;
+    padding: 0 12px 10px 13px;
+    text-align: left;
+    width: 98%;
+}
+
+.SmActiveContainer {
+    color: #000000;
+    font: 0.9em Arial,Helvetica,sans-serif;
+    text-align: left;
+}
+.introParaWithIcon {
+    margin: 0 0 0 -5px;
+    padding: 0;
+    width: 98%;
+}
+
+p.internetScanningIntro {
+   
+    border-bottom: 1px dotted #666666;
+    color: #990000;
+    font-size: 0.75em;
+    margin: 5px 0 0;
+    padding: 0 5px 29px 55px;
+}
+
+h3.internetScanning {
+    font-size: 0.9em;
+    margin: 5px 0 0 -5px;
+    padding: 5px 5px 0 0;
+    width: 275px;
+}
+
+h3 {
+    font-size: 1.552em;
+}
+
+h1, h2, h3, h4, h5 {
+    clear: both;
+    margin: 0 0 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8, form, p, blockquote, label {
+    margin: 0;
+    padding: 0;
+}
+
+p.internetScanning {
+    font-size: 0.8em;
+    margin: 5px 0 0 -5px;
+}
+
+.SmActiveContent p {
+    float: left;
+    font: 0.85em Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 8px 10px 10px 0;
+    width: 95%;
+}
+
+table.internetScanning {
+    background-color: #FFFFFF;
+    border: 1px solid #666666;
+    clear: both;
+    font-size: 0.8em;
+    margin: 5px 0 0 -5px;
+    width: 100%;
+}
+
+table.internetScanning tbody tr td.blue {
+    background-color: #CFDDE8;
+    vertical-align: middle;
+}
+
+table.internetScanning tbody tr td.grey {
+    background-color: #E1E1E1;
+}
+
+table.internetScanning tbody tr td {
+    background-color: #FFFFFF;
+    border-bottom: 1px dotted #666666;
+    vertical-align: middle;
+}
+table.internetScanning tbody tr td {
+    background-color: #FFFFFF;
+    border-bottom: 1px dotted #666666;
+}
+table.internetScanning tbody tr td.noborder_grey {
+    background-color: #E1E1E1;
+    border-bottom: medium none;
+}
+table.internetScanning tbody tr td.noborder_blue {
+    background-color: #CFDDE8;
+    border-bottom: medium none;
+}
+	
+form.internetScanning {
+    font-size: 1.5em;
+}
+
+
+form.internetScanning_WD {
+  	margin: 0 0 69px;
+   	 font-size: 0.9em;
+}
+	
+.Center_WD_CC {
+            float: left;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            width: 23%;
+}
+	
+.SmActiveContent table {
+    float: left;
+}
+
+	
+.ButtonAdd { /* button*/
+	/*background: #f26522 url(../../../images/btns/button-orange-middle.png) repeat-x 0 0;*/
+	background: #f26522 url(../../../images/btns/btn-orange-middle.png) repeat-x 0 0;
+	float: left;
+	/*height: 30px;*/
+	height: 28px;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterAdd {
+	float: left;
+	margin: 0px 0 7px 194px;
+}
+.ButtonLeftAdd {
+	background: transparent url(../../../images/btns/btn-orange-left-grey.png) no-repeat 184px 9px;
+	float: left;
+	padding-top: 9px;
+}
+.ButtonRightAdd {
+	background: transparent url(../../../images/btns/btn-orange-right-grey.png) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+}
+.ButtonAdd a:link, .ButtonAdd a:visited, .ButtonAdd a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 7px 0px 8px;
+	text-decoration: none;
+}
+.ButtonCenterAdd_WD{
+    float: left;
+    margin: 0 0 7px 13px;
+    padding-left: 6px;
+}
+.ButtonLeftAdd_WD{
+    background: url("../../../images/btns/button-orange-left.png") no-repeat scroll 3px 10px transparent;    
+    float: left;
+    padding-top: 10px;
+    
+}
+
+
+.Status_WD{
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	height:48px;
+}
+.Center_WD{
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	height:48px;
+	
+	*color: #333333;
+	*font-size:1.12em;
+	
+}
+.Button_WD{
+	float: left;
+	padding-top: 6px;
+
+	*font-size:13px
+}
+	
+.ButtonSubmit { /* button*/
+	float: left;
+	height: 25px;
+	margin:0;
+	padding-top:4px;
+	width: auto;
+}
+.ButtonCenterSubmit  {
+	float: left;
+	margin: 0px 0 7px 194px;
+}
+.ButtonLeftSubmit  {
+	float: left;
+	padding-top: 16px;
+}
+.ButtonRightSubmit  {
+	float: left;
+	padding-right: 15px;
+}
+.ButtonSubmit  a:link, .ButtonSubmit  a:visited, .ButtonSubmit  a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	/*padding: 4px 7px 0px 8px;*/
+	text-decoration: none;
+}
+	
+	
+.ButtonSubmit_WD { /* button*/
+	background: #f26522 url(../../../images/btns/button-orange-middle.png) repeat-x 0 0;
+	float: left;
+	height: 30px;
+	margin:0;
+	padding:0;
+	width: 58px;
+}
+.ButtonCenterSubmit_WD {
+	float: left;
+	margin: 0px 0 7px 194px;
+}
+.ButtonLeftSubmit_WD {
+	background: transparent url(../../../images/btns/button-orange-left.png) no-repeat 184px 9px;
+	float: left;
+	padding-top: 9px;
+}
+.ButtonRightSubmit_WD {
+	background: transparent url(../../../images/btns/button-orange-right.png) no-repeat right top;
+	float: left;
+	padding-right: 10px;
+}
+.ButtonSubmit_WD a:link, .ButtonAdd_WD a:visited, .ButtonAdd_WD a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 3px 7px 0 3px;
+	text-decoration: none;
+}
+
+.ButtonCenterSubmit_WD{
+    float: left;
+    margin: 0 0 7px 13px;
+    padding-left: 6px;
+}
+	
+.ButtonLeftSubmit_WD{
+    background: url("../../../images/btns/button-orange-left.png") no-repeat scroll 3px 28px transparent;
+    float: left;
+    padding-top: 28px;
+    
+}
+	
+.ButtonLeftSubmit_WD_SSN{
+    background: url("../../../images/btns/button-orange-left.png") no-repeat scroll 3px 9px transparent;
+    float: left;
+    padding-top: 9px;
+    
+}
+	/*
+.ButtonCenterSubmit_WD  {
+	float: left;
+    margin: 0 0 7px 43px;
+    padding-left: 3px;
+}
+.ButtonLeftSubmit_WD{
+	background: transparent url(../../../images/btns/button-orange-left.png) no-repeat 33px 35px;
+	float: left;
+	padding-top: 35px;
+
+}
+
+.ButtonLeftSubmit_WD_SSN{
+    background: transparent url(../../../images/btns/button-orange-left.png) no-repeat 33px 10px;
+	float: left;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-top: 10px;
+
+}*/
+	
+	
+.cancelLinkForm {
+	margin: -12px 0 0 20px;
+}
+
+.cancelLink, .cancelLink a:link, .cancelLink a:visited {
+    display: inline;
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 11px;
+    padding-top: 25px;
+    width: auto;
+}
+/* Start Added for family_renewable.jsp*/
+#member_center_preferences h2 {
+    color: #002157;
+    font-size: 1.95em;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-left: 0;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+#member_center_preferences p {
+    font-size: 0.95em;
+    margin-bottom: 5px;
+}
+.maroonText {
+	color: #990000;
+	font-weight: bold;
+}
+/*End Added for family_renewable.jsp */
+
+#StartAddCCN p{
+	font-size: 12px;
+}
+#StartAddCCN input{
+	width:127px ! important;
+}
+#StartAddBnk input{
+	width:127px ! important;
+}
+
+
+#SubmitSSN_WD {
+  	background: url("../../../images/btns/btn-Submit.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 33px;
+    padding: 0;
+    width: 74px;
+    cursor: pointer;
+}
+
+#CancelSSN_WD {
+   background: url("../../../images/btns/btn-Cancel.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 33px;
+    width: 74px;
+}
+
+
+#SubmitSSN {
+	color: #ffffff;	
+}
+
+#CancelSSN {
+	margin-top: -23px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+/* Added for US429 -- START */
+.FormCancel {
+	margin: -103px -24px 105px 64em;
+}
+.ButtonOnlineCancel { /* button*/
+	background: #9a090c url(../../../images/btns/btn_Middle.gif) repeat-x 0 0;
+	float: left;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.ButtonCenterOnlineCancel {
+	float: right;
+	margin: 42px 30% 10px -5em;
+	*margin: 3% 10% 1% 22%;
+}
+
+.ButtonLeftOnlineCancel {
+	background: transparent url(../../../images/btns/btn_Left.gif) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px;
+	height:28px
+}
+.ButtonRightOnlineCancel {
+	background: transparent url(../../../images/btns/btn_BackRight2.gif) no-repeat right top;
+	float: left;
+	padding-right: 15px;
+	height:28px
+}
+.ButtonOnlineCancel a:link, .ButtonOnlineCancel a:visited, .ButtonOnlineCancel a:hover {
+	color: #fff;
+	float: left;
+	font:bold 1.050em/2.020em Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 10px 0px 8px;
+	text-decoration: none;
+}
+.cancelButtonDisabled { 
+	float: left;
+	background: transparent url(../../../images/btns/btn_MiddleGray.gif) repeat-x 0 0;
+	margin:0;
+	padding:0;
+	width: auto;
+}
+.cancelButtonLeftDisabled { 
+	background: transparent url(../../../images/btns/btn_LeftGray.gif) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 15px; 
+}
+.cancelButtonRightDisabled { 
+	background: transparent url(../../../images/btns/btn_RightGray.gif) no-repeat right top;
+	float: left;
+	padding-right: 15px; 
+}
+.head {
+	background-color: #790000;
+	color: #FFFFFF;
+	padding: 0.3em 0.9em
+}
+.DarkBG {
+	background-color: #e8e0c5;
+	padding: 0 0 8px;
+	margin: 4em 0px 0px 0px;
+	*margin: 0.5em 0px 0px 0px;
+}
+.text {
+	margin: 2px 0 0 27px;
+	font-size: 1.1em;
+	color: black;
+}
+.headd {
+	padding: 12px 0 10px 0;
+	margin: 2px 0 0 27px;
+	font-size: 1.5em;
+}
+/* Added for US429 -- END */
+
+/* ------ Me / My Family Tab Additional Styles - 1.1, 2012 ------ */
+/* ------ common classes for each status ------ */
+.FPactive     { color: #598527; text-decoration: underline; }
+.FPpending    { color: #aba000; text-decoration: underline; }
+.FPunverified { color: #9e0b0f; text-decoration: underline; }
+.FPactive:hover, .FPpendingLhover,   .FPunverified:hover  { color: #666; text-decoration: underline; }
+/* ------ profile individual container ------ */
+.memContainerBtm {
+    background: url(../../../images/bgs/bg-gray-gradient-downtop.png) repeat-x left bottom;
+    border:solid 1px #ccc; 
+    float: left; 
+    margin-top: 1em;
+    padding: 0;     
+    width: 100%; 
+}
+.memContainerTop {
+    float: left; 
+    background: url(../../../images/bgs/bg-gray-gradient-topdown.png) repeat-x 0 0;
+    padding: 1% 0;
+    width: 100%;
+    position: relative;
+}
+.lastmemContainer { margin-bottom: 20px; }
+/* used for the Edit Profile link positioning  */
+.editProfileLink { position: absolute; top: 40px; right: 10px; }
+/* used for the Edit link positioning of Alert Preference tab */
+.newShowHideDetails { position: absolute; top: 27px; right: 10px; }
+	
+.meMyFamilyH2 { /* Profile Header Text for Adult or Child */
+    background: none!important;
+    font-size: 25px !important;
+    padding: 15px 0  8px 25px!important;
+    color: #000!important;
+    font-weight: normal;
+    font-family: Helvetica;
+}
+.acntHead { 
+    clear: both;
+    margin: 0;
+    padding: 1em 40px 2em 10px;
+}
+/* Added for Alert Preference Header */
+.alertPrefHdr {	
+	WIDTH: 100% !important
+}
+
+.alertPrefHdr dd {
+    display: inline;
+    font-size: 1.25em;
+    list-style-type: none;
+    padding-right: 5px;
+}
+
+/* Added for aler preference close */
+.alertPrefClose {	/*TOP: 55px !important*/ TOP: 35px !important; }
+	
+.actPrefBody {	MARGIN-LEFT: 27px;	WIDTH: 94.2%}
+	
+.alertPrefTbls LI {	PADDING-RIGHT: 114px;	DISPLAY: inline;	FONT-WEIGHT: bold;	FONT-SIZE: 1.5em;	LIST-STYLE-TYPE: none}
+	
+.bankingWidth {	DISPLAY: block;	FLOAT: left;	WIDTH: 166px}
+.bankingWidthSub {	WIDTH: 190px !important}
+.alertPrefTblsSp {	PADDING-RIGHT: 4px !important}
+	
+.ButtonMPTop {	PADDING-RIGHT: 0px;	PADDING-LEFT: 0px;	BACKGROUND: url(../../../images/btns/btn-orange-middle.png) #f26522 repeat-x 0px 0px;	FLOAT: left;	PADDING-BOTTOM: 0px;	MARGIN: 0px;	WIDTH: auto;	PADDING-TOP: 0px} 
+.ButtonCenterMPTop {	FLOAT: left;	MARGIN: 15px 0px 25px 3px}
+.ButtonLeftMPTop {	PADDING-RIGHT: 0px;	PADDING-LEFT: 15px;	BACKGROUND: url(../../../images/btns/btn-orange-left.png) no-repeat 0px 0px;	FLOAT: left;	PADDING-BOTTOM: 0px;	PADDING-TOP: 0px}
+.ButtonRightMPTop {	PADDING-RIGHT: 15px;	BACKGROUND: url(../../../images/btns/btn-orange-right.png) no-repeat right top;	FLOAT: left}
+.acntBody { 
+    clear: both;
+    margin: 0;
+    padding: 0 10px 3em 10px;
+	display: none;
+}
+.alertPrefTblsBank LI {	DISPLAY: inline;	FONT-SIZE: 1em;	LIST-STYLE-TYPE: none}
+.acntBody hr { clear: both; }
+.acntHead dl, .acntBody dl {
+    color: #000;
+    float: left;
+    font-size: 1.2em;
+    margin: 0 40px 15px 0;  
+    padding: 0;
+    width: 15%; 
+}
+
+
+.alertPrefHdr dd.alert_desc {
+    font-size: 13px;
+    font-style: italic;
+    padding-left: 26px;
+}
+
+
+.contacthght {	HEIGHT: 270px !important}
+.configovrflw {	OVERFLOW-Y: auto !important}
+.contactovrflw {	OVERFLOW-Y: auto !important}
+.alertPrefTblsPopUp {	PADDING-TOP: 10px}
+	
+	.alertPrefTblsPopUp LI {	PADDING-RIGHT: 5px;	DISPLAY: inline;	FONT-SIZE: 1em;	COLOR: black;	LIST-STYLE-TYPE: none}
+H3.actPrefPopTxt {	FONT-WEIGHT: normal;	FONT-SIZE: 1.2em !important;	COLOR: black !important;	PADDING-TOP: 5px}
+.confighght {	HEIGHT: 400px !important}
+.acntHead dl.first, .acntBody dl.first { width: 55%; }
+.acntHead dt, .acntBody dt             { font-weight: bold; }
+.name                                  { padding-right: 20px; }
+.statusCaption                         { float: left; font-size: 1.1em; padding: 5px 0 20px 0; margin-left: 20px;}
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.5;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+
+#loading {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 16px;
+    width: 250px;
+	z-index:1002;
+	overflow: auto;
+    background-image: url(../../../images/misc/ajax-loader-gb.gif);
+    background-repeat: no-repeat
+}
+.overlayDiv {
+    width: 100%;
+    position:relative;
+    /*background-color: #CFDDE8;*/
+
+}
+
+/*#CCNbox {
+    width: 100%;
+    height: 46px;
+    position:relative;
+    background-color: #E1E1E1;
+}*/
+
+.blue {
+	background-color: #CFDDE8;
+    vertical-align: middle;
+}
+
+.grey {
+	background-color: #E1E1E1;
+    vertical-align: middle;
+}
+
+.desc {
+	float: left;
+	padding-top: 15px;
+	width: 312px;
+}
+
+.button {
+	float: right;
+    margin-right: 20%;
+    margin-left: -23%;
+}
+
+.number {
+	float: left;
+	margin-left: 10.2%;
+	padding-top: 15px;
+	width: 200px;
+}
+
+.activelyMon{
+	background-image: url("../../../images/icons/icon-WD-check.png");
+	background-repeat: no-repeat;
+	padding-bottom: 15px;
+	padding-right: 104px;
+}
+	
+.activeText{
+	margin: -33px 0px 0px 24px;
+	}
+
+#AddBnk{
+	  	background: url("../../../images/btns/btn-Add.png") no-repeat scroll 0 0 transparent;
+	    border: 0 none;
+		cursor: pointer;
+	    height: 33px;
+	    padding: 0;
+    	width: 74px;
+}
+
+#AddCard{
+	 padding: 3px 7px 0 12px;
+}
+
+#SubmitCCN_WD {
+	 	background: url("../../../images/btns/btn-Submit.png") no-repeat scroll 0 0 transparent;
+	    border: 0 none;
+	    color: #FFFFFF;
+	    height: 33px;
+	    padding: 0;
+	    width: 74px;
+        cursor: pointer;
+}
+
+#AddCCN_WD  {
+	   	background: url("../../../images/btns/btn-Add.png") no-repeat scroll 0 0 transparent;
+	     	border: 0 none;
+	 	cursor: pointer;
+	     	height: 33px;
+	     	padding: 0;
+    		width: 74px;
+}
+
+#AddSSN_DISABLED {
+  	background: url("../../../images/btns/btn-Add-grey.png") no-repeat scroll 0 0 transparent;
+    	border: 0 none;
+	cursor: pointer;
+    	height: 33px;
+    	padding: 0;
+    	width: 74px;
+}
+
+#AddSSN_WD {
+  	background: url("../../../images/btns/btn-Add.png") no-repeat scroll 0 0 transparent;
+    	border: 0 none;
+	cursor: pointer;
+    	height: 33px;
+    	padding: 0;
+    	width: 74px;
+}
+
+
+#RemoveSSN_WD {
+  	background: url("../../../images/btns/btn-Remove.png") no-repeat scroll 0 0 transparent;
+    	border: 0 none;
+	cursor: pointer;
+    	height: 33px;
+    	padding: 0;
+    	width: 74px;
+}
+
+#RemoveSSN_old {
+  	
+    	border: 0 none;
+	cursor: pointer;
+    	height: 33px;
+    	padding: 0;
+    	width: 74px;
+}
+
+#RemoveCCN_WD{
+  	background: url("../../../images/btns/btn-Remove.png") no-repeat scroll 0 0 transparent;
+    	border: 0 none;
+	cursor: pointer;
+    	height: 33px;
+    	padding: 0;
+    	width: 74px;
+}
+
+
+#RemoveBnk {
+  	background: url("../../../images/btns/btn-Remove.png") no-repeat scroll 0 0 transparent;
+    	border: 0 none;
+	cursor: pointer;
+    	height: 33px;
+    	padding: 0;
+    	width: 74px;
+}
+
+#xaddAssetLimitBank{
+	 	background: url("../../../images/btns/btn-Add-disabled.png") no-repeat scroll 0 0 transparent;
+	    	border: 0 none;
+		cursor: pointer;
+	    	height: 33px;
+	    	padding: 0;
+    		width: 74px;
+}
+
+#xaddAssetLimitCard{
+	 	background: url("../../../images/btns/btn-Add-disabled.png") no-repeat scroll 0 0 transparent;
+	    	border: 0 none;
+		cursor: pointer;
+	    	height: 33px;
+	    	padding: 0;
+    		width: 74px;
+}
+
+#SubmitBNK{
+ 	 	background: url("../../../images/btns/btn-Submit.png") no-repeat scroll 0 0 transparent;
+	    border: 0 none;
+	    color: #FFFFFF;
+	    height: 33px;
+	    padding: 0;
+	    width: 74px;
+        cursor: pointer;
+}
+
+
+#CancelBNK {
+   background: url("../../../images/btns/btn-Cancel.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 33px;
+    width: 74px;
+}
+
+.introParaWithIcon_WD {
+    margin: 15px 19px 0 5px;
+    padding: 0;
+    width: 98%;
+}
+
+
+p.internetScanningIntro_WD {
+   
+    color: #020202;
+    font-size: 1 em;
+    margin: -57px 1px -3px;
+    padding: 0 5px 29px 55px;
+}
+
+
+h3.internetScanning_WD {
+     font-size: 0.9em;
+     margin: -25px 0 0 -5px;
+     padding: 5px 5px 0 0;
+     width: 275px;
+    color: #800000
+}
+
+table.internetScanning_WD {
+    background-color: #FFFFFF;
+    clear: both;
+    font-weight: normal;
+    font-size: 1 em;
+    margin: 5px 0 0 -5px;
+    width: 101%;
+}
+
+table.internetScanning_WD tbody tr td.blue {
+    background-color: #CFDDE8;
+    vertical-align: middle;
+}
+
+table.internetScanning_WD tbody tr td.grey {
+    background-color: #E1E1E1;
+}
+
+table.internetScanning_WD tbody tr td {
+    background-color: #FFFFFF;
+    border-bottom: 1px dotted #666666;
+    vertical-align: middle;
+}
+table.internetScanning_WD tbody tr td {
+    background-color: #FFFFFF;
+    border-bottom: 1px dotted #666666;
+}
+table.internetScanning_WD tbody tr td.noborder_grey {
+    background-color: #E1E1E1;
+    border-bottom: medium none;
+}
+table.internetScanning_WD tbody tr td.noborder_blue {
+    background-color: #CFDDE8;
+    border-bottom: medium none;
+}
+.reportManagerNoReports{
+	margin-left:30px
+}
+
+/*New styles for the My Account My Profile page*/
+.member_center_profile td{
+	padding: 0px 0px 8px 0px;
+}
+.myProfileInfoBox{
+	padding: 20px;
+	background: #EAE8DB;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1em !important ;
+}
+
+.LgActiveHdrRight{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.privacyBoxes{
+	display: block;
+}
+
+.columnAligner{
+	padding-right: 10px !important;
+	text-align: right;
+}
+
+.marginAdjuster{
+	margin: 0px 0px 5px 0px !important;
+}
+
+td.farRight a{
+	text-decoration: none !important;
+	border-bottom: solid 1px #002157;
+}
+
+td.farRight a:hover{
+	text-decoration: none !important;
+	border-bottom: solid 1px #666666;
+}
+
+/****Alert Preference Changes for Family Plan - Start*************/
+.alertBodyLeft{
+	float: left;
+	width: 55%;
+	padding-left: 20px;
+	 padding-top: 10px;
+}
+.alertBodyRight{
+	float: right;
+	width: 40%;
+	border-left: 2px solid #b2b9c1;
+    margin: 10px 20px 25px 0;
+}
+ul.ftrList{
+	margin: 0 0 0 25px;
+}
+ul.ftrList li{
+	list-style-image: url('../images/buls/greyBullet.gif');
+	font: 1.1em/1.15em arial;
+	margin: 0 0 7px 10px;
+}
+.alertBodyRight h3{
+	font: bold 1.2em/1.2em arial;
+	margin: 0 0 7px 20px
+}
+.hdrMessage{
+	float: left;
+	width: 60%;
+	padding-bottom: 15px;
+    padding-left: 27px;
+    font-size: 12px;
+}
+.hdrMessage h3{
+    font-size: 1.25em;
+    Padding: 0 0 15px 25px;
+}
+#contentBox{
+    border: 1px solid #cccccc;
+    overflow: auto;
+    margin-left: 10px;
+    width: 100%;
+}
+.memAlertDetails{
+	border-bottom: 1px dotted #ccc;
+	font-size: 14px !important ;
+	padding: 10px;
+}
+.memDetails{
+	width: 80%;
+	padding-left: 8px;
+    padding-top: 8px;
+}
+.alertSharingOn{
+	background: url("../../../images/btns/toggle-on.png") no-repeat scroll 0 0 transparent;
+    margin-top: -30px;
+    height: 33px;
+}
+.alertSharingOff{
+	background: url("../../../images/btns/toggle-off.png") no-repeat scroll 0 0 transparent;
+    margin-top: -30px;
+    height: 33px;
+}
+.memButton{
+	width: 75px; 
+	margin-left: 565px; 
+	float: left;
+}
+.portletHeading{
+	padding: 0 0 2px 35px;
+	font: bold 1.45em/1.45em arial;
+}
+.checkBox{
+	margin: 2px 5px 0 0;
+	padding: 0px;
+	float: left;
+	vertical-align: text-top !important;
+}
+.label{
+	font: 1.2em/1.2em arial;
+	display: block;
+	margin: 0 0 12px 0;
+}
+.cancel{
+	font: 1.1em/2.1em arial;
+	margin: 0 0 0 10px;
+	float: left;
+}
+.successOrErrorMsgs p{
+	 color: red;
+	 font: 1.1em/1.3em arial;
+	 margin: 10px 0;
+	 padding-left: 20px;
+}
+.infoText{
+	padding:12px 0 6px 38px;
+}
+#sharingAlertsWait{
+	font: 1.1em/1.3em arial;
+	 margin: 10px 0;
+	 padding-left: 20px;
+}
+/****Alert Preference Changes for Family Plan - End*************/

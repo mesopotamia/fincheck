@@ -1,0 +1,499 @@
+#basic-modal-fpcontent {
+	DISPLAY: none
+}
+#basic-modal-content {
+	DISPLAY: none
+}
+#fpsimplemodal-overlay {
+	CURSOR: wait; BACKGROUND-COLOR: #000
+}
+.fpPopUpHeaderBkgrdRight H1 {
+	PADDING-LEFT: 19px; FONT-WEIGHT: normal; FONT-SIZE: 2.3em; color: #fff;
+    font-family: "HelveticaNeue-Light",Lucida Grande,sans-serif !important;
+    text-align: left; padding-top : 19px;
+}
+.fpPopUpHeaderBkgrdRight SPAN {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; PADDING-TOP: 0px! important
+}
+.redText {
+	COLOR: #790000
+}
+.fpsimplemodal-container {
+	BACKGROUND: url(../../../images/bgs/fpPopUpBkgrd.jpg) #fff repeat-x; WIDTH: 917px; TOP: 5%! important; HEIGHT:  auto! important 
+}
+#fpsimplemodal-container {
+	BORDER-RIGHT: #dcdcdc 2px solid; BORDER-TOP: #dcdcdc 2px solid; BACKGROUND: url(../../../images/bgs/fpPopUpBkgrd.jpg) #fff repeat-x; BORDER-LEFT: #dcdcdc 2px solid; WIDTH: 665px; BORDER-BOTTOM: #dcdcdc 2px solid; TOP: 5%! important; HEIGHT:  auto! important;
+}
+.fpPopUpHeaderBkgrdRight {
+	BACKGROUND: rgba(0, 0, 0, 0) url("../../../images/bgs/HeaderRightBkgrd.png") no-repeat scroll right center;
+}
+.fpPopUpHeaderBkgrdLeft {
+	MIN-WIDTH: 332px; MIN-HEIGHT: 56px; BACKGROUND: url(../../../images/bgs/fpPopUpBkgrdLeft.jpg) no-repeat; FLOAT: right; MARGIN: 0px 0px 0px -2px
+}
+A.modalCloseImg {
+	DISPLAY: inline; Z-INDEX: 3200; RIGHT: -30px; BACKGROUND: url(../../../images/icons/icon-x.png) no-repeat; WIDTH: 63px; CURSOR: pointer; POSITION: absolute; TOP: -30px; HEIGHT: 60px
+}
+#simplemodal-fpcontainer H2 {
+	PADDING-RIGHT: 0.7em; PADDING-LEFT: 0.7em; FONT-SIZE: 1.45em; PADDING-BOTTOM: 0.3em; COLOR: #fff; PADDING-TOP: 0.3em; BACKGROUND-COLOR: #790000
+}
+.modal-content {
+	CLEAR: both; /*PADDING-RIGHT: 25px; PADDING-LEFT: 25px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; */
+	padding: 4px 5px;
+}
+#simplemodal-fpcontent H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 2em; COLOR: #790000
+}
+#simplemodal-fpcontent P {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.1em; WIDTH: 70%; COLOR: #555
+}
+#simplemodal-fpcontent {
+	PADDING-RIGHT: 18px; BACKGROUND-POSITION: right -51px; PADDING-LEFT: 18px; BORDER-LEFT-COLOR: #fff! important; FLOAT: left; BACKGROUND-IMAGE: url(../images/bgs/addingAdultPopUpBkgrd.png); BORDER-BOTTOM-COLOR: #fff! important; PADDING-BOTTOM: 18px; MARGIN: 16px 0px 0px 16px; WIDTH: 589px; BORDER-TOP-STYLE: solid! important; BORDER-TOP-COLOR: #fff! important; PADDING-TOP: 18px; BACKGROUND-REPEAT: no-repeat; BORDER-RIGHT-STYLE: solid! important; BORDER-LEFT-STYLE: solid! important; BACKGROUND-COLOR: #ece9de; BORDER-RIGHT-COLOR: #fff! important; BORDER-BOTTOM-STYLE: none! important
+}
+.fpPopUpBodyContent {
+	BORDER-RIGHT: #ffffff solid; PADDING-RIGHT: 18px; BORDER-TOP: #ffffff solid; PADDING-LEFT: 18px; BACKGROUND: url(../../../images/bgs/fpPopUpInsideBkgrd.jpg) #fff repeat-x; FLOAT: left; PADDING-BOTTOM: 18px; MARGIN: 16px; BORDER-LEFT: #ffffff solid; WIDTH: 849px; COLOR: #555; PADDING-TOP: 18px; BORDER-BOTTOM: #ffffff solid
+}
+.fpPopUpBodyContent H1 {
+	FONT-SIZE: 1.8em; COLOR: #000
+}
+.fpPopUpBodyContent P {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.2em; COLOR: #555;
+}
+.PopUpSpace {
+	CLEAR: both; MARGIN-TOP: 22px! important
+}
+.prodModalContainer .imageBox {
+	FLOAT: left; WIDTH: 90%
+}
+.prodModalContainer .imageBox .prodText {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 80%; PADDING-TOP: 15px
+}
+.prodModalContainer .OverlayProdDesc UL {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px dotted; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px dotted
+}
+.prodModalContainer .OverlayProdDesc LI {
+	LIST-STYLE: none url(../images/arrows/arrow-secondary-bullet.png) outside; MARGIN: 5px 0px 5px 15px
+}
+.prodModalContainer .BlackBullet {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.prodModalContainer .BlackDagger {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.fpspace {
+	CLEAR: both; FLOAT: left; HEIGHT: 36px
+}
+.fperrorMessage {
+	DISPLAY: block; FONT-WEIGHT: bold! important; FONT-SIZE: 0.85em! important; PADDING-BOTTOM: 10px; COLOR: #790000! important
+}
+.fpformError {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; WIDTH: 280px; PADDING-TOP: 10px
+}
+.fpformNoError {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; WIDTH: 280px; PADDING-TOP: 10px
+}
+.fpformNoError .fperrorMessage {
+	DISPLAY: none
+}
+.fpLandingPageForm H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1.4em; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.fpLandingPageForm DD {
+	PADDING-RIGHT: 20px; LIST-STYLE: none none outside; DISPLAY: inline; FLOAT: left; MARGIN: 0px
+}
+.fpLandingPageForm P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; COLOR: #555; PADDING-TOP: 0px
+}
+DD INPUT {
+	COLOR: #999999
+}
+.fpPopUpLeft IMG {
+	FLOAT: none
+}
+.fpPopUpLeft {
+	FLOAT: left; PADDING-TOP: 14px; WIDTH: 410px;
+}
+.fpPopUpRight {
+	padding: 14px 0 0 40px; FLOAT: left; WIDTH: 43%;
+}
+.rightSection {
+	MARGIN-BOTTOM: 12px; LINE-HEIGHT: 13px
+}
+.rightSectionBtm {
+	MARGIN-BOTTOM: 12px; LINE-HEIGHT: 3px
+}
+.rightSection H2 {
+	FONT-SIZE: 1.4em; COLOR: #000000; LINE-HEIGHT: 3px
+}
+.rightSection OL {
+	PADDING-LEFT: 0px; LINE-HEIGHT: 20px
+}
+.rightSection SPAN {
+	FONT-WEIGHT: normal
+}
+.rightSection LI {
+	FONT-WEIGHT: bold; LINE-HEIGHT: 15px; PADDING-TOP: 10px
+}
+.rightSection P {
+	FONT-SIZE: 1.1em; WIDTH: 100%; LINE-HEIGHT: 17px; padding: 10px 0;
+}
+.adobePdf {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 20px
+}
+.pdfLink {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 55%; LINE-HEIGHT: 15px; PADDING-TOP: 20px
+}
+.fpOverlayCheck {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.fpOverlayCheck INPUT {
+	FLOAT: left
+}
+.fpcheckbox {
+	FONT-SIZE: 15px; FLOAT: left; MARGIN: 2px 0px 0px 3px
+}
+.fpMinorNote {
+	CLEAR: both; FLOAT: left; WIDTH: 100%! important; PADDING-TOP: 20px
+}
+.fpOverlayScroll {
+	MARGIN-TOP: 0px; /* OVERFLOW-Y: scroll; */ /* OVERFLOW-X: hidden; */ WIDTH: 100%; HEIGHT: 490px
+}
+.overlayTextColor {
+	color: #778a9c !important;
+	padding: 0 0 0 40px;
+	background: url(../../../images/logo/adobePDFLogo.jpg) no-repeat;
+	display: block;
+	line-height: 40px; 
+	}	
+#basic-modal-fpcontent {
+	FLOAT: left; WIDTH: 100%
+}
+.fpPopUpBtm {
+	CLEAR: both
+}
+.fpPopUpBtm P {
+	FONT-SIZE: 1em; FONT-STYLE: italic
+}
+.whyNeeded {
+	MARGIN-TOP: -25px; PADDING-LEFT: 300px; PADDING-BOTTOM: 10px
+}
+.fpPopUpBtm H2 {
+	FONT-SIZE: 1.45em; COLOR: #000000; LINE-HEIGHT: 0.5em; PADDING-TOP: 5px
+}
+.fpOverlayForm {
+	MARGIN: 18px 0px
+}
+.fpformError {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 6px; PADDING-BOTTOM: 10px; MARGIN: 0px -3px 8px 0px; PADDING-TOP: 5px; BACKGROUND-COLOR: #ffddb6
+}
+.fpformNoError {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 6px; PADDING-BOTTOM: 10px; MARGIN: 0px -3px 8px 0px; PADDING-TOP: 5px
+}
+.fperrorMessageDisplayInlineAlt {
+	DISPLAY: block; FONT-WEIGHT: bold! important; FONT-SIZE: 0.85em! important; VERTICAL-ALIGN: middle; COLOR: #990000! important
+}
+.fpformNoError .fperrorMessageDisplayInlineAlt {
+	DISPLAY: none
+}
+.fpPopUpBodyContent INPUT:focus {
+	COLOR: #000
+}
+.fpreturnMessage {
+	FLOAT: left; WIDTH: 97%! important
+}
+.equifaxSecureIcon {
+	MARGIN-TOP: -7px; FLOAT: right
+}
+.equifaxSecureCont {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.55em; FLOAT: right; PADDING-TOP: 5px; FONT-STYLE: italic
+}
+.addChildHdr {
+	margin-top: 0px !important;
+	width: 61% !important;
+}
+.marginSpace {
+	MARGIN-BOTTOM: -5px; PADDING-TOP: 12px
+}
+.tooltip2 {
+	CURSOR: help
+}
+.tooltip2 SPAN {
+	MARGIN-LEFT: -999em; COLOR: white; POSITION: absolute; TEXT-ALIGN: left
+}
+.tooltip2:hover SPAN {
+	Z-INDEX: 99; LEFT: 15em; MARGIN-LEFT: 0px; WIDTH: 250px; FONT-FAMILY: Calibri, Tahoma, Geneva, sans-serif; POSITION: absolute; TOP: 18em; border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1)
+}
+.tooltip2:hover IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN: -10px 0px 0px -55px; POSITION: absolute; BORDER-RIGHT-WIDTH: 0px
+}
+.tooltip2:hover EM {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.2em; PADDING-BOTTOM: 0.6em; PADDING-TOP: 0.2em; FONT-FAMILY: Candara, Tahoma, Geneva, sans-serif
+}
+.classic {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 0.8em; PADDING-TOP: 0.8em
+}
+.custom {
+	PADDING-RIGHT: 0.8em; PADDING-LEFT: 2em; PADDING-BOTTOM: 0.8em; PADDING-TOP: 0.5em
+}
+* HTML A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.classic {
+	BORDER-RIGHT: #333 1px solid; BORDER-TOP: #333 1px solid; BACKGROUND: #666; BORDER-LEFT: #333 1px solid; BORDER-BOTTOM: #333 1px solid
+}
+.critical {
+	BORDER-RIGHT: #ff3334 1px solid; BORDER-TOP: #ff3334 1px solid; BACKGROUND: #ffccaa; BORDER-LEFT: #ff3334 1px solid; BORDER-BOTTOM: #ff3334 1px solid
+}
+.info {
+	BORDER-RIGHT: #2bb0d7 1px solid; BORDER-TOP: #2bb0d7 1px solid; BACKGROUND: #9fdaee; BORDER-LEFT: #2bb0d7 1px solid; BORDER-BOTTOM: #2bb0d7 1px solid
+}
+.warning {
+	BORDER-RIGHT: #ffad33 1px solid; BORDER-TOP: #ffad33 1px solid; BACKGROUND: #ffffaa; BORDER-LEFT: #ffad33 1px solid; BORDER-BOTTOM: #ffad33 1px solid
+}
+IFRAME {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; background-colot: #fff
+}
+.fixedWindow {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; background-colot: #fff
+}
+.topMargin10   { margin: 10px 0; }
+
+/* Added for family plan products - Start*/
+#basic-modal-fpcontent-new {
+	DISPLAY: none
+}
+#basic-modal-fpcontent-new {
+	FLOAT: left; WIDTH: 100%
+}
+iframe.fixedWindow{ float: none; }
+.skipLink{
+	float: left;
+    margin-left: 10px !important;
+    margin-top: 20px !important;
+	font: 1em/1.2em arial !important;
+}
+p.guardian {
+	padding-top: 10px;
+}
+.acrobatReader {
+	padding: 0 0 0 40px;
+	background: url(../../../images/logo/adobePDFLogo.jpg) no-repeat;
+	display: block;
+	line-height: 40px;
+	color: #778a9c !important;
+}
+#fpsimplemodal-container h2.subTitle {
+    font-size:1.65em; 
+	font-weight: normal;
+	padding: 0.6em 0;
+}
+.threeSteps {
+	background: #e5e8ef url(../../../images/arrows/arrow-step-short.png) no-repeat right top; 
+	color: #768799;
+	float: left;
+	margin-right: 0.5%;
+	min-height:2.8em;	
+	padding: 0 30px 0 10px;
+	/*position: relative; */
+	width: 28%;
+}
+.stepNum { color: #768799; font-size: 3.5em; height: 1.4em; line-height: normal; }
+.stepRow {
+	background-color: #e5e8ef;
+	display: table-row; 
+	*display: inline-block;
+	*float: left;
+	vertical-align: middle;
+	margin: 0; 
+	padding: 0; 
+	width: 250px;
+}
+.stepCell {  
+	background-color: #e5e8ef;
+	display: table-cell; 
+	*display: inline-block;
+	*float: left;
+	vertical-align: middle; 
+	margin: 0; 
+	padding: 0; 
+	padding-left: 10px; 
+    *padding-top: 5px;
+
+}
+.noLabelForm { padding: 0px 5px !important; float: left;}
+.fltLeft        { float: left; }
+.fpcol-50Left{
+	width: 100% !important;
+ 	padding: 0 4px 0 0;
+}
+.fpPopUpRight  .fpcol-50Left input { width: 166px !important; }
+.fpPopUpRight input{
+	font: 1.0em/1.2em arial; 
+	min-height:13px; 
+	padding: 2px;
+}
+.fltRight       { float: right; }
+.fpcol-50Right{
+	width: 49% !important;
+	padding: 0 0 0 3px;  
+}
+.fpPopUpRight  .fpcol-50Right input{ width: 166px !important; }
+p.dummyfperrorMessage{
+	margin: 0 0 11px 0 !important;
+	height: 0px !important;
+}
+.btnOrangeLink {
+  display: inline-block;
+  background:transparent url(../../../images/btns/btn-orange-left-new.png) top left no-repeat;
+}
+.btnOrangeLink a.submitButtonType {
+  text-decoration: none;
+  display: block;
+  color : #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0 0 0 10px;
+  padding: 8px 15px 9px 5px;
+  font: bold 1.1em/1.2em arial;
+  overflow: visible; /* remove padding from left & right */
+  background: transparent url(../../../images/btns/btn-orange-right-long-new.png) top right no-repeat;
+}
+p.dummyfperrorMessage span.errorTxt{
+	color: #790000 !important;
+	display: block;
+	font-size: 0.85em !important;
+	font-weight: bold !important;
+	line-height: normal;
+	padding: 0px 0 5px;
+	margin-top: -8px;
+}
+.btnOrange {
+	display: inline-block;
+	background:transparent url(../images/btns/btn-orange-left.png) top left no-repeat;
+}
+
+.btnOrange input[type="button"] {
+    background: transparent url("../images/btns/btn-orange-right-long-new.png") no-repeat scroll right top;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font: bold 1.2em/1.2em arial;
+    margin: 0 0 0 10px;
+    overflow: visible;
+    padding: 8px 15px 8px 5px;
+}
+.addAdultImageTemp{
+	background: transparent url(../../../images/misc/CA_MC_Dashboard_Wizard_1.jpg) no-repeat;
+	height: 300px; 
+	width: 400px; 
+	margin-bottom: 10px; 
+	border: 5px solid #ccc;
+}
+.fpcol-50Left input[type="text"] {
+    border: 2px inset #ccc;
+    color: #778a9c;
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+/* Added for family plan products - Start*/
+.right-sidebar-disclosure {
+	padding-left: 24px;
+}
+.member-det-points li{
+list-style-type: none;
+background: url('../../../images/arrows/arrow-secondary-bullet.png') 22px 4px no-repeat;
+margin: 0;
+padding: 0 22px 10px 40px;
+}
+/*Added for CA mc overlay*/
+.mcPopUpHeaderBkgrdRight H1 {
+	PADDING-LEFT: 19px; FONT-WEIGHT: normal; FONT-SIZE: 2.3em; color: #fff;
+    font-family: "HelveticaNeue-Light",Lucida Grande,sans-serif !important;
+    text-align: left; padding-top : 19px;
+}
+.mcPopUpHeaderBkgrdRight SPAN {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; PADDING-TOP: 0px! important
+}
+
+.mcRedDiagonalHdr {
+     color: #FFFFFF;
+    margin: 0;
+}
+
+.mcRedDiagonalHdr span {
+    padding: 13px 25px 20px 70px;
+}
+
+.mcWelcomeOverlayScroll {
+	width: 100%;
+	overflow-x: hidden;
+	*margin-top: 4px;
+	background: url(../../../images/bgs/bg_portlet.png) #fff repeat-x !important;
+	margin-top: 10px;
+}
+.mcsimplemodal-container {
+    WIDTH: 600px;
+    TOP: 5%! important;
+    HEIGHT: auto! important;
+	background: #fff;
+    
+}
+#mcsimplemodal-container {
+	BORDER-RIGHT: #dcdcdc 4px solid;
+    BORDER-TOP: #dcdcdc 4px solid;
+    BORDER-LEFT: #dcdcdc 4px solid;
+    WIDTH: 665px;
+    BORDER-BOTTOM: #dcdcdc 4px solid;
+    TOP: 5%! important;
+    HEIGHT: auto! important;
+}
+.mcPopUpHeaderBkgrdRight {
+}
+
+.mcPopUpHeaderBkgrdRighth2 {
+    font-family: "HelveticaNeue-Light", Lucida Grande, sans-serif !important;
+    font-size: 25px;
+    font-weight: normal;
+    background-color: #FFF;
+    color: #fff;
+    padding: 24px 0.7em;
+	background-image: url(../../../images/bgs/overlay_bg.png);
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+#mcsimplemodal-container h2.subTitle {
+    font-size:1.65em; 
+	font-weight: normal;
+	padding: 0.6em 0;
+}
+.mcPopUpBodyContent {	
+	float: left;
+	padding: 18px;
+	width: 530px;
+	margin:16px;
+	background-repeat: repeat-x;
+	color: #555;
+}
+
+.mcPopUpBodyContent h1 {
+	
+	font-size:1.8em;
+	color: #000;
+
+}
+
+.mcPopUpBodyContent p {
+	
+  	color: #555;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+.mcPopUpBodyContent input:focus 
+{
+	color:#000;
+	}
+	.fpreturnMessage {
+	width: 97% !important;
+	float: left;
+}
+/*End of addition for CA mc overlay*/

@@ -1,0 +1,63 @@
+#salesPortletLeft {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 10px; WIDTH: 248px; PADDING-TOP: 10px
+}
+HTML > BODY #salesPortletLeft {
+	WIDTH: 248px
+}
+#salesPortletLeft H3 {
+	FONT: 1.7em Arial, Helvetica, sans-serif, normal; COLOR: #9e0b0e
+}
+#salesPortletLeft P {
+	FONT-SIZE: 0.9em; WIDTH: 248px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#salesPortletLeft P.salesPortletLeftPara {
+	FONT-SIZE: 0.9em; WIDTH: 280px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#salesPortletRight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 10px; WIDTH: 215px; PADDING-TOP: 0px
+}
+#salesPortletRight P.offer {
+	MARGIN-TOP: -10px; FONT-WEIGHT: bold; MARGIN-BOTTOM: 0px
+}
+#salesPortletRight SPAN.price {
+	COLOR: #9e0b0e
+}
+#BenefitsInclude:unknown {
+	CLEAR: both; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; VISIBILITY: hidden; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 0px; content: "."
+}
+#BenefitsInclude {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://www.equifax.com/CMS/images/bgs/bg_DetailLRMiddle.gif) repeat-y 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px 50px; WIDTH: 424px; PADDING-TOP: 0px
+}
+#BenefitsIncludeBottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://www.equifax.com/CMS/images/bgs/bg_DetailLRBottom.gif) no-repeat left bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 424px; PADDING-TOP: 0px
+}
+#BenefitsInclude H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(https://www.equifax.com/CMS/images/hdrs/hdr_ManyPeopleUpgrade.jpg) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 1.37em Arial, Helvetica, sans-serif; WIDTH: 404px; COLOR: #9e0b0e; PADDING-TOP: 5px; HEIGHT: 2em
+}
+#BenefitsInclude UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 13px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+#BenefitsInclude UL LI {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 8px; BACKGROUND: url(https://www.equifax.com/CMS/images/buls/bul_3x3Black.gif) no-repeat 0px 5px; PADDING-BOTTOM: 4px; LINE-HEIGHT: normal; PADDING-TOP: 0px
+}
+#BenefitsInclude P {
+	CLEAR: both; PADDING-RIGHT: 13px; PADDING-LEFT: 13px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.ActionButton {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://www.equifax.com/CMS/images/btns/btn_BuyNowMiddle.gif) repeat-x 0px 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 4px 7px 0px 0px; WIDTH: 9em; PADDING-TOP: 0px; HEIGHT: 28px
+}
+.ActionButtonLeft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; BACKGROUND: url(https://www.equifax.com/CMS/images/btns/btn_BuyNowLeft.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 28px
+}
+.ActionButtonRight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(https://www.equifax.com/CMS/images/btns/btn_BuyNowRight.gif) no-repeat right top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 28px
+}
+.ActionButton A:link {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: bold 1.15em/26px Arial, Helvetica, sans-serif; COLOR: #fff; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.ActionButton A:visited {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: bold 1.15em/26px Arial, Helvetica, sans-serif; COLOR: #fff; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.ActionButton A:hover {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: bold 1.15em/26px Arial, Helvetica, sans-serif; COLOR: #fff; PADDING-TOP: 0px; TEXT-DECORATION: none
+}

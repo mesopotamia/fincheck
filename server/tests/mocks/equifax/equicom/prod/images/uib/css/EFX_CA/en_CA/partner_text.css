@@ -1,0 +1,32 @@
+/* CSS Document */
+/* productChosen */
+.partnerCopy {
+	/*background-color: #e4eff5;*/
+	clear: both;
+	color: #3a3a3a;
+	float: left;
+	border: solid 1px #ccc;
+	margin: 10px 0 0 0;
+	padding: 10px 15px 15px 15px;
+	width: 833px;
+}
+.partnerCopy p {
+	font-size: 12px;
+	width: 760px;
+	padding: 8px 20px 0 8px;
+	margin: 0
+}
+/* end productChosen */
+
+.partnerCopyRight {
+	border: solid 1px #ccc;
+
+}
+.partnerCopyRight p {
+	/*background-color: #e4eff5;*/
+	clear: both;
+	float: left;
+	font-size: 12px;
+	padding: 10px 20px 15px 20px;
+	margin: 0;
+}

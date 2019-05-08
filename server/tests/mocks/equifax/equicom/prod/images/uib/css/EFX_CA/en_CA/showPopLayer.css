@@ -1,0 +1,193 @@
+/* show pop - Detail magnify glass hidden layer */
+#showPop {
+	font-size: 16px;
+	margin: 0 auto 0 -500px;
+	padding: 0;
+	position: absolute;
+	top: 185px;
+	visibility: hidden;
+	width: 381px;
+	z-index:1005;
+}
+html>body #showPop {
+	font-size: 16px;
+	margin: 0 auto 0 370px;
+	padding: 0;
+	position: absolute;
+	top: 185px;
+	visibility: hidden;
+	width: 381px;
+	z-index:1005;
+}
+/* Modified for defect fix ITG#139333 */
+.showPopMid{
+	background: transparent url(../../../images/popMiddle_flip.gif) repeat-y 0 -5px;
+	margin-top: -5px;
+	padding-bottom: 5px;
+	font-size:16px;
+}
+/* End of modification for defect fix ITG#139333 */
+.showPopMid p { font-size: 16px; width: 340px; padding: 10px 15px; }
+
+.showProdDesc{
+	background: transparent url(../../../images/popMiddle_flip.gif) repeat-y 0 -5px;
+	margin-top: -5px;
+	padding-bottom: 5px;
+	font-size:16px;
+}
+.showProdDesc p { font-size: 16px; width: 340px; padding: 10px 15px; }
+
+.showPopTop {
+	background: transparent url(../../../images/popTop_flip.gif) repeat-y 0 0;
+	height: 16px;
+	width: 381px;
+	padding: 0;
+	margin: 0;
+	
+}
+.showPopBottom {
+	background: transparent url(../../../images/popBottom_flip.gif) repeat-y 0 0;
+	height: 55px;
+	width: 381px;
+	padding: 0;
+	margin: 0;
+}
+#anchor{ 
+	float: left; 
+	margin:0; 
+	padding:0;
+	cursor: pointer;
+}
+#anchor a, #anchor img{ 
+	background-color: #FFFFF2;
+	cursor: pointer;
+}
+/* end show pop - Detail magnify glass hidden layer */
+
+/* show pop - Promo Code hidden layer */
+#showPop2 {
+	margin: 0 auto 0 -500px;
+	padding: 0;
+	position: absolute;
+	top: 290px;
+	visibility: hidden;
+	width: 381px;
+	z-index:1005;
+}
+html>body #showPop2 {
+	margin: 0 auto 0 370px;
+	padding: 0;
+	position: absolute;
+	top: 290px;
+	visibility: hidden;
+	width: 381px;
+	z-index:1005;
+}
+#showPopMid2{
+	background: transparent url(../../../images/popMiddle.gif) repeat-y 0 0;
+	height: 100px;
+}
+#showPopMid2 p { font-size: 16px; width: 340px; padding: 10px 15px; }
+#showPopTop2 {
+	background: transparent url(../../../images/popTop.gif) repeat-y 0 0;
+	height: 16px;
+	width: 381px;
+	padding: 0;
+	margin: 0;
+	
+}
+#showPopBottom2 {
+	background: transparent url(../../../images/popBottom.gif) repeat-y 0 0;
+	height: 55px;
+	width: 381px;
+	padding: 0;
+	margin: 0;
+}
+#anchor2{ 
+	float: left; 
+	margin:0; 
+	padding:0;
+	cursor: pointer;
+}
+#anchor2 a, #anchor2 img{ 
+	background-color: #FFFFF2;
+	cursor: pointer;
+}
+/* end show pop - Promo Code hidden layer */
+
+/* Start - added for INAV# - 102377 */
+#showDisclaimer {
+	background-color: #fff;
+	margin: 80px auto 0px -240px;
+	padding: 0px 0px 12px 0px;
+	position: absolute;
+	top: 185px;
+	width: 381px;
+	z-index: 10;
+	border-right: solid 2px #545454;
+	border-bottom: solid 2px #545454;
+	border-top: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+}
+html>body #showDisclaimer {
+	margin: 75px auto 0px 500px;
+	left: 0px;
+}
+#showDisclaimer p { font-size: 0.9em; margin-right: 20px; }
+#showDisclaimer #closeDisclaimer {
+	float: right; 
+	margin: 4px 5px 0px 0px;
+	padding: 5px 0px;
+	height: 1.2em;
+}
+#showDisclaimer #closeDisclaimer a.closeDisclaimer { 
+	background: transparent url(https://www.equifax.com/ecm/home/images/ico_close.gif) no-repeat right 5px; 
+	margin: 0;
+	padding: 8px 20px 0px 0px;
+	font-size: 0.9em; 
+	height: 1.5em;
+}
+
+
+
+#showPopGps {
+	background-color: #fff;	
+	margin: 130px auto 0 -700px;
+	padding: 0px 0px 10px 10px;
+	position: absolute;
+	width: 365px;
+	z-index: 10;
+	border-right: solid 2px #545454;
+	border-bottom: solid 2px #545454;
+	border-top: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+}
+html>body #showPopGps {
+	margin: -30px auto 0px 365px;
+	top: 500px;
+	left: 0px;
+	/*left: 165px;*/
+}
+#showPopGps #closePop {
+	float: right; 
+	margin: 4px 5px 0px 0px;
+	padding: 5px 0px;
+	height: 1.2em;
+}
+#showPopGps #closePop a.closePop { 
+	background: transparent url(https://www.equifax.com/ecm/home/images/ico_close.gif) no-repeat right 5px; 
+	margin: 0;
+	padding: 8px 20px 0px 0px; 
+}
+#showPopGps p { 
+	margin: 10px 0px 0px 0px;
+	padding: 0px 58px 0px 0px; 
+	font-size: 0.85em; 
+}
+#showPopGps ol { margin-left: 0px;}
+#showPopGps ol li { 
+	margin: 0px 20px 5px 0px; 
+	padding: 0px 0px 0px 0px; 
+	font-size: 0.85em; 
+}
+/* End - added for INAV# - 102377 */

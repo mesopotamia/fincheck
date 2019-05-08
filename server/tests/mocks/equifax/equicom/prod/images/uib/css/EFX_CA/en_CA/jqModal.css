@@ -1,0 +1,672 @@
+/* jqModal base Styling courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+	
+div.jqmdTLPayment {
+    background: url("../../../images/overlay/overlay_topL.png") no-repeat scroll 0 0 transparent;
+    margin-bottom: -2px;
+    padding-left: 10px;
+} 
+
+div.jqmdBRPayment {
+    background: url("../../../images/overlay/overlay_bottomR.png") no-repeat scroll right bottom transparent;
+    height: 10px;
+    padding-right: 10px;
+}  
+
+html > body .jqmdRedButtonLeftPayment {
+    padding: 0 0 0 0;
+    margin-left: 303px;
+    margin-top: -22px;
+}
+
+.jqmdRedButtonLeftPayment {
+    background: url("../../..//images/btns/button-orange-left.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    margin: 0;
+
+}
+
+.jqmdRedButtonRightPayment {
+    background: url("../../../images/btns/button-orange-right.png") no-repeat scroll right top transparent;
+    float: left;
+    margin-top: 0px;
+    padding: 0 6px 0 0;
+}
+
+.jqmdRedButtonPayment {
+    background: url("../../../images/btns/button-orange-middle.png") repeat-x scroll 0 0 #9A090C;
+    float: right;
+    height: 28px;
+    margin: 0 10px 10px;
+    padding: 2px 0 0;
+}
+
+html > body .jqmdRedButtonPayment a:link, .jqmdRedButtonPayment a:visited, .jqmdRedButtonPayment a:hover {
+    text-indent: 5px;
+}
+
+.jqmdRedButtonPayment a:link, .jqmdRedButtonPayment a:visited, .jqmdRedButtonPayment a:hover {
+    color: #FFFFFF;
+    font: bold 0.75em Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 6px 3px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-allign: middle;
+}
+
+.textLinkPayment a:link, .textLinkPayment a:visited, .textLinkPayment a:hover {
+    color: #0076A3;
+    font: bold 0.9em Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+
+div.jqmdContent .textLinkPayment {
+    font-size: 0.9em;
+    margin-bottom: 0;
+    margin-left: 271px;
+    margin-right: -23px;
+}
+
+.textLinkPayment {
+    margin: 0;
+    padding: 0 0 0;
+}
+
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+	the Window's z-index value will be set to 3000 by default (via jqModal.js). */
+	
+.jqmWindow {
+    display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -300px;
+    width: 600px;
+    
+    background-color: #000;
+    color: #333;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.jqmOverlay { background-color: #000; }
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+
+/* used for Primerica project - shows styled dialog window */
+.jqDrag {
+	cursor: move;
+}
+
+div.jqmDialog {
+	display: none; 
+/* Changed  position from fixed -> absolute for INAV #88927 CreditScoreCard*/
+    position: absolute;
+    top: 30%;
+    left: 300px;    
+    margin-left: 0;
+	width: 543px;
+	overflow: hidden;
+}
+html>body div.jqmDialog {
+    left: 50%;    
+    margin-left: -200px;
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html div.jqmDialog {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+
+/* Title / Top Classes  */
+div.jqmdTC { 
+	background: #01b5e7 url(../../../images/overlay/overlay_topM.png) repeat-x 0px 0px; 
+	color: #fff;
+	padding: 8px 22px 6px 10px;
+	font-weight: bold;
+	* zoom: 1;
+}
+div.jqmdTL { 
+	background:  url(../../../images/overlay/overlay_topL.png) no-repeat 0px 0px; 
+	padding-left: 10px;
+}
+div.jqmdTR { 
+	background: url(../../../images/overlay/overlay_topR.png) no-repeat right 0px; 
+	padding-right: 10px; 
+	* zoom: 1;
+}
+/* closing window classes */
+.jqmClose { cursor: pointer; }
+.jqmCloseOrderLinkOne
+{ 
+	cursor: pointer; 
+        float: left;
+}
+.jqmCloseOrderLinkTwo 
+{ 
+	cursor: pointer; 
+        float: right;
+}
+.closeModal {
+    background: url(../../../images/overlay/overlay_btn_close.png) no-repeat top left;
+    position: absolute;
+    right: 7px;
+    top: 8px;
+    padding: 0 0 0 19px;
+    height: 19px;
+    width: 0px;
+    overflow: hidden;
+}
+/*For the wizard remove button for 88359*/
+div.jqmdContentRemove {
+	background-color: #fff;	
+	border-right: solid 1px #c7c7c7; 
+	border-left: solid 1px #c7c7c7;
+	float: left;
+	color: #464646;
+	margin: 0;
+	overflow: auto;
+	padding: 10px 20px 5px;
+	width: 95%;
+}
+div.jqmdContentRemove p {
+	font-size: 1.1em;
+	padding: 0px 5px 5px 5px;
+	margin: 0px;
+}
+.textLinkRemove a:link, .textLinkRemove a:visited, .textLinkRemove a:hover {
+	color: #444444;
+	font: 0.9em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: underline;
+}
+/*For the Remove Red Button of wizard */
+.jqmdRedButtonRemove { 
+	background: #9a090c url(../images/btns/btn_Middle.gif) repeat-x 0px 0px;
+	float: right;
+	margin: 0px 10px 10px 10px;
+	padding: 0px;
+}
+.jqmdRedButtonLeftRemove {
+	background: transparent url(../images/btns/btn_Left.gif) no-repeat 0px 0px;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+}
+html>body .jqmdRedButtonLeftRemove {
+	padding: 0px 0px 0px 10px;
+}
+.jqmdRedButtonRightRemove {
+	background: transparent url(../images/btns/btn_BackRight2.gif) no-repeat right top;
+	float: left;
+	margin: 0px;
+	padding: 2px 20px 0px 0px;
+}
+.jqmdRedButtonRemove a:link, .jqmdRedButtonRemove a:visited, .jqmdRedButtonRemove a:hover {
+	color: #fff;
+	font: 0.9em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+	padding: 6px 20px 6px 5px;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 0px;	
+}
+html>body .jqmdRedButtonRemove a:link, .jqmdRedButtonRemove a:visited, .jqmdRedButtonRemove a:hover {
+	text-indent: 5px;
+}
+/*End of change for 88359*/
+
+/* Body / Message Classes */
+div.jqmdContent {
+	background-color: #fff;	
+	border-right: solid 1px #c7c7c7; 
+	border-left: solid 1px #c7c7c7;
+	float: left;
+	color: #464646;
+	margin: 0;
+	overflow: auto;
+	padding: 10px 20px;
+	/*Modified for ITG 84115 - Reverted back the changes: Out of scope*/
+	width: 95%;
+	/*width: 93%;*/
+}
+div.jqmdContentOrder {
+	border-right: solid 1px #c7c7c7; 
+	border-left: solid 1px #c7c7c7;
+	float: left;
+	color: #464646;
+	margin: 0;
+	overflow: auto;
+	padding: 10px 20px;
+	width: 63%; 
+	background-color: #FFFABF
+}
+div.jqmdContent form, div.jqmdContent form fieldset {
+	border: none;
+	margin:0;
+	padding: 0;
+}
+div.jqmdContent input {
+	float: left;
+	margin: -5px 2px 0 0;
+	padding: 0;
+}
+html>body div.jqmdContent input {
+	margin: 0 2px 0 0;
+}
+div.jqmdContent h3 {
+	color: #002157;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+.para {
+	font-size: 1.1em;
+	padding-top: 5px;
+	padding-bottom: 13px;
+}
+div.jqmdContent p {
+	font-size: 0.9em;
+	padding-top: 5px;
+}
+div.jqmdContentOrder p {
+	font-size: 1.1em;
+	padding-top: 5px;
+}
+div.jqmdContent dl {
+	float: left;
+	margin:10px 0;
+	padding: 0;
+	width: 100%;
+}
+div.jqmdContent dl.lessMarginBottom {
+	margin-bottom:0px;
+}
+div.jqmdContent dl dt, div.jqmdContent dl dd {
+	border-bottom: solid 1px #c5c5c5;
+	border-right: solid 1px #c5c5c5;
+	border-top: solid 1px #c5c5c5;
+	float: left;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 10px;
+	width: 45%;
+}
+div.jqmdContent dl dd {
+	width: 19%;
+}
+div.jqmdContent dl dt {	
+	border-left: solid 1px #c5c5c5;
+	clear: both;
+}
+div.jqmdContent dl dt label {
+	padding: 0px;
+}
+div.jqmdContent dl dt.even, div.jqmdContent dl dd.even  {
+	background-color: #cbdee4;
+}
+div.jqmdContent dl dt.noborder, div.jqmdContent dl dd.noborder {
+	border:none;
+}
+dt.header,  dd.header{
+	background-color: #CCCCCC!important;
+	border-bottom: none!important;
+}
+table.ModalTable {
+	border-bottom: solid 1px #c5c5c5;
+	border-left: solid 1px #c5c5c5;
+	float: left;
+	font-size: 0.80em;
+	margin:10px 0;
+	padding: 0;
+	width: 100%;
+}
+table.ModalTable th {
+	background-color: #ccc;
+	border-top: solid 1px #c5c5c5;
+	border-right: solid 1px #c5c5c5;
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+table.ModalTable td {
+	border-top: solid 1px #c5c5c5;
+	border-right: solid 1px #c5c5c5;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+table.ModalTable tr.even {
+	background-color: #cbdee4;
+}
+/* draw a bottom corner graphics */
+div.jqmdBC {
+	background-color: #fff;
+	border-bottom: solid 1px #c7c7c7;
+	/* Modified for ITG 88359 */
+	/*padding: 0 0 5px 0;*/
+	padding: 0 0 0 0;
+}
+div.jqmdBL { 
+	clear: both;
+	background: url(../../../images/overlay/overlay_bottomL.png) no-repeat left bottom; 
+	margin: 0px; 
+	padding-left: 10px; 
+}
+div.jqmdBR { 
+	background: url(../../../images/overlay/overlay_bottomR.png) no-repeat right bottom; 
+	padding-right: 10px; 
+	* zoom: 1 ;
+}
+div.jqmdBL span { 
+	color: #fff;
+	font-size: 0.1em; 
+	height: 0px; 
+	margin: 0;
+	padding: 0;
+	text-indent: -99999999px; 
+	white-space: nowrap; 
+	overflow: hidden; 
+}
+/* holds the red button and a text link */
+.jqmdActions {
+	margin-right: 10px;
+}
+.jqmdRedButton { 
+	background: #9a090c url(../../../images/btns/btn_Middle.gif) repeat-x 0px 0px;
+	float: right;
+	margin: 0px 10px 10px 10px;
+	padding: 0px;
+}
+.jqmdRedButtonLeft {
+	background: transparent url(../../../images/btns/btn_Left.gif) no-repeat 0px 0px;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+}
+html>body .jqmdRedButtonLeft {
+	padding: 0px 0px 0px 10px;
+}
+.jqmdRedButtonRight {
+	background: transparent url(../../../images/btns/btn_BackRight2.gif) no-repeat right top;
+	float: left;
+	margin: 0px;
+	padding: 2px 20px 0px 0px;
+}
+.jqmdRedButton a:link, .jqmdRedButton a:visited, .jqmdRedButton a:hover {
+	color: #fff;
+	font: 0.75em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+	padding: 6px 20px 6px 5px;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 0px;	
+}
+html>body .jqmdRedButton a:link, .jqmdRedButton a:visited, .jqmdRedButton a:hover {
+	text-indent: 5px;
+}
+
+div.jqmdContent .textLink {font-size: 0.9em;}
+
+.adjustFontSize {
+	font-size: 1.1em;
+}
+
+div.jqmdContent .genericErrorAlertBox {
+	color: #000;
+	margin: 10px 0;
+	padding: 7px;
+}
+div.jqmdContentOrder .textLinkLeft 
+{
+	font-size: 1.0em;
+	float: left;
+}
+
+div.jqmdContentOrder .textLinkRight
+{
+	font-size: 1.0em;
+	float: right;
+}
+
+div.jqmDialog .cancelpopup
+{
+    position: fixed;
+    top: 30%;
+    left: 35%;
+  	width: 543px;
+
+}
+/* Edit for Overlay Pop-Up in Update Profile -Start */
+
+/* ---- 2012.1.1 release updates - Me/My Family Profile Confirm warning Pop-Up Overlay ----- */
+/* ---- red diagonal header with bradient multiple layer container look and feel overlay ----- */
+div.jqmDialogFP {
+    display: none;
+    
+    position: absolute;
+    top: 20%;
+    left: 300px;
+    
+    margin-left: 0;
+    width: 695px;
+
+    overflow: hidden;
+}
+html>body div.jqmDialogFP {
+    left: 41%;
+    
+    margin-left: -200px;
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html div.jqmDialogFP {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+.closeBigx {
+    background: url(../../../images/icons/icon-x.png) no-repeat top left;
+    color: #000;
+    font-size: 1px;
+    position: absolute;
+    right:-60px;
+    top: 0px;
+    padding: 6px 0 0 17px;
+    height: 109px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.closeBigxInactive {
+    background: url("../../../images/icons/icon-x.png") no-repeat scroll left top transparent;
+    color: #000000;
+    font-size: 1px;
+    height: 109px;
+    overflow: hidden;
+    padding: 6px 0 0 17px;
+    position: absolute;
+    right: -60px;
+    top: 0;
+    width: 100px;
+}
+/* Edit for Overlay Pop-Up in Update Profile -End */
+
+.jqmdbg {
+    background-color: #FFFFFF;
+    border: 5px solid #DCDCDC;
+    float: left;
+    margin: 20px 20px 0 0;
+    padding: 0;
+    width: 93%;
+}
+
+.jqmdbgInactive {
+    background-color: #FFFFFF;
+    border: 5px solid #DCDCDC;
+    float: left;
+    margin: 20px 20px 0 0;
+    padding: 0;
+    width: 93%;
+}
+
+.redDiagonalBG {
+    background: url("../../../images/bgs/fpPopUpBkgrd.jpg") repeat-x scroll 0 0 transparent;
+    margin: 0;
+}
+
+.redRemoveDiagonalBG {
+    /* background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #99130f 0%, #941817 26%, #8a2122 49%, #7f2a2d 77%, #773133 100%) repeat scroll 0 0;; */
+    background-color: #790000;
+    margin: 0;
+    height: 35px;
+}
+
+.redDiagonalHdr {
+    /* background: url("../../../images/hdrs/red-header-with-diagonal.png") no-repeat scroll right 0 transparent; */
+    color: #FFFFFF;
+    margin: 0;
+}
+.redDiagonalHdrWarningOverlay {
+	background:url(../../../images/hdrs/red-header-with-diagonal-agent.png) no-repeat right 0;
+	margin:0 !important;
+	color: #ffffff;
+	padding: 20px 25px 20px 90px;
+	*padding: 13px 25px 20px 90px;
+	font-size: 2.3em;
+	font-weight: normal;
+}
+
+.redRemoveDiagonalHdrWarningOverlay {
+	/* background:rgba(0, 0, 0, 0) linear-gradient(to bottom, #99130f 0%, #941817 26%, #8a2122 49%, #7f2a2d 77%, #773133 100%) repeat scroll 0 0; */
+	background-color: #790000;
+	margin:0 !important;
+	color: #ffffff;
+	padding: 8px 25px 0px 90px;
+	font-size: 1.652em;
+	font-weight: normal;
+}
+.jqmdbgContentRA{
+	float: left;
+	margin: 33px 0 200px 23px;
+    width: 590px;
+}
+.redDiagonalHdrAgent {
+    /* background: url("../../../images/hdrs/red-header-with-diagonal-agent.png") no-repeat scroll right 0 transparent; 
+    padding: 20px 25px 20px 10px; */
+    color: #FFFFFF;
+    margin: 0;
+}
+.redDiagonalHdrAgent span {
+    margin: 0px;
+}
+.redDiagonalHdr span {
+    padding: 13px 25px 20px 70px;
+}
+.jqmdbgContentainer {
+    background: url("../../../images/bgs/bg-fpOverlayInnerBg.png") repeat-x scroll 0 0 #FFFFFF;
+    color: #464646;
+    float: left;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    width: 100%;
+}
+.jqmdbgContent {
+    background: url("../../../images/bgs/fpPopUpInsideBkgrd.jpg") repeat-x scroll 0 0 #FFFFFF;
+    border: 5px solid #FFFFFF;
+    float: left;
+    margin: 3%;
+    padding: 3%;
+    width: 85%;
+}
+.jqmdbgContent h3 {
+    padding-bottom: 20px;
+}
+.jqmdbgContent h3 span {
+    color: #778A9C;
+}
+.jqmdOrangeButton {
+    background: url("../../../images/btns/btn-orange-middle.png") repeat-x scroll 0 0 #F26522;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.jqmdOrangeButtonLeft {
+    background: url("../../../images/btns/btn-orange-left.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    padding: 0 0 0 15px;
+}
+.jqmdOrangeButtonRight {
+    background: url("../../../images/btns/btn-orange-right.png") no-repeat scroll right top transparent;
+    float: left;
+    padding-right: 15px;
+}
+.jqmdOrangeButton a:link, .jqmdOrangeButton a:visited, .jqmdOrangeButton a:hover {
+    color: #FFFFFF;
+    float: left;
+    font: bold 1.05em/2.02em Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 1px 23px 1px 8px;
+    text-decoration: none;
+}
+.jqmdbg .textLink {
+    float: left;
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+.jqmdbg .textLink a, .jqmdbg .textLink a:visited {
+    color: #077FAE;
+}
+.jqmdbg .textLink a:hover {
+    color: #666666;
+}
+.jqmdbg ul {
+    margin: 10px 10px 15px 17px;
+    padding: 0;
+}
+.jqmdbg ul li {
+    list-style: disc outside none;
+    padding: 3px 5px;
+}
+.jqmdbg p {
+    padding: 0 0 10px;
+}
+.redDiagonalBG h2 {
+    font-family: "HelveticaNeue-Light", Lucida Grande, sans-serif !important;
+    color: #fff;
+    font-size: 2.3em;
+    padding-left: 19px !important;
+    font-weight: normal !important;
+    text-align: center !important;
+	background-color:none !important;
+	}

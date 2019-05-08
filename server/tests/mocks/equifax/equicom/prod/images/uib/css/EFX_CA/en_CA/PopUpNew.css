@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jqmOverlay {
+    background-color: #000000;
+	height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2999;
+}
+
+.moreDetailsContainer{
+	z-index: 3000;
+	top: 200px;
+	left: 300px;
+	position: fixed;
+	display: none;
+	width: 615px;
+	
+}
+
+.moreDetailsPopup{
+	height: 380px;
+	background: #ffffff;
+	border: solid 4px #dcdcdc;
+	padding: 2px 15px 15px 15px;
+	overflow-y: scroll;
+}
+
+.moreDetailsPopup p span{
+	font-size: 0.88em !important;
+}
+
+.moreDetailsPopup div.atItem{
+	font-size: 0.8em;
+}
+
+.moreDetailCloseBtn{
+	background: url("../../../images/icon-x.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+	width: 63px;
+	height: 60px;
+	position: absolute;
+	right: -30px;
+	top: -30px;
+}
+
+.jqAccInfoH3{
+	background: none repeat scroll 0 0 #D5DCE3;
+    border-top: 1px solid #790000;
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    height: 30px;
+    line-height: 2.3em;
+    padding-left: 15px;
+}
+
+.alertTypeInfoDesc p{
+	padding: 10px 15px;
+	border-top: solid 1px #CCCCCC;
+}

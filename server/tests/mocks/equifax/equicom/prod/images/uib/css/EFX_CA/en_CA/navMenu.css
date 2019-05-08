@@ -1,0 +1,251 @@
+/*[fmt]AA90-1A0A-3*/
+/*CSS Member Center Menu*/
+*
+{
+	margin: 0;
+	padding: 0;
+	outline-style: none;
+	outline-width: 0;
+}
+/*dl.memCentBtn
+{
+	width: 48%;
+} old */
+dl.memCentBtn {
+    width: 63%;
+}
+/*dl.memCentBtn dd
+{
+	margin: 6px 0 0 5px;
+	background: transparent;
+	border: 0;
+} old */
+dl.memCentBtn dd {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 6px 0 0;
+}
+.onAlert {
+    background-position: -143px -27px;
+    color: #3D5262 !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    width: 118px;
+}
+.onDashboard {
+    background-position: 0 -27px;
+    color: #3D5262 !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    width: 143px;
+}
+.onScores {
+    background-position: -259px -27px;
+    color: #3D5262 !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    width: 123px;
+}
+.onReports {
+    background-position: -381px -27px;
+    color: #3D5262 !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    width: 122px;
+}
+.onDebt
+{
+	width: 74px;
+	background-position: -390px -27px;
+	font-weight: bold !important;
+	font-size: 15px !important;
+	color: #3D5262 !important;
+}
+dl.memCentBtn dd a
+{
+	display: block;
+	float: left;
+	height: 22px;
+	background-image: url(../../../images/bgs/navigation_PSD.png);
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: arial;
+	padding: 5px 0 0;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+dl.memCentBtn dd:hover
+{
+	text-decoration: underline;
+	color: #FFFFFF;
+	background-color: transparent;
+}
+dl.memCentBtn dd a.Dashboard {
+    background-position: 0 0;
+    width: 143px;
+}
+dl.memCentBtn dd a.Dashboard:hover
+{
+	background-color: transparent;
+}
+dl.memCentBtn dd a.onDashboard:hover
+{
+	text-decoration: none;
+	background-color: transparent;
+}
+dl.memCentBtn dd a.Dashboard:active
+{
+	/*[disabled]width:117px;*/
+	/*[disabled]background-position:0 -27px;*/
+	/*[disabled]color:#3D5262;*/
+	/*[disabled]font-weight:bold;*/
+	/*[disabled]font-size:15px;*/
+	/*[disabled]outline:none;*/
+}
+dl.memCentBtn dd a.Dashboard:focus
+{
+	/*[disabled]width:117px;*/
+	/*[disabled]background-position:0 -27px;*/
+	/*[disabled]color:#3D5262;*/
+	/*[disabled]font-weight:bold;*/
+	/*[disabled]font-size:15px;*/
+}
+dl.memCentBtn dd a.Alert {
+    background-position: -143px 0;
+    width: 118px;
+}
+
+dl.memCentBtn dd a.Alert:hover
+{
+	text-decoration: underline;
+	background-color: transparent;
+}
+dl.memCentBtn dd a.onAlert:hover
+{
+	text-decoration: none;
+	background-color: transparent;
+}
+dl.memCentBtn dd a.Alert:focus
+{
+	/*[disabled]width:89px;*/
+	/*[disabled]background-position:-117px -27px;*/
+	/*[disabled]color:#3D5262;*/
+	/*[disabled]font-weight:bold;*/
+	/*[disabled]font-size:15px;*/
+}
+dl.memCentBtn dd a.Alert:active
+{
+	/*[disabled]width:89px;*/
+	/*[disabled]background-position:-117px -27px;*/
+	/*[disabled]color:#3D5262;*/
+	/*[disabled]font-weight:bold;*/
+	/*[disabled]font-size:15px;*/
+}
+dl.memCentBtn dd a.Scores {
+    background-position: -259px 0;
+    width: 126px;
+} 
+dl.memCentBtn dd a.Scores:focus
+{
+	/*[disabled]width:87px;*/
+	/*[disabled]background-position:-206px 0;*/
+	/*[disabled]color:#3D5262;*/
+	/*[disabled]font-weight:bold;*/
+	/*[disabled]font-size:15px;*/
+}
+dl.memCentBtn dd a.Scores:hover
+{
+	background-color: transparent;
+	text-decoration: underline;
+}
+dl.memCentBtn dd a.onScores:hover
+{
+	background-color: transparent;
+	text-decoration: none;
+}
+dl.memCentBtn dd a.Reports {
+    background-position: -382px 0;
+    width: 121px;
+}
+dl.memCentBtn dd a.Reports:hover
+{
+	text-decoration: underline;
+	background-color: transparent;
+}
+dl.memCentBtn dd a.onReports:hover
+{
+	text-decoration: none;
+	background-color: transparent;
+}
+dl.memCentBtn dd a.Reports:focus
+{
+	/*[disabled]width:97px;*/
+	/*[disabled]background-position:-293px -27px;*/
+	/*[disabled]color:#3D5262;*/
+	/*[disabled]font-weight:bold;*/
+	/*[disabled]font-size:15px;*/
+}
+dl.memCentBtn dd a.Debt
+{
+	width: 74px;
+	background-position: -387px 0;
+}
+dl.memCentBtn dd a.Debt:hover
+{
+	text-decoration: underline;
+	background-color: transparent;
+}
+dl.memCentBtn dd a.onDebt:hover
+{
+	text-decoration: none;
+	background-color: transparent;
+}
+dl.memCentBtn dd a.Debt:focus
+{
+	/*[disabled]width:74px;*/
+	/*[disabled]background-position:-378px -27px;*/
+	/*[disabled]color:#3D5262;*/
+	/*[disabled]font-weight:bold;*/
+	/*[disabled]font-size:15px;*/
+}
+dl.memCentBtn dd a.FamilyPlan
+{
+	width: 92px;
+	background-position: -465px 0;
+}
+dl.memCentBtn dd a.FamilyPlan:focus
+{
+	width: 92px;
+	background-position: -465px -27px;
+	color: #3D5262;
+	font-weight: bold;
+	font-size: 15px;
+}
+dl.memCentBtn dd a.MyAccount
+{
+	width: 101px;
+	background-position: -565px 0;
+	padding-right: 6px;
+}
+dl.memCentBtn dd a.MyAccount:focus
+{
+	width: 101px;
+	background-position: -565px -27px;
+	padding-right: 6px;
+	color: #3D5262;
+	font-weight: bold;
+	font-size: 15px;
+}
+a
+{
+	outline: none;
+}
+/*New Changes*/
+.main dl {
+    margin: 0;
+    padding-left: 1.8%;
+    padding-top: 4px;
+}
+

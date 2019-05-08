@@ -1,0 +1,249 @@
+/* #################### LAYOUT CSS #################### */
+/* #################### Center Position, Round Corner Canvas, General Classes, Global Setting #################### */
+
+/* !!!!! GENERAL !!!!! */
+
+
+.MainCol {
+	border: none;
+	float: right;
+	margin: 0px 10px 0px 0px;
+	width: 640px;
+	height:100%;
+}
+.TopCol {
+	background: #fff url(../../images/bg/bg_gradient_reportsMainTop.gif);
+	border: none;
+	float: right;
+	margin: 0;
+	width: 640px;
+	height:116px;
+}
+.MainCol .textBox {
+	padding: 15px 0 5px 10px;
+	color:#000;
+	font:0.75em Arial,Helvetica,sans-serif;
+}
+
+.MainCol h1 {
+	font: 1.5em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 0px 0 2px 0px;
+}
+.MainCol h2 {
+	font: 1em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 0px 0 2px 0px;
+}
+.MainCol p {
+	padding: 2px 0 2px 0px;
+}
+
+
+body {
+	background-color: #555555;
+	color:#3d3d3d;
+	font:0.9em Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding:0;
+}
+a:link, a:visited {
+	color: #002157;
+	text-decoration: underline;
+}
+a:hover {
+	color: #444444;
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6, h7, h8, form, p, blockquote, label{
+	margin: 0;
+	padding: 0;
+}
+/* !!!!! COMMON CLASSES !!!!! */
+.price, .red {
+	color: #9e0b0e;
+}
+.Center { /* place elements in the center of the canvas */
+	margin: 0 auto;
+	padding: 0;
+	width: 1017px;
+}
+.CompareIcon {
+	background:transparent url(../../../images/ic_comparison.gif) no-repeat 0 0;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+}
+.CompareIcon a {
+	padding: 5px 25px;
+}
+/* !!!!! BRAND TOP !!!!! */
+#BrandTop { /* the very top part of the page -- gray area  */
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+/* !!!!! LAYOUT !!!!! */
+#Layout { /* the cage to hold everything on the page - centered style */
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 938px;
+}
+#browserMessage {
+	display:block;
+	height:0;
+	margin: -20px 0 0 0;
+	overflow:hidden;
+	width:0;
+}
+/* !!!!! CONTAINER !!!!! */
+#FWContainer { /* rounded corner side border graphic for the main canvas */
+	background: #555555 url(../../../images/bg_ContainerMiddle.gif) repeat-y 0 0;
+	clear: both;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 938px;
+}
+#ContainerTop { /* rounded corner top graphic for the main canvas */
+	background: transparent url(../../../images/bg_ContainerTop.gif) no-repeat 0 -10px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 938px;
+}
+#ContainerBottom { /* rounded corner bottom graphic for the main canvas */
+	background: transparent url(../../../images/bg_ContainerBottom.gif) no-repeat left bottom;
+	float: left;
+	margin: 0;
+	padding: 0 0 25px 0;
+	width: 938px;
+}
+#FWContent { /* set the left side margin (global)  */
+	clear: both;
+	float: left;
+	margin: 0 0 0 20px;
+	padding:20px 0 0 0;	
+	width: 867px;
+}
+html>body #FWContent {
+	margin: 0 0 0 34px;
+}
+
+/* !!!!! BRAND BOTTOM !!!!! */
+#BrandBottom { /* the very bottom part of the page -- gray area  */
+	clear: both;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+/* Subheader Styles */
+#subheader {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	width: 878px;	
+}
+
+#subheader_image {
+	background:transparent url(../../../images/hdr_h1_Learning.jpg) no-repeat 2px 0;
+	height:47px;
+	margin: 0;
+	padding:0;
+	margin-top:5px;
+	margin-left:2px;
+	width: 878px;
+}
+
+#subheader_image h2 {
+	font-size: 22px;
+	color:#fff;
+	margin: 0;
+	padding:5px 15px 0px 15px;
+	height: 47px;
+}
+
+/* ########### Credit Watch page css #########*/
+
+.LeftColCreditWatch {
+	background: #fff url(../../../images/bg/bg_creditWatch.jpg) no-repeat 0px 0px;
+	float: left;
+	width: 562px;
+	height:278px;
+	margin: 3px 0px 0px 0px;
+}
+.LeftColCreditWatchContent {
+	margin: 4px 5px 5px 5px;
+}
+.LeftColCreditWatchContent h1 {
+	font-stretch:extra-condensed;
+	font-family:Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size: 1.75em;
+	font-weight: normal;
+	color:#666666;
+	margin:0 0 2px 4px;
+}
+.LeftColCreditWatchContent h2 {
+	font-stretch:extra-condensed;
+	font-family:Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size: 1.45em;
+	font-weight: bold;
+	color:#000;
+	padding: 3px 0px 0px 5px;
+}
+.LeftColCreditWatchContent ul {
+	margin: 17px 0px 5px -33px;
+}
+.LeftColCreditWatchContent li {
+	background:url("../../../images/buls/bul_creditWatch.gif") no-repeat scroll -2px 4px transparent;
+	padding:2px 0 2px 11px;
+	list-style-type:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+.LeftColCreditWatchContent .small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	padding:13px 0 2px 8px;
+}
+.LeftColCreditWatchContent .small a:link{
+	color: #006666; 
+}
+
+.LeftColCreditWatchContent  .ActionButton { /* Buy Now button*/
+	background: transparent url(../../../images/btns/btn_BuyNowMiddleNew.gif) repeat-x 0 0;
+	float: left;
+	height: 28px;
+	margin: 0px 0 0 0;
+	padding:0;
+	width: auto;
+}
+.LeftColCreditWatchContent  .ActionButtonCenter {
+	margin: 15px 0 0 4px;
+}
+.LeftColCreditWatchContent  .ActionButtonLeft {
+	background: transparent url(../../../images/btns/btn_BuyNowLeftNew.gif) no-repeat 0 0;
+	float: left;
+	padding: 0 0 0 22px;
+}
+.LeftColCreditWatchContent  .ActionButtonRight {
+	background: transparent url(../../../images/btns/btn_BuyNowRightNew.gif) no-repeat right top;
+	float: left;
+	padding-right: 19px;
+}
+.LeftColCreditWatchContent  .ActionButton a:link, .LeftColCreditWatchContent  .ActionButton a,  #ProductContainer .ActionButton a:visited, #ProductContainer .ActionButton a:hover {
+	color: #fff;
+	float: left;
+	font:bold 12px/26px Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 2px 15px 0px 11px;
+	text-decoration: none;
+}
+
+/* ########### End Credit Watch page css #########*/
+
+
+/* #################### END LAYOUT CSS #################### */
+

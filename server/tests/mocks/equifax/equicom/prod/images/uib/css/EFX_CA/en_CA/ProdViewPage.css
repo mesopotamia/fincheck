@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ################  PROD VIEW PAGES :: LEFT NAV  ##############  */
+
+#leftColProdView{
+	width: 194px;
+	height: auto;
+	float: left;
+}
+
+#leftNav{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+/* ################  PROD VIEW PAGES :: RIGHT CONTAINER  ##############  */
+
+#rightColProdView{
+	width: 640px;
+	height: auto;
+	float: left;
+	margin: 0 0 0 15px;
+}
+
+#productContainer{
+	width: 100%;
+	height: auto;
+}
+
+.titleContainer{
+/*width: 100%;*/  /*Popup issue fix for Alerts page*/
+	height: auto;
+	border: solid 1px #CCCCCC;	
+}
+
+.titleContainer h3{
+	height: 24px;
+	display: block;
+	background: #790000;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1.6em;
+	padding: 0 0 0 15px;
+}
+
+.titleContent{
+	padding: 15px;
+}
+
+.titleContent p{
+	color: #000000;
+	font-size: 0.9em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+.prodOptions{
+	height: auto;
+	padding: 15px 0 0 0;
+	margin-bottom: 20px;
+}
+
+.prodOptionsTitle{
+	color: #3e414b;
+	font-weight: bold;
+	font-size: 0.8em;
+	float: left;	
+	line-height: 2em;
+	margin-left: 5px;
+}
+
+.prodOptionsFilter{
+	float: left;
+	margin-left: 80px;
+}
+
+.prodOptionsFilter label{
+	color: #3e414b !important;
+	font-weight: bold;
+	font-size: 0.8em !important;
+}
+
+.prodOptions a{
+	color: #0076A3;
+	font-weight: normal;
+	font-size: 0.9em;
+	padding-right: 15px;
+	line-height: 1.5em;
+	float: right;
+	margin-right: 25px;
+}
+
+.detailsShow {
+    background: url("../../../images/arrows/arrow-down.png") no-repeat scroll right 3px transparent;
+}
+
+.detailsHide {
+    background: url("../../../images/arrows/arrow-up.png") no-repeat scroll right 3px transparent;
+}
+
+.alertTypeContainer{
+	width: 100%;
+	height: auto;
+	border: solid 1px #CCCCCC;	
+	margin-bottom: 20px;
+}
+
+.alertTypeTitle{
+	height: 25px;
+	background: #d5dce3;	
+}
+
+.alertTypeTitleHead{
+	line-height: 1.7em;
+}
+
+.alertTypeTitleHead span.efxHead{
+	color: #790000;
+	font-weight: bold;
+	font-size: 0.88em;	
+	padding-left: 15px;
+	float: left;
+	width: 145px;
+}
+
+.alertTypeTitleHead span.alertTypeName{
+	font-size: 0.88em;
+	font-weight: normal;
+	margin-left: 0px;
+	float: left;
+	width: 220px;
+}
+
+.alertTypeTitleHead span.alertTypeDate{
+	font-size: 0.88em;
+	font-weight: normal;
+	/*margin-left: 125px;*/
+	float: left;
+}
+
+.alertTypeTitleHead a{
+	font-size: 0.88em;
+	font-weight: normal;
+	color: #0076A3;
+	background: url("../../../images/arrows/arrow-secondary-bullet.png") no-repeat scroll right 7px transparent;
+	padding-right: 13px;
+	float: right;
+	margin-right: 20px;
+}
+
+.alertTypeDesc{
+	font-size: 0.88em;
+	font-weight: normal;
+	padding: 20px 15px 20px 15px;	
+	border-top: solid 1px #CCCCCC;
+}
+
+.altViewHide{
+	float: left;
+	width: 145px;
+}
+
+.alertTypeDesc a{
+	color: #0076A3;
+	font-weight: normal;
+	font-size: 0.95em;
+	padding-right: 15px;
+}
+
+.alertTypeDesc div.atShortDesc{
+	float: left;
+	margin-left: 0px;
+	width: 450px;
+}
+
+.alertTypeInfo{
+	font-size: 0.88em;
+	border-top: solid 1px #CCCCCC;
+}
+
+.alertTypeInfoDisplay{
+	display: none;	
+}
+
+.alertTypeInfo p.alertInfoText{
+	padding: 15px;
+}
+
+.alertTypeInfo h3{
+	height: 30px;
+	background: #d5dce3;
+	font-weight: bold;
+	color: #000000;
+	font-size: 1em;
+	line-height: 2.3em;
+	padding-left: 15px;
+	border-top: solid 1px #CCCCCC;
+}
+
+.alertTypeInfoDesc div.atItem{
+	padding: 10px 15px;
+	border-top: solid 1px #CCCCCC;
+	min-height: 30px;
+	height: auto;
+}
+
+.alertTypeInfoDesc span.infoItem{
+	font-weight: bold;
+	/*width: 250px;*/
+	width: 45%;
+	display: inline-block;
+	text-align: right;
+	vertical-align: top;
+}
+
+.alertTypeInfoDesc span.infoContent{
+	/*width: 325px;*/
+	width: 50%;
+	display: inline-block;
+	text-align: left;
+	margin-left: 10px;
+}
+
+
+/* ################  PROD VIEW PAGES :: REPORTS  ##############  */
+
+.alertTypeTitleHead span.rptHead{
+	font-size: 0.88em;
+	font-weight: bold;
+	margin-left: 15px;
+	float: left;
+	width: 40%;
+}
+
+.alertTypeTitleHead span.rptAvailable{
+	font-size: 0.88em;
+	font-weight: bold;
+	float: left;
+	width: 30%;
+}
+
+.alertTypeTitleHead span.rptAsOf, .alertTypeTitleHead span.rptViewUntil{
+	width: 16%;
+	float: left;
+	font-weight: bold;
+	font-size: 0.88em;
+}
+
+.alertTypeInfoDesc span.rptItem{
+	font-weight: normal;
+	width: 42%;
+	float: left;
+}
+
+.alertTypeInfoDesc span.rptAvailType{
+	width: 33%;
+	float: left;
+}
+
+
+.alertTypeInfoDesc span.rptOption{
+	width: 25%;
+	float: left;
+}
+
+
+.alertTypeInfoDesc span.rptDate{
+	width: 17%;
+	float: left;
+}
+
+.alertTypeInfoDesc span.rptArchive{
+	width: 22%;
+	float: left;
+}
+
+.rptAvailType a, .rptOption a, .rptArchive a, .rptItem a{
+	color: #0076A3;
+	font-weight: normal;
+}
+
+.rptArchive a{
+ background: url("../../../images/arrows/arrow-secondary-bullet.png") no-repeat scroll right 3px transparent;
+ padding-right: 10px;
+}
+
+.noBorder{
+	border: none !important;
+}
+
+.noReportmsg{
+	font-size: 0.9em; 
+	color: #000000;
+}
+
+/* ################  PROD VIEW PAGES :: INSURANCE  ##############  */
+
+.prodInsurance h1 {
+	color: #002157;
+	font: 1.4em Arial, Helvetica, sans-serif;
+	padding: 0 0 3px 0px;
+}
+
+.prodInsurance p {
+	font: 0.88em Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 5px 10px 5px 0;
+}
+
+.prodInsurance p a{
+	color: #0076A3;
+}
+
+.prodInsurance h3 {
+	color: #002157;
+	font: 1.4em Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 15px 0 3px 0;
+}
+
+.prodInsurance ul {
+	font-size: 0.88em;
+	margin: 10px 0 10px 15px;
+	padding: 0 0 0 0;
+}
+.prodInsurance ul li {
+	margin: 0;
+	padding: 5px 3px 5px 0;
+}
+
+.prodInsurance hr {
+	border: none;
+	border-top: dotted 1px #bcbcbd;
+	clear: both;
+	height: 1px;
+	padding:0;
+	margin: 5px 0;
+}
+
+.prodInsurance p.ProductDisclaimer {
+	font: 0.64em Arial, Helvetica, sans-serif;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.altViewHideDesc{
+	display: inline-block;
+	float: left;
+	width: 460px;
+}
