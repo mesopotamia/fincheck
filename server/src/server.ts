@@ -66,7 +66,7 @@ app.post('/query', async(req, res, next) => {
 });
 app.post('/actions', async(req, res, next) => {
     try {
-        page = await init(false);
+        page = await init(true);
         const actions: Action[] = req.body.actions;
         const extractor: Extractor = req.body.extractor;
         await executeActions(page, actions);
