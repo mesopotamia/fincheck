@@ -1,7 +1,8 @@
 export interface Action {
     selector?: string;
     url?: string;
-    type?: any
+    type?: any;
+    value?: string;
 }
 export interface ClickAction extends Action{
     type: ActionType.click;

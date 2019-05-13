@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist && tsc && node dist/index.js",
     "start": "nodemon --exec ts-node -r dotenv/config src/server.ts --watch src",
-    "test": "jest --watch",
+    "test": "jest",
     "coverage": "jest --coverage"
   },
   "keywords": [],

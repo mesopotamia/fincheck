@@ -1,9 +1,10 @@
 import {init} from "./index";
 import {getSummary} from "./institutions/cibc";
 import {getScore} from "./institutions/equifax";
-import {executeActions, extract, navigate} from "./helpers";
+import {executeActions, extract, navigate, replaceValuesInActions} from "./helpers/actions";
 import {Page} from "puppeteer";
 import {Action, Extractor} from "./typings";
+import CIBCActions from './institutions/cibc/actions.config';
 const bodyParser = require('body-parser');
 const express = require('express');
 const timeout = require('connect-timeout');
@@ -28,12 +29,19 @@ app.get('/summary', async (req, res, next) => {
     console.log('got query', req.query);
     try {
         page = await init(false);
-        const summary = await getSummary(page, 'https://www.cibc.com/en/personal-banking.html', {username, password});
-        await page.browser().close();
-        res.send(summary)
+        const actions = CIBCActions.actions;
+        const extractor = CIBCActions.extractor;
+        const newActions = replaceValuesInActions(actions, {username, password});
+        await executeActions(page, newActions);
+        console.log('new actions');
+        const result = await extract(page, extractor.selector);
+        res.send(result);
     }
     catch(e) {
         next(e);
+    }
+    finally {
+        await page.browser().close();
     }
 });
 app.get('/credit-score', async (req, res, next) => {

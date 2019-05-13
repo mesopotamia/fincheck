@@ -43,3 +43,20 @@ export const executeActions = async(page: Page, actions: Action[]) => {
         }
     }
 };
+export const replaceValuesInActions = (actions: Action[], values: any): Action[] => {
+    return actions.map<Action>((action: Action) => {
+        if (action.type === ActionType.typeIntoField) {
+            if (action.value.search(/\${.*/) > -1) {
+                const token = action.value
+                    .replace(/\${/, '')
+                    .replace(/}/, '');
+                return replaceValuesPerAction(action, values[token]);
+            }
+        }
+        return action;
+    })
+};
+export const replaceValuesPerAction = (action: Action, newValue) => {
+    action.value = action.value.replace(/\${.*/gm, newValue);
+    return action;
+};
