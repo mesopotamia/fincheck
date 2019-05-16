@@ -9,12 +9,12 @@ export default {
         {
             selector: '#userName',
             type: ActionType.typeIntoField,
-            value: 'testUser'
+            value: '${username}'
         },
         {
             selector: '#consumerPwd',
             type: ActionType.typeIntoField,
-            value: 'testPassword'
+            value: '${password}'
         },
         {
             "type": "click",

@@ -1,4 +1,4 @@
-import {executeActions, extract} from "../../../helpers/actions";
+import {executeActions, extract, replaceValuesInActions} from "../../../helpers/actions";
 import updateScoreConfig from '../fixtures/update-score.config';
 import getScoreConfig from '../fixtures/get-score-config';
 
@@ -13,9 +13,14 @@ test('update score', async() => {
     expect(result).toEqual('Thank you for your order, Joe!');
 }, 30000);
 test('get score', async() => {
-    const page = await init(false);
+    const page = await init(true);
     const extractor = getScoreConfig.extractor;
-    await executeActions(page, getScoreConfig.actions);
+    let actions = getScoreConfig.actions;
+    const newActions = replaceValuesInActions(actions, {
+        username: 'testUser',
+        password: 'testPassword'
+    });
+    await executeActions(page, newActions);
     const result = await extract(page, extractor.selector);
     expect(result).toEqual('785');
 }, 15000);
