@@ -1,0 +1,5985 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="ltr" dir="ltr" lang="en-US">
+
+<head>
+	<title>Check &amp; Monitor Your Credit Report and Credit Score | Equifax</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+<meta content="Equifax, a nationwide credit bureau, offers online access to your Equifax credit score and report, credit monitoring, alerts and identity theft protection tools." lang="en-US" name="description" />
+
+
+<link href="https://efxliferay.azureedge.net/o/mentions-web/css/mentions.css?browserId=other&themeId=dxpgenerictheme_WAR_dxpgenerictheme&minifierType=css&languageId=en_US&b=7010&t=1555024096000" rel="stylesheet" type = "text/css" />
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+<link href="https://efxliferay.azureedge.net/o/dynamic-data-mapping-form-renderer/css/main.css?browserId=other&themeId=dxpgenerictheme_WAR_dxpgenerictheme&minifierType=css&languageId=en_US&b=7010&t=1555024096000" rel="stylesheet" type = "text/css" />
+
+
+<link data-senna-track="temporary" href="https://efxliferay.azureedge.net/o/dxp-generic-theme/images/favicon.ico" rel="Shortcut Icon" />
+
+
+
+
+	<link data-senna-track="temporary" href="https://www.consumer.equifax.ca/personal/" rel="canonical" />
+	
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https&#x3a;&#x2f;&#x2f;efxliferay&#x2e;azureedge&#x2e;net&#x2f;o&#x2f;dxp-generic-theme&#x2f;css&#x2f;aui&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;dxpgenerictheme_WAR_dxpgenerictheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_US&#x26;b&#x3d;7010&#x26;t&#x3d;1555024096000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+<link data-senna-track="temporary" href="https&#x3a;&#x2f;&#x2f;efxliferay&#x2e;azureedge&#x2e;net&#x2f;o&#x2f;frontend-css-web&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;dxpgenerictheme_WAR_dxpgenerictheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_US&#x26;b&#x3d;7010&#x26;t&#x3d;1553810803090" id="liferayPortalCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+		<link data-senna-track="temporary" href="https&#x3a;&#x2f;&#x2f;efxliferay&#x2e;azureedge&#x2e;net&#x2f;combo&#x3f;browserId&#x3d;other&#x26;minifierType&#x3d;&#x26;themeId&#x3d;dxpgenerictheme_WAR_dxpgenerictheme&#x26;languageId&#x3d;en_US&#x26;b&#x3d;7010&#x26;com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_uuWivZLrJjP3&#x3a;&#x25;2Fcss&#x25;2Fmain&#x2e;css&#x26;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet&#x3a;&#x25;2Fcss&#x25;2Fmain&#x2e;css&#x26;t&#x3d;1555024096000" id="e537946a" rel="stylesheet" type="text/css" />
+
+	
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return true;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 74.0;
+			},
+
+			getRevision: function() {
+				return '537.36';
+			},
+			getVersion: function() {
+				return '74.0';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return true;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return true;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return false;
+			},
+			isMac: function() {
+				return false;
+			},
+			isMobile: function() {
+				return false;
+			},
+			isMozilla: function() {
+				return false;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return true;
+			},
+			isSafari: function() {
+				return true;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return true;
+			},
+			isWindows: function() {
+				return true;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			null
+
+			
+
+			
+		];
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			NTLM_AUTH_ENABLED: false,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '136';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/canada/~/control_panel/manage';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/personal';
+				},
+				getLayoutURL: function() {
+					return 'https://www.consumer.equifax.ca/personal';
+				},
+				getParentLayoutId: function() {
+					return '0';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'en-US';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https://www.consumer.equifax.ca';
+			},
+			getCDNBaseURL: function() {
+				return 'https://efxliferay.azureedge.net';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return 'https://efxliferay.azureedge.net';
+			},
+			getCDNHost: function() {
+				return 'https://efxliferay.azureedge.net';
+			},
+			getCompanyGroupId: function() {
+				return '20152';
+			},
+			getCompanyId: function() {
+				return '20116';
+			},
+			getDefaultLanguageId: function() {
+				return 'en_US';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'en_US';
+			},
+			getParentGroupId: function() {
+				return '38119';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return 'https://efxliferay.azureedge.net/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://efxliferay.azureedge.net/o/dxp-generic-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/dxp-generic-theme';
+			},
+			getPlid: function() {
+				return '224839';
+			},
+			getPortalURL: function() {
+				return 'https://www.consumer.equifax.ca';
+			},
+			getScopeGroupId: function() {
+				return '38119';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '38119';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://www.consumer.equifax.ca/group/canada/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '38119';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=224839';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fwww\x2econsumer\x2eequifax\x2eca\x2fweb\x2fguest';
+			},
+			getUserId: function() {
+				return '20120';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isFreeformLayout: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getAvailableLangPath: function() {
+				return 'available_languages.jsp?browserId=other&themeId=dxpgenerictheme_WAR_dxpgenerictheme&colorSchemeId=01&minifierType=js&languageId=en_US&b=7010&t=1553810803427';
+			},
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return 'https://efxliferay.azureedge.net/combo/?browserId=other&minifierType=&languageId=en_US&b=7010&t=1553810803427&';
+			},
+			getDateFormat: function() {
+				return '%m/%d/%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getLangPath: function() {
+				return 'aui_lang.jsp?browserId=other&themeId=dxpgenerictheme_WAR_dxpgenerictheme&colorSchemeId=01&minifierType=js&languageId=en_US&b=7010&t=1553810803427';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=other&minifierType=&languageId=en_US&b=7010&t=1553810803427';
+			}
+		};
+
+		Liferay.authToken = 'h0Rcr2Gd';
+
+		
+
+		Liferay.currentURL = '\x2fpersonal\x2f';
+		Liferay.currentURLEncoded = '\x252Fpersonal\x252F';
+	// ]]>
+</script>
+
+
+
+	
+
+	<script src="https://efxliferay.azureedge.net/o/js_loader_modules?t=1557930695143" type="text/javascript"></script>
+
+
+
+	
+		
+			
+				<script src="https://efxliferay.azureedge.net/o/frontend-js-web/everything.jsp?browserId=other&amp;themeId=dxpgenerictheme_WAR_dxpgenerictheme&amp;colorSchemeId=01&amp;minifierType=js&amp;minifierBundleId=javascript.everything.files&amp;languageId=en_US&amp;b=7010&amp;t=1553810803427" type="text/javascript"></script>
+			
+		
+	
+	
+
+
+
+	
+
+	<script data-senna-track="temporary" src="https://efxliferay.azureedge.net/o/js_bundle_config?t=1557888948699" type="text/javascript"></script>
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https&#x3a;&#x2f;&#x2f;efxliferay&#x2e;azureedge&#x2e;net&#x2f;o&#x2f;dxp-generic-theme&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;dxpgenerictheme_WAR_dxpgenerictheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_US&#x26;b&#x3d;7010&#x26;t&#x3d;1555024096000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+<script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-spa-web/liferay/init.es', function(frontendJsSpaWebLiferayInitEs) {
+(function(){
+var frontendJsSpaWebLiferayInitEs1 = frontendJsSpaWebLiferayInitEs;
+(function() {var $ = AUI.$;var _ = AUI._;
+
+Liferay.SPA = Liferay.SPA || {};
+Liferay.SPA.cacheExpirationTime = -1;
+Liferay.SPA.clearScreensCache = false;
+Liferay.SPA.excludedPaths = ["/documents","/image"];
+Liferay.SPA.loginRedirect = '';
+Liferay.SPA.requestTimeout = 0;
+Liferay.SPA.userNotification = {
+	message: 'It looks like this is taking longer than expected.',
+	timeout: 30000,
+	title: 'Oops'
+};
+
+frontendJsSpaWebLiferayInitEs.default.init(
+	function(app) {
+		app.setPortletsBlacklist({"com_liferay_oauth_web_internal_portlet_AuthorizePortlet":true,"com_liferay_site_navigation_directory_web_portlet_SitesDirectoryPortlet":true,"com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet":true,"com_liferay_login_web_portlet_LoginPortlet":true,"com_liferay_layout_admin_web_portlet_MyPagesPortlet":true,"com_liferay_login_web_portlet_FastLoginPortlet":true});
+		app.setValidStatusCodes([221,490,494,499,491,492,493,495,220]);
+	}
+);})();})();
+},
+function(error) {
+console.error(error);
+});
+// ]]>
+</script><link data-senna-track="permanent" href="https://efxliferay.azureedge.net/combo?browserId=other&minifierType=css&languageId=en_US&b=7010&t=1553810794786&/o/product-navigation-simulation-theme-contributor/css/simulation_panel.css&/o/product-navigation-product-menu-dxp-theme-contributor/product_navigation_product_menu.css&/o/product-navigation-control-menu-dxp-theme-contributor/product_navigation_control_menu.css" rel="stylesheet" type = "text/css" />
+<script data-senna-track="permanent" src="https://efxliferay.azureedge.net/combo?browserId=other&minifierType=js&languageId=en_US&b=7010&t=1553810794786&/o/product-navigation-control-menu-dxp-theme-contributor/product_navigation_control_menu.js" type = "text/javascript"></script>
+<script type="text/javascript">
+// <![CDATA[
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					page: event.page - 1
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					page: event.page - 1
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+// ]]>
+</script>
+
+		<link rel="alternate" hreflang="en" href="https://www.equifax.com/personal/" /> <link rel="alternate" hreflang="en-US" href="https://www.equifax.com/personal/" /> <link rel="alternate" hreflang="en-CA" href="https://www.consumer.equifax.ca/personal/" /> <link rel="alternate" hreflang="fr-CA" href="https://www.consumer.equifax.ca/personnel/" /> <link rel="alternate" hreflang="fr" href="https://www.consumer.equifax.ca/personnel/" />
+
+
+
+<link href="//assets.equifax.com/global/css/global_mkt.css?v=05142019v4" rel="stylesheet" />
+<script src="//assets.equifax.com/global/js/parsley.min.js?v=05142019v4" type="text/javascript"></script>
+<script type="text/javascript" src="//assets.equifax.com/global/js/global_mkt.js?v=05142019v4"></script> 
+
+<script src="//assets.equifax.com/global/js/limelight_video_embed.js?v=05142019v4"></script>
+
+	
+</head>
+
+<body class=" controls-visible  yui3-skin-sam signed-out public-page site">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="wrapper" class="webcoe-wrapper">
+
+
+	<header id="banner" role="banner" class="banner">
+<script>
+	var currentSite = 'Canada';
+</script>
+
+<div class="container-fluid">
+	<nav class="sort-pages modify-pages efx-main-navigation" id="navigation" role="navigation">
+
+			<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#efx-navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+		  		<a data-senna-off="true" class="navbar-brand" href="//www.consumer.equifax.ca/personal">
+		  			<img alt="efx logo" src="//assets.equifax.com/global/images/logos/logo_white_123x24.png" class="img-responsive">
+		  		</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="efx-navbar-collapse">
+<ul class="nav navbar-nav" aria-label="Site Pages" role="menubar">
+
+			<li aria-selected='true' class="selected dropdown dropdown-mega-menu-parent" id="layout_136">
+				<a data-senna-off='true' class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false" aria-labelledby="layout_136" aria-haspopup='true' href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;personal"  onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;personal_topnav';">
+				Personal<span class="caret hidden-md hidden-lg"></span></a>
+				<ul class="dropdown-menu dropdown-mega-menu">
+			<li>
+					<a href="#" class="dropdown-submenu-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown-submenu">Products</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown-submenu">
+    <div class="row">	
+		<div class="col-md-6 mm_left">
+			<h3>Find the right product for you</h3>
+			<div class="row">
+					<div class="col-md-12">
+                        <ul class="megamenu-list">
+							<li>
+    						    <a href="/personal/products/compare-equifax-products">
+    							<strong>Compare Equifax Products</strong>
+    							    <small>Easily compare products in this side-by-side chart to help you select the best option to fit your needs.</small>
+    						    </a>
+							    <ul class="megamenu-disc-list">
+							    </ul>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		<div class="col-md-6 mm_left">
+			<h3>Equifax Product Details</h3>
+			<div class="row">
+					<div class="col-md-12">
+                        <ul class="megamenu-list">
+							<li>
+							    <ul class="megamenu-disc-list">
+                    			            <li><a href="/personal/products/credit-score-report-monitoring">Equifax Complete<sup>TM</sup> Premier <img src="//assets.equifax.com/images/canada/personal-misc/ribbon_featuredProduct.svg " alt="Featured Product" width="128px" height="20px"></a></li>
+                    			            <li><a href="/personal/products/identity-theft-protection-friends-family">Equifax Complete<sup>TM</sup> Friends and Family</a></li>
+                    			            <li><a href="/personal/products/credit-report-monitoring">Equifax Complete<sup>TM</sup> Advantage</a></li>
+                    			            <li><a href="/personal/products/identity-theft-protection">Equifax Identity<sup>TM</sup> Pro</a></li>
+							    </ul>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+
+			</li>
+			<li>
+					<a href="#" class="dropdown-submenu-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown-submenu">Education & Support</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown-submenu">
+    <div class="row">	
+		<div class="col-md-6 mm_left">
+			<h3>Learn more about…</h3>
+			<div class="row">
+					<div class="col-md-12">
+                        <ul class="megamenu-icon-list">
+							<li>
+    						    <a href="/personal/education/credit-report">
+    						        <img class="megamenu-icon-list-img" src="//assets.equifax.com/images/canada/personal-misc/icon_creditReports.svg" alt="">
+    							<strong>Credit reports</strong>
+    							    <small>Learn what goes into your credit report and how your financial behaviour may impact you and your credit.</small>
+    						    </a>
+							    <ul class="megamenu-disc-list">
+							    </ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-12">
+                        <ul class="megamenu-icon-list">
+							<li>
+    						    <a href="/personal/education/credit-score">
+    						        <img class="megamenu-icon-list-img" src="//assets.equifax.com/images/canada/personal-misc/icon_creditScores.svg" alt="">
+    							<strong>Credit scores</strong>
+    							    <small>Learn about credit scores, your creditworthiness and how credit scores are used in day to day life.</small>
+    						    </a>
+							    <ul class="megamenu-disc-list">
+							    </ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-12">
+                        <ul class="megamenu-icon-list">
+							<li>
+    						    <a href="/personal/education/identity">
+    						        <img class="megamenu-icon-list-img" src="//assets.equifax.com/images/canada/personal-misc/icon_identityTheft.svg" alt="">
+    							<strong>Identity theft</strong>
+    							    <small>Learn what you can do to better protect your information, and what you should be considering when it comes to identity theft.</small>
+    						    </a>
+							    <ul class="megamenu-disc-list">
+							    </ul>
+							</li>
+						</ul>
+					</div>
+				<div class="col-md-12">
+                    <a href="/personal/education">View all education<span class="glyphicon glyphicon-menu-right"></span></a>
+                </div>
+			</div>
+		</div>
+		<div class="col-md-6 mm_left">
+			<h3>Need help?</h3>
+			<div class="row">
+					<div class="col-md-12">
+                        <ul class="megamenu-list">
+							<li>
+    						    <a href="https://help-en.equifax.ca/s/">
+    							<strong>FAQ</strong>
+    						    </a>
+							    <ul class="megamenu-disc-list">
+                    			            <li><a href="https://help-en.equifax.ca/s/topic/0TO370000008o0YGAQ/equifax-credit-reports">Equifax Credit Reports</a></li>
+                    			            <li><a href="https://help-en.equifax.ca/s/topic/0TO370000008o0dGAA/equifax-credit-scores">Equifax Credit Scores</a></li>
+                    			            <li><a href="https://help-en.equifax.ca/s/topic/0TO370000008o0eGAA/equifax-credit-report-disputes">Credit Report Disputes</a></li>
+                    			            <li><a href="https://help-en.equifax.ca/s/topic/0TO370000008o0fGAA/identity-theft">Identity Theft</a></li>
+                    			            <li><a href="https://help-en.equifax.ca/s/topic/0TO370000008o0gGAA/equifax-products">Equifax Products</a></li>
+                    			            <li><a href="https://www.consumer.equifax.ca/canada/equifaxsecurity2017/en_ca/">2017 Cybersecurity Incident</a></li>
+							    </ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-12">
+                        <ul class="megamenu-list">
+							<li>
+    						    <a href="/personal/contact-us">
+    							<strong>Customer Care</strong>
+    							    <small>Need help? We are available by phone or email.</small>
+    						    </a>
+							    <ul class="megamenu-disc-list">
+							    </ul>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+
+			</li>
+			<li>
+					<a href="#" class="dropdown-submenu-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown-submenu">Credit Report Assistance</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown-submenu">
+    <div class="row">	
+		<div class="col-md-12 ">
+			<h3>Credit Report Assistance</h3>
+			<div class="row">
+					<div class="col-md-6">
+                        <ul class="megamenu-icon-list">
+									<li><a data-senna-off='true' href="http://assets.equifax.com/assets/canada/english/creditReportRequestForm.pdf" rel="nofollow">
+											<span class="ef-freecredit"></span><strong>Get Your Free Credit Report</strong><small>Learn how to get a free copy of your credit report from Equifax Canada.</small>
+										</a></li>
+									<li><a data-senna-off='true' href="" >
+											<span class="none"></span><strong></strong><small></small>
+										</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+                        <ul class="megamenu-icon-list">
+									<li><a  href="/personal/dispute-credit-report" >
+											<span class="none"></span><strong>Dispute Info on Your Credit Report</strong><small>Initiate an investigation if your credit report contains a potential inaccuracy.</small>
+										</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+
+			</li>
+</ul>
+<ul class="nav mega-secondary-nav-right">
+		<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_GcsBingSearch_  portlet-static portlet-static-end portlet-decorate  " id="p_p_id_GcsBingSearch_INSTANCE_personalsecondarynavca_" >
+		<span id="p_GcsBingSearch_INSTANCE_personalsecondarynavca"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_GcsBingSearch_INSTANCE_personalsecondarynavca">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown nav-item-search">
+	<form class="form-inline" action="https://www.consumer.equifax.ca/personal?p_p_id=GcsBingSearch&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_GcsBingSearch_mvcPath=%2Fsearch.jsp&_GcsBingSearch_scope=this-site&p_p_auth=67LygU7N" method="get" name="_GcsBingSearch_fm" onsubmit="_GcsBingSearch_search();  return false;">
+		<input name="p_p_id" type="hidden" value="GcsBingSearch" /><input name="p_p_lifecycle" type="hidden" value="0" /><input name="p_p_state" type="hidden" value="maximized" /><input name="p_p_mode" type="hidden" value="view" /><input name="_GcsBingSearch_mvcPath" type="hidden" value="&#x2f;search&#x2e;jsp" /><input name="_GcsBingSearch_scope" type="hidden" value="this-site" /><input name="p_p_auth" type="hidden" value="67LygU7N" />
+		<div class="form-group">			
+			<label for="nav-search" class="sr-only">Search</label>
+			<input class="form-control" id="nav-search" name="_GcsBingSearch_keywords" size="40" type="text" value="" placeholder="Search Equifax Personal"
+				maxlength="40" onblur="if(this.value == '') { this.value = 'Search Equifax Personal'; } " onfocus="if(this.value == 'Search Equifax Personal') { this.value = ''; } " />
+				<span class="fa fa-times-circle"></span>				
+		</div>
+		<button type="submit" class="btn btn-primary btn-xs"><span class="fa fa-fw fa-search"></span> <span class="visible-xs-inline-block">Search</span></button>
+	</form>		
+</div>
+
+<script>
+	function _GcsBingSearch_search() {
+		var keywords = document._GcsBingSearch_fm._GcsBingSearch_keywords.value;		
+		keywords = keywords.replace('Search Equifax Personal', '');
+		keywords = keywords.replace(/^\s+|\s+$/, '');
+		keywords = $.trim(keywords)
+		// tracking search
+		if (keywords != '' && keywords != 'Search Equifax Personal') {
+			document._GcsBingSearch_fm.submit();
+		}
+	}
+</script>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+</li>
+				<li>
+					<div class="efx-login-dropdown dropdown">	
+						<a href="https://www.econsumer.equifax.ca/canadaotc/showmyequifax.ehtml?locale_code=en_ca" _target class="btn btn-primary-outline dropdown-toggle" type="button" id="CustomerSignIn"  aria-haspopup="true" aria-expanded="true">
+							CUSTOMER LOG IN
+						</a>
+						<ul class="efx-login-dropdown-menu dropdown-menu dropdown-menu-right" aria-labelledby="CustomerSignIn">
+							<li><p class="efx-login-dropdown-title"></p></li>
+							<!-- Login section -->
+								<li>
+								  <a href="">
+									<span></span>
+									<p class="efx-login-dropdown-copy"></p>
+									<span class="efx-login-dropdown-arrow glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+								  </a>
+								</li>
+						</ul>
+					</div>
+				</li>
+</ul>
+			</li>	
+
+			<li  class=" dropdown dropdown-mega-menu-parent" id="layout_3">
+				<a  class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-expanded="false" aria-labelledby="layout_3"  href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;business"  onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;business_topnav';">
+				Business<span class="caret hidden-md hidden-lg"></span></a>
+				<ul class="dropdown-menu dropdown-mega-menu">
+			<li>
+					<a href="/business/all-products">All Products</a>
+			</li>
+			<li>
+					<a href="#" class="dropdown-submenu-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown-submenu">Industries & Business Needs</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown-submenu">
+    <div class="row">	
+		<div class="col-md-6	b2b-list-left">
+			<div class="b2b-list_title">Industries</div>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="b2b-list_options">
+						<li>
+							<a target="_self" href="/business/automotive">
+							 Automotive</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/banks-and-financial-institutions">
+							 Banks and Financial Institutions</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/business-services">
+							 Business Services</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/collection-agencies">
+							 Collection Agencies</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/credit-unions">
+							 Credit Unions</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/insurance-and-brokerage">
+							 Insurance and Brokerage</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="b2b-list_options">
+						<li>
+							<a target="_self" href="/business/public-sector">
+							 Public Sector</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/retail">
+							 Retail</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/small-business">
+							 Small Business</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/specialized-credit-grantors">
+							 Specialized Credit Grantors</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/telecommunications">
+							 Telecommunications</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/wholesalers-and-manufacturers">
+							 Wholesalers and Manufacturers</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6	b2b-list-left">
+			<div class="b2b-list_title">Business Needs</div>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="b2b-list_options">
+						<li>
+							<a target="_self" href="/business/acquire-new-customers">
+							 Acquire New Customers</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/customer-and-market-insights">
+							 Gain Insights on Customers and Markets</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/improve-collection-process">
+							 Improve the Collection Process</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/minimize-portfolio-risk">
+							 Minimize Portfolio Risk</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="b2b-list_options">
+						<li>
+							<a target="_self" href="/business/process-credit-applications">
+							 Process Credit Applications</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/reduce-fraud-loss">
+							 Reduce Loss Related to Fraud</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/run-my-small-business">
+							 Run My Small Business</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/verify-identity">
+							 Verify Identity</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+
+			</li>
+			<li>
+					<a href="#" class="dropdown-submenu-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown-submenu">Consulting</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown-submenu">
+    <div class="row">	
+		<div class="col-md-12	b2b-list-left">
+			<div class="b2b-list_title">Consulting</div>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="b2b-list_options">
+						<li>
+							<a target="_self" href="/business/consulting-services">
+							 Consulting Services</a>
+						</li>
+						<li>
+							<a target="_self" href="/business/areas-of-expertise">
+							 Areas of Expertise</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="b2b-list_options">
+						<li>
+							<a target="_self" href="/business/consultant-profiles">
+							 Consultant Profiles</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+
+			</li>
+			<li>
+					<a href="/business/resources">Resources</a>
+			</li>
+</ul>
+<ul class="nav mega-secondary-nav-right">
+				<li>
+					<div class="efx-login-dropdown dropdown">	
+						<a href="https://www.equifax.ca/credit/" _target class="btn btn-primary-outline dropdown-toggle" type="button" id="CustomerSignIn"  aria-haspopup="true" aria-expanded="true">
+							LOGIN
+						</a>
+						<ul class="efx-login-dropdown-menu dropdown-menu dropdown-menu-right" aria-labelledby="CustomerSignIn">
+							<li><p class="efx-login-dropdown-title"></p></li>
+							<!-- Login section -->
+								<li>
+								  <a href="">
+									<span></span>
+									<p class="efx-login-dropdown-copy"></p>
+									<span class="efx-login-dropdown-arrow glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+								  </a>
+								</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="efx-login-dropdown dropdown">	
+						<a href="/business/contact-us" _self class="btn btn-primary-outline dropdown-toggle" type="button" id="CustomerSignIn"  aria-haspopup="true" aria-expanded="true">
+							CONTACT US
+						</a>
+						<ul class="efx-login-dropdown-menu dropdown-menu dropdown-menu-right" aria-labelledby="CustomerSignIn">
+							<li><p class="efx-login-dropdown-title"></p></li>
+							<!-- Login section -->
+								<li>
+								  <a href="">
+									<span></span>
+									<p class="efx-login-dropdown-copy"></p>
+									<span class="efx-login-dropdown-arrow glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+								  </a>
+								</li>
+						</ul>
+					</div>
+				</li>
+</ul>
+			</li>	
+
+			<li  class=" dropdown" id="layout_4" role="presentation">
+				<a  class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-labelledby="layout_4"  href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">
+					<span> About Us</span> <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+						<li  class="about-home" id="layout_extra_4" role="presentation">
+							<a aria-labelledby="layout_extra_4" href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">Home</a>
+						</li>
+
+
+						<li  class="" id="layout_118" role="presentation">
+							<a aria-labelledby="layout_118" href="https&#x3a;&#x2f;&#x2f;careers&#x2e;equifax&#x2e;com"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">Careers</a>
+						</li>
+
+
+						<li  class="" id="layout_115" role="presentation">
+							<a aria-labelledby="layout_115" href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax&#x2f;company-profile"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">Company Profile</a>
+						</li>
+
+
+						<li  class="" id="layout_116" role="presentation">
+							<a aria-labelledby="layout_116" href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax&#x2f;corporate-leadership"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">Corporate Leadership</a>
+						</li>
+
+
+						<li  class="" id="layout_117" role="presentation">
+							<a aria-labelledby="layout_117" href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax&#x2f;corporate-governance"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">Corporate Governance</a>
+						</li>
+
+
+						<li  class="" id="layout_119" role="presentation">
+							<a aria-labelledby="layout_119" href="http&#x3a;&#x2f;&#x2f;investor&#x2e;equifax&#x2e;com&#x2f;"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">Investor Relations</a>
+						</li>
+
+
+						<li  class="" id="layout_120" role="presentation">
+							<a aria-labelledby="layout_120" href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax&#x2f;media-contacts"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">Media Contacts</a>
+						</li>
+
+
+						<li  class="" id="layout_121" role="presentation">
+							<a aria-labelledby="layout_121" href="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax&#x2f;press-releases"  role="menuitem" onclick="s_objectID='https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;about-equifax_topnav';">Press Releases</a>
+						</li>
+				</ul>
+			</li>
+</ul>
+					
+<ul class="nav navbar-nav navbar-right nav-utility">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    <li class="nav-item" >
+		        <a href="/personal/contact-us"  onclick="s_objectID='/personal/contact-us_header';"><span class="fa fa-phone"></span>Support</a>
+		    </li>
+		
+
+
+			<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_  portlet-static portlet-static-end portlet-decorate portlet-language " id="p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_INSTANCE_personalheader2_" >
+		<span id="p_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_INSTANCE_personalheader2"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_INSTANCE_personalheader2">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<ul class="nav-item-language">
+    	<li>    
+
+<a href="&#x2f;c&#x2f;portal&#x2f;update_language&#x3f;p_l_id&#x3d;224839&#x26;redirect&#x3d;&#x25;2Fpersonal&#x25;2F&#x26;languageId&#x3d;fr_FR" lang="fr-FR" >French</a>        </li>
+    	<li>    
+
+<span lang="en-US" >English</span>        </li>
+</ul>
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	function updateCurrentCountry(site){	
+		if (site == ""){
+			site = "United States"
+		}
+		if(site == "España" && conSite){
+			site = "Spain"
+		}
+		var site_css = site.replace(" ", ".");
+
+		// Update Flag 
+		$("li.nav-item-locale a img:first").attr("src" , $("#country-dropdown li." + site_css + " a img").attr("src"));
+		$("li.nav-item-locale a img:first").attr("alt" , site);
+		$("li.nav-item-locale a img:first").attr("title" , site);
+		
+		// Bring Country Up
+		$("#country-dropdown li." + site_css).parent().prepend($("#country-dropdown li." + site_css));
+	}
+	var conSite = false;
+</script>
+
+<li class="dropdown nav-item-locale">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    <img src="//assets.equifax.com/global/images/flags/US_27x27.png">
+    <span class="caret"></span>
+    </a>
+      
+    <ul  id="country-dropdown" class="dropdown-menu">
+      		    <li class="Argentina">
+            <a data-senna-off="true" href="http://soluciones.equifax.com.ar/" onclick="s_objectID='http://soluciones.equifax.com.ar/_header';">
+                <img src="//assets.equifax.com/global/images/flags/Argentina_27x27.png" alt="Locale icon">
+                <span>Argentina 
+</span>
+            </a>
+            </li>
+		    <li class="Australia">
+            <a data-senna-off="true" href="https://www.equifax.com.au/" onclick="s_objectID='https://www.equifax.com.au/_header';">
+                <img src="//assets.equifax.com/global/images/flags/australia_27x27.png" alt="Locale icon">
+                <span>Australia 
+</span>
+            </a>
+            </li>
+		    <li class="Canada">
+            <a data-senna-off="true" href="https://www.consumer.equifax.ca/personal" onclick="s_objectID='https://www.consumer.equifax.ca/personal_header';">
+                <img src="//assets.equifax.com/global/images/flags/Canada_27x27.png" alt="Locale icon">
+                <span>Canada 
+</span>
+            </a>
+            </li>
+		    <li class="Chile">
+            <a data-senna-off="true" href="http://soluciones.equifax.cl/" onclick="s_objectID='http://soluciones.equifax.cl/_header';">
+                <img src="//assets.equifax.com/global/images/flags/Chile_27x27.png" alt="Locale icon">
+                <span>Chile 
+</span>
+            </a>
+            </li>
+		    <li class="Costa Rica">
+            <a data-senna-off="true" href="//www.equifax.co.cr" onclick="s_objectID='//www.equifax.co.cr_header';">
+                <img src="//assets.equifax.com/global/images/flags/CostaRica_27x27.png" alt="Locale icon">
+                <span>Costa Rica 
+</span>
+            </a>
+            </li>
+		    <li class="Ecuador">
+            <a data-senna-off="true" href="http://www.equifax.ec" onclick="s_objectID='http://www.equifax.ec_header';">
+                <img src="//assets.equifax.com/global/images/flags/Equador_27x27.png" alt="Locale icon">
+                <span>Ecuador 
+</span>
+            </a>
+            </li>
+		    <li class="El Salvador">
+            <a data-senna-off="true" href="http://www.equifax.sv/" onclick="s_objectID='http://www.equifax.sv/_header';">
+                <img src="//assets.equifax.com/global/images/flags/ElSalvador_27x27.png" alt="Locale icon">
+                <span>El Salvador 
+</span>
+            </a>
+            </li>
+		    <li class="Honduras">
+            <a data-senna-off="true" href="http://www.equifax.hn" onclick="s_objectID='http://www.equifax.hn_header';">
+                <img src="//assets.equifax.com/global/images/flags/Honduras_27x27.png" alt="Locale icon">
+                <span>Honduras 
+</span>
+            </a>
+            </li>
+		    <li class="India">
+            <a data-senna-off="true" href="//www.equifax.co.in" onclick="s_objectID='//www.equifax.co.in_header';">
+                <img src="//assets.equifax.com/global/images/flags/India_27x27.png" alt="Locale icon">
+                <span>India 
+</span>
+            </a>
+            </li>
+		    <li class="Mexico">
+            <a data-senna-off="true" href="//www.equifax.com.mx/es/empresa" onclick="s_objectID='//www.equifax.com.mx/es/empresa_header';">
+                <img src="//assets.equifax.com/global/images/flags/Mexico_27x27.png" alt="Locale icon">
+                <span>Mexico 
+</span>
+            </a>
+            </li>
+		    <li class="New Zealand">
+            <a data-senna-off="true" href="https://www.equifax.co.nz/" onclick="s_objectID='https://www.equifax.co.nz/_header';">
+                <img src="//assets.equifax.com/global/images/flags/newZealand_27x27.png" alt="Locale icon">
+                <span>New Zealand 
+</span>
+            </a>
+            </li>
+		    <li class="Paraguay">
+            <a data-senna-off="true" href="http://soluciones.equifax.com.py" onclick="s_objectID='http://soluciones.equifax.com.py_header';">
+                <img src="//assets.equifax.com/global/images/flags/Paraguay_27x27.png" alt="Locale icon">
+                <span>Paraguay 
+</span>
+            </a>
+            </li>
+		    <li class="Peru">
+            <a data-senna-off="true" href="http://www.equifax.pe" onclick="s_objectID='http://www.equifax.pe_header';">
+                <img src="//assets.equifax.com/global/images/flags/Peru_27x27.png" alt="Locale icon">
+                <span>Peru 
+</span>
+            </a>
+            </li>
+		    <li class="Portugal">
+            <a data-senna-off="true" href="http://www.equifax.pt" onclick="s_objectID='http://www.equifax.pt_header';">
+                <img src="//assets.equifax.com/global/images/flags/Portugual_27x27.png" alt="Locale icon">
+                <span>Portugal 
+</span>
+            </a>
+            </li>
+		    <li class="Russia">
+            <a data-senna-off="true" href="http://www.equifax.ru/" onclick="s_objectID='http://www.equifax.ru/_header';">
+                <img src="//assets.equifax.com/global/images/flags/Russia_27x27.png" alt="Locale icon">
+                <span>Russia 
+</span>
+            </a>
+            </li>
+		    <li class="Spain">
+            <a data-senna-off="true" href="//soluciones.equifax.es" onclick="s_objectID='//soluciones.equifax.es_header';">
+                <img src="//assets.equifax.com/global/images/flags/Spain_27x27.png" alt="Locale icon">
+                <span>Spain 
+</span>
+            </a>
+            </li>
+				<script>			
+					conSite = true;
+				</script>
+		    <li class="United Kingdom">
+            <a data-senna-off="true" href="//www.equifax.co.uk/" onclick="s_objectID='//www.equifax.co.uk/_header';">
+                <img src="//assets.equifax.com/global/images/flags/UK_27x27.png" alt="Locale icon">
+                <span>United Kingdom 
+</span>
+            </a>
+            </li>
+		    <li class="United States">
+            <a data-senna-off="true" href="https://www.equifax.com/personal" onclick="s_objectID='https://www.equifax.com/personal_header';">
+                <img src="//assets.equifax.com/global/images/flags/US_27x27.png" alt="Locale icon">
+                <span>United States 
+</span>
+            </a>
+            </li>
+		    <li class="Uruguay">
+            <a data-senna-off="true" href="http://www.equifax.uy" onclick="s_objectID='http://www.equifax.uy_header';">
+                <img src="//assets.equifax.com/global/images/flags/Uruguay_27x27.png" alt="Locale icon">
+                <span>Uruguay 
+</span>
+            </a>
+            </li>
+    </ul>
+</li>
+
+
+<script>			
+    updateCurrentCountry(currentSite);
+</script>
+
+			   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					 <link href="//assets.equifax.com/global/css/global_mkt_gcs.css?v=05142019v4" rel="stylesheet">
+					 <script src="//assets.equifax.com/global/js/jquery.mobile.custom.min.js?v=05142019v4" type="text/javascript"></script>
+					 <script src="//assets.equifax.com/global/js/global_mkt_gcs.js?v=05142019v4" type="text/javascript"></script>
+					 <link href="//assets.equifax.com/global/css/lockandalert.css?v=05142019v4" rel="stylesheet">
+
+
+</ul>
+<div style="display:none">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_portal_search_web_portlet_SearchPortlet_  portlet-static portlet-static-end portlet-decorate portlet-search " id="p_p_id_com_liferay_portal_search_web_portlet_SearchPortlet_" >
+		<span id="p_com_liferay_portal_search_web_portlet_SearchPortlet"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_portal_search_web_portlet_SearchPortlet">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;personal&#x3f;p_p_id&#x3d;com_liferay_portal_search_web_portlet_SearchPortlet&#x26;p_p_lifecycle&#x3d;0&#x26;p_p_state&#x3d;maximized&#x26;p_p_mode&#x3d;view&#x26;_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath&#x3d;&#x25;2Fsearch&#x2e;jsp&#x26;_com_liferay_portal_search_web_portlet_SearchPortlet_redirect&#x3d;https&#x25;3A&#x25;2F&#x25;2Fwww&#x2e;consumer&#x2e;equifax&#x2e;ca&#x25;2Fpersonal&#x25;3Fp_p_id&#x25;3Dcom_liferay_portal_search_web_portlet_SearchPortlet&#x25;26p_p_lifecycle&#x25;3D0&#x25;26p_p_state&#x25;3Dnormal&#x25;26p_p_mode&#x25;3Dview" class="form  " data-fm-namespace="_com_liferay_portal_search_web_portlet_SearchPortlet_" id="_com_liferay_portal_search_web_portlet_SearchPortlet_fm" method="get" name="_com_liferay_portal_search_web_portlet_SearchPortlet_fm" >
+	
+		<fieldset class="input-container" disabled="disabled">
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"     type="hidden" value="1557973105572"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+	<input name="p_p_id" type="hidden" value="com_liferay_portal_search_web_portlet_SearchPortlet" /><input name="p_p_lifecycle" type="hidden" value="0" /><input name="p_p_state" type="hidden" value="maximized" /><input name="p_p_mode" type="hidden" value="view" /><input name="_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath" type="hidden" value="&#x2f;search&#x2e;jsp" /><input name="_com_liferay_portal_search_web_portlet_SearchPortlet_redirect" type="hidden" value="https&#x3a;&#x2f;&#x2f;www&#x2e;consumer&#x2e;equifax&#x2e;ca&#x2f;personal&#x3f;p_p_id&#x3d;com_liferay_portal_search_web_portlet_SearchPortlet&#x26;p_p_lifecycle&#x3d;0&#x26;p_p_state&#x3d;normal&#x26;p_p_mode&#x3d;view" />
+
+	<fieldset class="fieldset " ><div class="">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group form-group-inline input-text-wrapper">
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field search-input form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_keywords"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_keywords"   placeholder="Search" title="Search" type="text" value=""  size="30"  />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+		<button style="display:none" type="submit"></button>
+
+		
+
+		
+
+		
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_scope"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_scope"     type="hidden" value="this-site"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+			
+		
+
+		<div class="lfr-ddm-field-group lfr-ddm-field-group-inline field-wrapper" >
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<span
+			class="icon-monospaced"
+			
+		>
+			
+				
+					<a href="javascript&#x3a;&#x3b;" target="_self" class=" lfr-icon-item taglib-icon" id="_com_liferay_portal_search_web_portlet_SearchPortlet_rjus__null__null" onClick="_com_liferay_portal_search_web_portlet_SearchPortlet_search();" >
+						<span  id="qfkd__null__null"><svg class="lexicon-icon lexicon-icon-search" focusable="false" role="presentation" title="" ><use data-href="https://efxliferay.azureedge.net/o/dxp-generic-theme/images/lexicon/icons.svg#search"></use></svg></span>
+		
+		
+
+	
+		
+			<span class="taglib-text hide-accessible"></span>
+					</a>
+				
+				
+		</span>
+	
+
+
+
+		</div>
+	</div></fieldset>
+
+	<script type="text/javascript">
+// <![CDATA[
+
+		function _com_liferay_portal_search_web_portlet_SearchPortlet_search() {
+			var keywords = document._com_liferay_portal_search_web_portlet_SearchPortlet_fm._com_liferay_portal_search_web_portlet_SearchPortlet_keywords.value;
+
+			keywords = keywords.replace(/^\s+|\s+$/, '');
+
+			if (keywords != '') {
+				submitForm(document._com_liferay_portal_search_web_portlet_SearchPortlet_fm);
+			}
+		}
+	
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		</fieldset>
+	
+</form>
+
+<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-form', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_com_liferay_portal_search_web_portlet_SearchPortlet_fm'
+
+			
+				, fieldRules: [
+
+					
+
+				]
+			
+
+			
+				, onSubmit: function(event) {
+					_com_liferay_portal_search_web_portlet_SearchPortlet_search(); event.preventDefault();
+				}
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'com_liferay_portal_search_web_portlet_SearchPortlet') {
+			delete Liferay.Form._INSTANCES['_com_liferay_portal_search_web_portlet_SearchPortlet_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+		A.all('#_com_liferay_portal_search_web_portlet_SearchPortlet_fm .input-container').removeAttribute('disabled');
+	
+
+	Liferay.fire('_com_liferay_portal_search_web_portlet_SearchPortlet_formReady');
+})();});
+// ]]>
+</script>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+</div>
+			</div>
+	</nav>	
+</div>
+	</header>
+
+
+		
+	<section id="content">
+		
+		
+		<script src="//shop.equifax.com/orderfunnel/tag-management/data-layer.js"></script>
+		<script src="//assets.equifax.com/global/js/canada/digital-data-enrichment.min.js"></script>	
+	
+	<script type="text/javascript">		
+			var enrName = "Personal";
+			var enrPage = "home";
+		
+		var enrID = "136";
+		var enrBU = "gcs";
+		
+			var cookie = "pa";
+			enrichDigitalDataCA(enrName, enrPage,enrID,enrBU, "en_ca","ca");
+   </script> 
+   
+   		<script src="//nexus.ensighten.com/equifax/ca_public_prod/Bootstrap.js"></script>	
+	<script type="text/javascript">	
+    	//var evt =new CustomEvent('atx-target-call-ready',{detail:{mbox:'target-global-mbox'}});
+    	//document.dispatchEvent(evt);
+
+		function callTarget() {
+			adobe.target.getOffer({
+		       	mbox: 'target-global-mbox',
+		        params: {
+		           	trigger: 'spaHandler'
+		        },
+		        success: function(offer) {
+		        	adobe.target.applyOffer({
+		            	mbox: 'target-global-mbox',
+		            	offer: offer
+		        	});
+		    	},
+		    	error: function(status, error) {
+		    	}
+			});
+		}
+			
+		if(typeof window.Analytics != 'undefined' && window.Analytics){
+			callTarget();
+       		window.Analytics.trackEvent('AJAXPAGELOAD');
+       	}
+       	if(location.search != ''){
+		    var params = (location.search).split('?')[1];
+		    var par = params.split('&');
+		    var pcid ='';
+		    for(var i=0; i< par.length; i++){
+		        var part = par[i].split('=');
+		        if(part[0]==cookie){
+		            pcid = part[1];
+		            break;
+		        }
+		    }
+		}       	
+       	if(pcid !== undefined && pcid != ''){
+		    document.cookie = cookie+"="+pcid+";path=/";
+		}
+   </script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="8x4_Wide_Full_Wide_Full" id="main-content" role="main">
+	
+		<div class="container-fluid-970">
+			<div class="col-md-8 portlet-column portlet-column-first" id="column-1">
+				<div class="portlet-dropzone empty portlet-column-content portlet-column-content-first" id="layout-column_column-1"></div>
+			</div>
+			<div class="col-md-4 portlet-column portlet-column-last" id="column-2">
+				<div class="portlet-dropzone empty portlet-column-content portlet-column-content-last" id="layout-column_column-2"></div>
+			</div>
+		</div>	
+		
+		<div class="container-fluid">
+			<div class="portlet-layout row">
+				<div class="col-md-12 portlet-column portlet-column-only" id="column-3">
+					<div class="portlet-dropzone empty portlet-column-content portlet-column-content-only" id="layout-column_column-3"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid-970">
+			<div class="portlet-layout row">
+				<div class="col-md-12 portlet-column portlet-column-only" id="column-4">
+					<div class="portlet-dropzone empty portlet-column-content portlet-column-content-only" id="layout-column_column-4"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="portlet-layout row">
+				<div class="col-md-12 portlet-column portlet-column-only" id="column-5">
+					<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-5">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_uuWivZLrJjP3_" >
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_uuWivZLrJjP3"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_uuWivZLrJjP3">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+					
+						
+						<div class="text-right user-tool-asset-addon-entries">
+							
+						</div>
+						<div class="clearfix journal-content-article" data-analytics-asset-id="263194" data-analytics-asset-title="Banner-Homepage-50-50" data-analytics-asset-type="web-content">
+							
+<div class="gcs-50-50-banner" style="background-image: url(//assets.equifax.com/images/canada/personal-banners/homeBannerCA_50_50.jpg)">
+    <div class="gcs-50-50-banner-container">
+        <div class="row row-flex">
+            <div class="col-sm-12 col-md-6">
+                <div class="gcs-50-50-banner-caption">
+                    <!-- Mobile Title -->
+						<div class="gcs-50-50-banner-title hidden-md hidden-lg">Empower Yourself with Credit Education</div>
+                    <!-- Desktop Title -->
+                    <div class="gcs-50-50-banner-title hidden-xs hidden-sm">Empower Yourself with Credit Education</div>
+                    
+                    <!-- Mobile Subhead/Description -->
+                         <div class="gcs-50-50-banner-copy hidden-md hidden-lg">Knowing the information in your credit report and understanding how it is used is an important step towards building your financial future.</div>
+                    
+                    <!-- Desktop Subhead/Description -->
+                    <div class="gcs-50-50-banner-copy hidden-xs hidden-sm">Knowing the information in your credit report and understanding how it is used is an important step towards building your financial future.</div>
+                    <!-- Tagline -->
+                    <div class="gcs-50-50-banner-tagline">Learn about credit and identity theft.</div>
+                    <!-- Button/Call to Action Wrapper -->
+                    <div class="gcs-50-50-banner-cta">
+                        <a href="/personal/education" class="btn btn-primary">EXPLORE OUR EDUCATION CENTRE</a>
+                    </div>
+                </div>
+            </div>
+            <!-- gcs-50-50-banner-featured-col class can be added to whichever column must be first in mobile -->
+            <div class="col-sm-12 col-md-6 gcs-50-50-banner-featured-col">
+                <div class="gcs-50-50-banner-caption">
+                    <!-- Mobile Title -->
+
+                        <div class="gcs-50-50-banner-title hidden-md hidden-lg">Manage Your Future</div>
+                    <!-- Desktop Title -->
+                    <div class="gcs-50-50-banner-title hidden-xs hidden-sm">Manage Your Future</div>
+                    <div class="gcs-50-50-banner-product hidden-xs hidden-sm">Equifax Complete<sup>TM</sup> Premier</div>
+                    <!-- Mobile Subhead/Description -->
+                        <div class="gcs-50-50-banner-copy hidden-md hidden-lg">Get tools you need to stay in control with Equifax Complete Premier, our most comprehensive credit monitoring product.</div>
+                    <!-- Desktop Subhead/Description -->
+                    <div class="gcs-50-50-banner-copy hidden-xs hidden-sm">Get tools you need to stay in control with Equifax Complete Premier, our most comprehensive credit monitoring product.</div>
+                    <!-- Disclaimer -->
+                    <div class="gcs-50-50-banner-disclaimer">Cancel at any time; no partial month refunds.<sup>1</sup></div>
+                    <!-- Button/Call to Action Wrapper -->
+                    <div class="gcs-50-50-banner-cta">
+							
+							<script>
+							window.onload = function (){
+							loadProductObject("CAUPLAN", "Equifax Complete<sup>TM</sup> Premier", "Our Most Comprehensive Credit Monitoring and Identity Theft Protection Product", "ca_default", "Default Category for Canada");
+							}
+
+							function calltracking(){
+							trackBuyEvent("CAUPLAN", "Equifax Complete<sup>TM</sup> Premier", "Our Most Comprehensive Credit Monitoring and Identity Theft Protection Product");
+							}
+							</script>
+							<a href="http://www.myservices.equifax.ca/CAWB2_cauplanr" class="btn btn-secondary" onclick="calltracking();">Get Started</a>
+							<span class="gcs-50-50-banner-product-price">$19.95/mo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+						</div>
+
+						
+					
+				
+			
+		
+	
+
+
+
+	<div class="content-metadata-asset-addon-entries">
+		
+	</div>
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid-970">
+			<div class="portlet-layout row">
+				<div class="col-md-12 portlet-column portlet-column-only" id="column-6">
+					<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-6">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9MfwMtqQ5Py6_" >
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9MfwMtqQ5Py6"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9MfwMtqQ5Py6">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+					
+						
+						<div class="text-right user-tool-asset-addon-entries">
+							
+						</div>
+						<div class="clearfix journal-content-article" data-analytics-asset-id="255960" data-analytics-asset-title="Basic-Information-Panel-Homepage" data-analytics-asset-type="web-content">
+							
+        
+
+
+
+<div class="basic-information-section">
+    
+    <div class="row">
+        
+        <div class="col-md-6">
+            <div class="basic-information-content">
+                
+                <div class="basic-information-content-header">Equifax Complete<sup>TM</sup> Premier  has  you covered.</div>
+
+                <p>Watching your credit file for unexpected changes is one of the best ways to spot early signs of identity theft or fraud, but sometimes that's not enough. 
+                         <a href="/personal/products/credit-score-report-monitoring">Learn More</a>
+                </p>
+
+                <div class="basic-information-features">
+                
+                        <figure>
+                            <img src="//assets.equifax.com/images/canada/personal-misc/monitorCredit-icon.svg" alt="icon1" />
+                            <figcaption>MONITOR YOUR CREDIT</figcaption>
+                        </figure>
+            <div class="basic-information-features-divider"><span class="fa fa-plus"></span></div>       
+                        <figure>
+                            <img src="//assets.equifax.com/images/canada/personal-misc/helpProtectCredit-icon.svg" alt="icon2" />
+                            <figcaption>HELP PROTECT YOUR IDENTITY</figcaption>
+                        </figure>
+                </div>
+            </div>
+        </div>
+       
+        <div class="col-md-6">
+            <div class="basic-information-related-content">
+
+                <div class="basic-information-callout">
+                    <div class="basic-information-callout-header">Key Benefits</div>
+                    <div class="basic-information-callout-list">
+                        <ul>
+	<li>Receive alerts of key changes to your Equifax credit report</li>
+	<li>Daily access to your Equifax credit score<sup>2</sup> for your educational use</li>
+	<li>Dedicated ID Restoration Specialists to help you recover from ID theft</li>
+	<li>Up to $50,000 in ID theft insurance<sup>3</sup></li>
+</ul>
+
+<p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+						</div>
+
+						
+					
+				
+			
+		
+	
+
+
+
+	<div class="content-metadata-asset-addon-entries">
+		
+	</div>
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_6shvyZCEYMM1_" >
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_6shvyZCEYMM1"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_6shvyZCEYMM1">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+					
+						
+						<div class="text-right user-tool-asset-addon-entries">
+							
+						</div>
+						<div class="clearfix journal-content-article" data-analytics-asset-id="255764" data-analytics-asset-title="Block-Information-Homepage" data-analytics-asset-type="web-content">
+							<div class="efx-list-content_wrapper">
+  <a class="anchor-link" id=""></a>
+  <div class="efx-container container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="text-center efx-l-pad-medium--bottom">
+            <h3 class="efx-list-content_title"><b>Help with your Equifax credit report</b></h3>
+            <!-- Optional Subtitle -->
+            <p class="efx-list-content_subtitle">I want to...</p>
+          </div>
+
+
+
+
+
+	
+
+          
+<ul class="efx-list-content alternate clearfix">
+
+
+
+  
+              <li class="col-sm-12 col-md-3 col-md-offset-3">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img class="efx-list-content_image" src="//assets.equifax.com/images/us/personal-misc/content-annual.png" alt=""/>
+                  </div>
+                  <div class="col-xs-12">
+                        <a href="//assets.equifax.com/assets/canada/english/creditReportRequestForm.pdf" class="efx-list-content_link">Get my free credit report</a>
+                  </div>
+                </div>
+              </li>
+
+  
+              <li class="col-sm-12 col-md-3">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img class="efx-list-content_image" src="//assets.equifax.com/images/us/personal-misc/content-dispute.png" alt=""/>
+                  </div>
+                  <div class="col-xs-12">
+                        <a href="/personal/dispute-credit-report" class="efx-list-content_link">Dispute something on my Equifax credit report</a>
+                  </div>
+                </div>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+						</div>
+
+						
+					
+				
+			
+		
+	
+
+
+
+	<div class="content-metadata-asset-addon-entries">
+		
+	</div>
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_7VgEjTtaiHH9_" >
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_7VgEjTtaiHH9"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_7VgEjTtaiHH9">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+					
+						
+						<div class="text-right user-tool-asset-addon-entries">
+							
+						</div>
+						<div class="clearfix journal-content-article" data-analytics-asset-id="229403" data-analytics-asset-title="personal-education-need-help" data-analytics-asset-type="web-content">
+							    <p style="margin-top: 10px;"><img alt="Question Icon" height="20" src="//assets.equifax.com/global/images/icons/gray_questionmark.svg" style="margin-right: 10px" width="20" />Didn't find what you need?&nbsp;<a href="https://help-en.equifax.ca/s">Check out our Frequently Asked Questions.</a></p>
+
+						</div>
+
+						
+					
+				
+			
+		
+	
+
+
+
+	<div class="content-metadata-asset-addon-entries">
+		
+	</div>
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oMWzdjoibHQl_" >
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oMWzdjoibHQl"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oMWzdjoibHQl">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+					
+						
+						<div class="text-right user-tool-asset-addon-entries">
+							
+						</div>
+						<div class="clearfix journal-content-article" data-analytics-asset-id="255967" data-analytics-asset-title="Homepage-Disclaimer-Display" data-analytics-asset-type="web-content">
+							
+    <div class="disclaimer-display">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="disclaimer-copy">
+                    <ol>
+                        <li><p>We will require you to provide your payment information when you sign
+  up. We will immediately charge your card the price stated and will
+  charge the card the price stated for each month you continue your
+  subscription. You may cancel at any time; however, we do not provide
+  partial month refunds.</p>
+</li>
+                        <li><p>The credit score provided under the offers described herein use the
+  Equifax Credit Score, which is a proprietary credit model developed by
+  Equifax. The Equifax Credit Score is intended for your own educational
+  use. It is also commercially available to third parties along with
+  numerous other credit scores and models in the marketplace. Please
+  keep in mind third parties may use a different score when evaluating
+  your creditworthiness. Also, third parties will take into
+  consideration items other than your credit score or information found
+  in your credit file, such as your income.</p>
+</li>
+                        <li><p>Identity theft insurance is underwritten by American Bankers
+  Insurance Company of Florida or its affiliates. The description herein
+  is a summary and intended for informational purposes only and does not
+  include all terms, conditions and exclusions of the policies
+  described. Please refer to the actual policies for terms, conditions
+  and exclusions of coverage. Coverage may not be available in all jurisdictions.</p>
+</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+						</div>
+
+						
+					
+				
+			
+		
+	
+
+
+
+	<div class="content-metadata-asset-addon-entries">
+		
+	</div>
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-decorate portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_s7239HWxFVQr_" >
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_s7239HWxFVQr"></span>
+
+
+
+	
+
+		
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_s7239HWxFVQr">
+
+
+	<div class="portlet-content">
+
+		
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+					
+						
+						<div class="text-right user-tool-asset-addon-entries">
+							
+						</div>
+						<div class="clearfix journal-content-article" data-analytics-asset-id="250006" data-analytics-asset-title="Disclaimer-Criteria-Display" data-analytics-asset-type="web-content">
+							    <p>Certain conditions, exclusions and limitations apply to all products, for details please refer to the&nbsp;<a href="/terms">Terms of Use</a>&nbsp;and your product documentation.</p>
+
+						</div>
+
+						
+					
+				
+			
+		
+	
+
+
+
+	<div class="content-metadata-asset-addon-entries">
+		
+	</div>
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+
+		
+	
+
+				
+				
+
+		
+
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+</div>
+				</div>
+			</div>
+		</div>
+			
+</div>
+
+
+<form action="#" id="hrefFm" method="post" name="hrefFm"><span></span></form>	</section>
+
+<footer id="footer" role="contentinfo">
+	<div class="container-fluid">
+					    <div class="row">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	    <div class="col-md-2">
+    	        <div class="footer-links">
+    	         <h4>WHO WE ARE</h4>
+    		        <ul>
+					<li>
+	                    <a href="/about-equifax"    onclick="s_objectID='/about-equifax_footer';">About Equifax </a>
+	                </li>
+					<li>
+	                    <a href="/about-equifax/press-releases"    onclick="s_objectID='/about-equifax/press-releases_footer';">Newsroom </a>
+	                </li>
+                	</ul>
+    		    </div>
+    		</div>
+    	    <div class="col-md-2">
+    	        <div class="footer-links">
+    	         <h4>EDUCATION CENTRE</h4>
+    		        <ul>
+					<li>
+	                    <a href="/personal/education/credit-report"    onclick="s_objectID='/personal/education/credit-report_footer';">Credit Reports Education </a>
+	                </li>
+					<li>
+	                    <a href="/personal/education/credit-score"    onclick="s_objectID='/personal/education/credit-score_footer';">Credit Scores Education </a>
+	                </li>
+					<li>
+	                    <a href="/personal/education/identity"    onclick="s_objectID='/personal/education/identity_footer';">Identity Theft Education </a>
+	                </li>
+                	</ul>
+    		    </div>
+    		</div>
+    	    <div class="col-md-2">
+    	        <div class="footer-links">
+    	         <h4>CREDIT REPORT ASSISTANCE</h4>
+    		        <ul>
+					<li>
+	                    <a href="//assets.equifax.com/assets/canada/english/creditReportRequestForm.pdf"  rel="nofollow"  onclick="s_objectID='//assets.equifax.com/assets/canada/english/creditReportRequestForm.pdf_footer';">Get My Free Credit Report </a>
+	                </li>
+					<li>
+	                    <a href="/personal/dispute-credit-report"    onclick="s_objectID='/personal/dispute-credit-report_footer';">Dispute Info on Credit Report </a>
+	                </li>
+                	</ul>
+    		    </div>
+    		</div>
+    	    <div class="col-md-2">
+    	        <div class="footer-links">
+    	         <h4>CUSTOMER SUPPORT</h4>
+    		        <ul>
+					<li>
+	                    <a href="/personal/contact-us"    onclick="s_objectID='/personal/contact-us_footer';">Contact a Customer Care Representative </a>
+	                </li>
+					<li>
+	                    <a href="https://help-en.equifax.ca/s/"    onclick="s_objectID='https://help-en.equifax.ca/s/_footer';">Frequently Asked Questions </a>
+	                </li>
+                	</ul>
+    		    </div>
+    		</div>
+
+
+    </div>
+    <div class="divider"></div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="footer-logo">
+            <img src="//assets.equifax.com/global/images/logos/logo_EFX_TM.png" alt="efx logo" width="51" height="15">
+        </div>
+    </div>
+    <div class="col-md-6">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-links">
+				<li>
+				<a href="/privacy"   onclick="s_objectID='/privacy_footer';">Privacy Policy </a>
+			</li>
+			<li>
+				<a href="/terms"   onclick="s_objectID='/terms_footer';">Terms of Use </a>
+			</li>
+			<li>
+				<a href="/legal-notice"   onclick="s_objectID='/legal-notice_footer';">Legal Notice </a>
+			</li>
+			<li>
+				<a href="/about-equifax/accessibility"   onclick="s_objectID='/about-equifax/accessibility_footer';">Accessibility </a>
+			</li>
+			<li>
+				<a href="/sitemap"   onclick="s_objectID='/sitemap_footer';">Sitemap </a>
+			</li>
+</ul>
+
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="copyright">
+            Copyright 2019 Equifax Inc. All rights reserved   Equifax and the Equifax marks used herein are trademarks of Equifax Inc.
+        </div>
+    </div>
+    <div class="col-md-4 col-md-offset-4">
+            <div class="footer-tagline">
+                <img class="img-responsive" alt="Powering the World with Knowledge" src="//assets.equifax.com/global/images/tagline/english_185x10.png" />
+            </div>
+    </div>
+</div>
+
+	</div>
+</footer>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$("#wrapper a:not([href^='http://"+location.hostname+"']):not([href^='#']):not([href^='/']):not([href^='mailto\\:']):not([href^='javascript']):not([href^='https://"+location.hostname+"'])").attr("target","_blank");
+    });
+</script>	<div id="lightbox" role="dialog" class="modal fade" style="display: none;" aria-hidden="true" tabindex="-1"> 
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button aria-label="Close" class="close" data-dismiss="modal" type="button"> <span aria-hidden="true">x</span> </button> 
+				</div>
+				<div class="modal-body">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	
+		
+
+			
+
+			
+		
+	
+
+	Liferay.BrowserSelectors.run();
+
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2fpersonal\x2f';
+		Liferay.currentURLEncoded = '\x252Fpersonal\x252F';
+
+	// ]]>
+</script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		
+
+		
+	
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	if (Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				attributeName: 'data-href',
+				polyfill: true
+			}
+		);
+	}
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_INSTANCE_personalheader2');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_INSTANCE_personalheader2_',
+			portletId: 'com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_INSTANCE_personalheader2',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dcom_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_INSTANCE_personalheader2\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9MfwMtqQ5Py6');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9MfwMtqQ5Py6_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9MfwMtqQ5Py6',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_9MfwMtqQ5Py6\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d5\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_6shvyZCEYMM1');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_6shvyZCEYMM1_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_6shvyZCEYMM1',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_6shvyZCEYMM1\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d5\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_s7239HWxFVQr');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 4,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_s7239HWxFVQr_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_s7239HWxFVQr',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_s7239HWxFVQr\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d4\x26p_p_col_count\x3d5\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_7VgEjTtaiHH9');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 2,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_7VgEjTtaiHH9_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_7VgEjTtaiHH9',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_7VgEjTtaiHH9\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d5\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oMWzdjoibHQl');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 3,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oMWzdjoibHQl_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oMWzdjoibHQl',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_oMWzdjoibHQl\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d3\x26p_p_col_count\x3d5\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('GcsBingSearch_INSTANCE_personalsecondarynavca');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_GcsBingSearch_INSTANCE_personalsecondarynavca_',
+			portletId: 'GcsBingSearch_INSTANCE_personalsecondarynavca',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dGcsBingSearch_INSTANCE_personalsecondarynavca\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_uuWivZLrJjP3');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_uuWivZLrJjP3_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_uuWivZLrJjP3',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_uuWivZLrJjP3\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-5\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_portal_search_web_portlet_SearchPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_portal_search_web_portlet_SearchPortlet_',
+			portletId: 'com_liferay_portal_search_web_portlet_SearchPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d224839\x26p_p_id\x3dcom_liferay_portal_search_web_portlet_SearchPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fpersonal\x252F\x26settingsScope\x3dportletInstance',
+			refreshURLData: {}
+		}
+	);
+Liferay.Loader.require('metal-dom/src/all/dom', 'metal-uri/src/Uri', function(metalDomSrcAllDom, metalUriSrcUri) {
+(function(){
+var dom = metalDomSrcAllDom;
+var metalUriSrcUri1 = metalUriSrcUri;
+(function() {var $ = AUI.$;var _ = AUI._;
+	var Uri = metalUriSrcUri.default;
+	var pathnameRegexp = /\/documents\/(\d+)\/(\d+)\/(.+)\/(.+)/;
+
+	var downloadClickHandler = dom.delegate(
+		document.body,
+		'click',
+		'a',
+		function(event) {
+			if (window.Analytics) {
+				var anchor = event.delegateTarget;
+				var uri = new Uri(anchor.href);
+
+				var match = pathnameRegexp.exec(uri.getPathname());
+
+				if (match) {
+					Analytics.send(
+						'documentDownloaded',
+						'Document',
+						{
+							groupId: match[1],
+							fileEntryUUID: match[4],
+							preview: !!window._com_liferay_document_library_analytics_isViewFileEntry,
+							title: decodeURIComponent(match[3].replace(/\+/ig, ' ')),
+							version: uri.getParameterValue('version')
+						}
+					);
+				}
+			}
+		}
+	);
+
+	var onDestroyPortlet = function() {
+		downloadClickHandler.removeListener()
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	}
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();})();
+},
+function(error) {
+console.error(error);
+});AUI().use('aui-tooltip', 'liferay-menu', 'liferay-notice', 'aui-base', 'liferay-session', 'liferay-poller', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	if (A.UA.mobile) {
+		Liferay.Util.addInputCancel();
+	}
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	if (!Liferay.Data.LFR_PORTAL_TOOLTIP) {
+		var triggerShowEvent = ['mouseenter', 'MSPointerDown', 'touchstart'];
+
+		if (A.UA.ios) {
+			triggerShowEvent = ['touchstart'];
+		}
+
+		Liferay.Data.LFR_PORTAL_TOOLTIP = new A.TooltipDelegate(
+			{
+				constrain: true,
+				opacity: 1,
+				trigger: '.lfr-portal-tooltip',
+				triggerHideEvent: ['click', 'mouseleave', 'MSPointerUp', 'touchend'],
+				triggerShowEvent: triggerShowEvent,
+				visible: false,
+				zIndex: Liferay.zIndex.TOOLTIP
+			}
+		);
+	}
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 1; i < liferayNotices.length; i++) {
+		new Liferay.Notice(liferayNotices[i]);
+	}
+
+	
+})();(function() {var $ = AUI.$;var _ = AUI._;
+			Liferay.Session = new Liferay.SessionBase(
+				{
+					autoExtend: true,
+					redirectOnExpire: false,
+					redirectUrl: 'https\x3a\x2f\x2fwww\x2econsumer\x2eequifax\x2eca\x2fweb\x2fguest',
+					sessionLength: 900,
+					warningLength: 0
+				}
+			);
+
+			
+		})();});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://efxliferay.azureedge.net/o/dxp-generic-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=7010&amp;t=1555024096000" type="text/javascript"></script>
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		AUI().use(
+			'aui-base',
+			function(A) {
+				var frameElement = window.frameElement;
+
+				if (frameElement && frameElement.getAttribute('id') === 'simulationDeviceIframe') {
+					A.getBody().addClass('lfr-has-simulation-panel');
+				}
+			}
+		);
+	// ]]>
+</script><script>
+	var PATH_PORTLET_CONFIGURATION_CSS_WEB = '/o/portlet-configuration-css-web';
+
+	AUI().applyConfig(
+		{
+			groups: {
+				portlet_css: {
+					base: PATH_PORTLET_CONFIGURATION_CSS_WEB + '/js/',
+					modules: {
+						'liferay-look-and-feel': {
+							path: 'look_and_feel.js',
+							requires: [
+								'aui-color-picker-popover',
+								'aui-io-plugin-deprecated',
+								'aui-io-request',
+								'aui-tabview',
+								'liferay-portlet-url',
+								'liferay-util-window',
+								'liferay-widget-zindex'
+							]
+						}
+					},
+					root: PATH_PORTLET_CONFIGURATION_CSS_WEB + '/js/'
+				}
+			}
+		}
+	);
+
+	Liferay.provide(
+		Liferay.Portlet,
+		'loadCSSEditor',
+		function(portletId, baseActionURL, baseRenderURL, baseResourceURL) {
+			Liferay.PortletCSS.init(portletId, baseActionURL, baseRenderURL, baseResourceURL);
+		},
+		['liferay-look-and-feel']
+	);
+</script>
+</body>
+
+</html>
+

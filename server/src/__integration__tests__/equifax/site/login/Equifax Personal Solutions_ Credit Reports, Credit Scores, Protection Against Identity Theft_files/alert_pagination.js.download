@@ -1,0 +1,129 @@
+function paginateMe(){	
+//how much items per page to show
+
+//alert('inside paginate me');
+var show_per_page = 8;
+//getting the amount of elements inside content div
+var number_of_items = $('#alertsHTML div.alertContent').length;
+
+//if (number_of_items > show_per_page){
+//calculate the number of pages we are going to have
+var number_of_pages = Math.ceil(number_of_items/show_per_page);
+
+var show_div_content = document.getElementById('showDiv').innerHTML;
+
+var txt_of ='of';
+var txt_pages ='pages';
+var txt_next='Next';
+var txt_previous='Previous';
+
+if(show_div_content != 'Hide all'){
+	 txt_of ='sur';
+	 txt_pages ='pages';
+	 txt_previous='page pr&eacute;c&eacute;dente';
+	 txt_next='page suivante';
+	
+}
+
+//set the value of our hidden input fields
+$('#current_page').val(0);
+$('#show_per_page').val(show_per_page);
+
+var foo = number_of_pages-1;
+//now when we got all we need for the navigation let's make it '
+
+/*
+what are we going to have in the navigation?
+- link to previous page
+- links to specific pages
+- link to next page
+*/
+var navigation_html = '';
+	if(number_of_items > show_per_page) {
+	navigation_html += '<div id="alertNumDiv" class="alertNum"><span>'+(parseInt($('#current_page').val())+1)+'</span> '+txt_of+' <span>'+number_of_pages+'</span> '+txt_pages+'</div>';
+	 
+	navigation_html += '<div class="alertNumArrow"><a href="javascript:previous();" class="alertPrev_active" title="'+txt_previous+'"></a>';
+	navigation_html += '<a href="javascript:next();" class="alertNext_active" title="'+txt_next+'"></a>';
+	navigation_html += '<div class="clear"></div></div>';
+	}else if(number_of_items > 0 && number_of_items < show_per_page){
+		navigation_html += '<div id="alertNumDiv" class="alertNum"><span>1</span> '+txt_of+' <span>1</span> '+txt_pages+'</div>';
+		 
+		navigation_html += '<div class="alertNumArrow"><a href="#" class="alertPrev_inactive" title="'+txt_previous+'"></a>';
+		navigation_html += '<a href="#" class="alertNext_inactive" title="'+txt_next+'"></a>';
+		navigation_html += '<div class="clear"></div></div>';
+	}
+
+/*
+navigation_html += '<a class="page_link_first inactive_page" href="javascript:go_to_page(' + 0 +')" > << First</a> &nbsp;';
+
+navigation_html += ' &nbsp;<a class="previous_link inactive_page" href="javascript:previous();"> < Prev </a> &nbsp; ';
+navigation_html += ' &nbsp;<a class="next_link" href="javascript:next();"> Next > </a> &nbsp; ';
+
+navigation_html += ' &nbsp;<a class="page_link_last" href="javascript:go_to_page(' + foo +')" > Last >> </a> &nbsp;';
+*/
+$('#alertSlider').html(navigation_html);
+
+//hide all the elements inside content div
+$('#alertsHTML').children().css('display', 'none');
+
+//and show the first n (show_per_page) elements
+$('#alertsHTML').children().slice(0, show_per_page).css('display', 'block');
+//$('#alertSlider').css('display','block');
+//}
+}
+
+function previous(){
+new_page = parseInt($('#current_page').val()) - 1;
+//if there is an item before the current active link run the function
+if(new_page >= 0){
+go_to_page(new_page);
+}
+}
+
+function next(){
+var show_per_page = 8;
+var number_of_items = $('#alertsHTML div.alertContent').length;
+var number_of_pages = Math.ceil(number_of_items/show_per_page);
+var foo = number_of_pages-1;
+
+new_page = parseInt($('#current_page').val()) + 1;
+//if there is an item after the current active link run the function
+if(new_page <= foo){
+go_to_page(new_page);
+}
+}
+
+function go_to_page(page_num){
+//get the number of items shown per page
+var show_per_page = parseInt($('#show_per_page').val());
+
+//get the element number where to start the slice from
+start_from = page_num * show_per_page;
+
+//get the element number where to end the slice
+end_on = start_from + show_per_page;
+
+//hide all children elements of content div, get specific items and show them
+$('#alertsHTML').children().css('display', 'none').slice(start_from, end_on).css('display', 'block');
+
+//update the current page input field
+$('#current_page').val(page_num);
+
+//smart links
+$('#alertSlider a').removeClass('inactive_page');
+var number_of_items = $('#alertsHTML div.alertContent').length;
+var number_of_pages = Math.ceil(number_of_items/show_per_page);
+var foo = number_of_pages-1;
+if(page_num==0) {
+//$('#alertSlider .page_link_first').addClass('inactive_page');
+$('#alertSlider .alertPrev').addClass('inactive_page');
+} 
+if(page_num==foo) {
+//$('#alertSlider .page_link_last').addClass('inactive_page');
+$('#alertSlider .alertNext').addClass('inactive_page');
+} 
+var page_html ='<span>'+(parseInt($('#current_page').val())+1)+'</span> of <span>'+number_of_pages+'</span> pages';
+
+$('#alertNumDiv').html(page_html);
+scroll(0,0);
+}

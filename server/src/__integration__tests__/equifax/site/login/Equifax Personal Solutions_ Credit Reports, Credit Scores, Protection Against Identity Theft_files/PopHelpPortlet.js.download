@@ -1,0 +1,142 @@
+// source code from www.myfico.com
+
+var box; // Global variable... we'll be using this one a lot.
+
+function setupPops() { // Execute this on pageload
+box = document.getElementById("popbox"); // get the box
+var divs = document.getElementsByTagName("div"); // get all the divs
+var links = document.getElementsByTagName("a"); // get all the links
+
+  for(var i = 0; i < divs.length; i++) { // loop through the divs ...
+		if (divs[i].className == "helptext") { // ... and choose only the divs that are in the helptext class ...
+			divs[i].className += " hideElement"; // ... then append another class to hide them (that leading space is important!).		
+		}
+	}
+	for(var  i = 0; i < links.length; i++) { // loop through the links ...
+		if (links[i].className == "help") { // ... and choose only the links that are in the help class.
+			links[i].onclick = function(e) { // when the link is clicked ...
+			showHelp(this.href.replace( /.*?#(.*)/g, "$1" )); // ... call the function and pass the id of the target element ...
+			placePop(e);	// ... put the pop on the click ...
+			return false; // ... and overrule the normal link behavior.
+			}
+			links[i].onblur = function() { // when the trigger loses focus ...
+				box.className = "hideElement"; // ... hide the box.
+			}
+		}
+	}
+divs = null; // empty the array to prevent memory leaks
+links = null; // empty the array to prevent memory leaks
+}
+
+function showHelp(target) {
+var tip = document.createElement("div"); // create a new div
+	if (!box.hasChildNodes()) { // if no child is present ...
+		box.appendChild(tip); // ... add the new one in the box ...
+		tip.innerHTML = document.getElementById(target).innerHTML; // ... fill it with the content ...
+		addClose();	// ... and add the close link.
+	}
+	else {
+	  while (box.hasChildNodes()) { // if one is already there ...
+			box.removeChild(box.firstChild); // ... strip it out to reset ...
+		}
+		box.appendChild(tip); // ... then put it back ...
+		tip.innerHTML = document.getElementById(target).innerHTML; // ... fill it with the content ...
+		addClose(); // ... and add the close link.
+	}
+box.className = "pop"; // change the class to apply the fancy style
+}
+
+
+function addClose() {
+var aclose = document.createElement("a"); // make the close link
+aclose.href = "#"; // add the href
+aclose.setAttribute("title", "Close"); // add a title
+aclose.className = "close"; // give it some class
+
+var closeimg = document.createElement("img"); // make the image
+closeimg.setAttribute("src", "uib/images/icon_closeX.gif"); // set the img src
+closeimg.setAttribute("alt", "Close"); // set the img alt
+
+aclose.appendChild(closeimg); // put the image in the link ...
+box.appendChild(aclose); // put the link in the box ...
+		
+	aclose.onclick = function() {
+		box.className = "hideElement"; // hide the box ...
+		return false;	// ... and overrule the normal link behavior. 
+	}
+}
+
+function placePop(e) {
+  var posx = 0;
+  var posy = 0;
+  var halfwidth = 0;
+  var halfheight = 0;
+  var scrnheight = 0;
+	if (!e) var e = window.event;
+	if (e.pageX || e.pageY)	{
+		posx = e.pageX; // set X
+		posy = e.pageY; // set Y
+		halfwidth = window.innerWidth/2; // get half the window width
+		halfheight = window.innerHeight/2; // get half the window height
+		scrnheight = window.innerHeight;
+	}
+	else if (e.clientX || e.clientY) { // for IE
+		posx = e.clientX + document.documentElement.scrollLeft; // set X
+		posy = e.clientY + document.documentElement.scrollTop; // set Y
+		halfwidth = document.body.offsetWidth/2; // get half the window width
+		halfheight = document.body.offsetHeight/2; // get half the window height
+		scrnheight = document.body.offsetHeight;
+	}
+  var boxClassNm = "";
+	if (posx <= halfwidth) { // less than halfwidth, the click is on the left ...
+		boxClassNm = "popright"; // ... so pop to the right.
+	}
+	else if (posx > halfwidth) { // greater than halfwidth, the click is on the right ...	
+		boxClassNm = "popleft"; // ... so pop to the left.
+	}
+	
+	
+  box.className = boxClassNm;
+
+  box.style.left = posx+"px"; // left: Xpx;
+  box.style.top = posy+"px"; // top: Ypx;
+  if(posy < box.offsetHeight)
+  {
+    box.style.marginTop = "-"+posy+"px";
+    //var p = document.createElement("p");
+    //p.innerHTML = "<BR>Screen Height:"+ scrnheight +"<BR> posy"+posy +"<BR> box height: " +box.offsetHeight + "<BR>margintop:"+box.style.marginTop;
+    //box.appendChild(p);
+  }
+  else
+  {
+    if ( box.offsetHeight > 350) // if the box is more than 400px tall...
+	    box.style.marginTop = "-"+box.offsetHeight/2+"px"; // set a negative margin-top half its height (middle-aligned to event).
+    else
+	    box.style.marginTop = "-"+box.offsetHeight+"px";
+	} // else negative margin-top equal to its height (bottom-aligned to event).
+} //end placepop()
+
+//Added for Identity Report tab
+function setupPopsNoClose() { // Execute this on pageload
+box = document.getElementById("popbox"); // get the box
+var divs = document.getElementsByTagName("div"); // get all the divs
+var links = document.getElementsByTagName("a"); // get all the links
+
+  for(var i = 0; i < divs.length; i++) { // loop through the divs ...
+		if (divs[i].className == "helptext") { // ... and choose only the divs that are in the helptext class ...
+			divs[i].className += " hideElement"; // ... then append another class to hide them (that leading space is important!).		
+		}
+	}
+	for(var  i = 0; i < links.length; i++) { // loop through the links ...
+		if (links[i].className == "helpIR") { // ... and choose only the links that are in the help class.
+			links[i].onclick = function(e) { // when the link is clicked ...
+			showHelp(this.href.replace( /.*?#(.*)/g, "$1" )); // ... call the function and pass the id of the target element ...
+			placePop(e);	// ... put the pop on the click ...
+			return false; // ... and overrule the normal link behavior.
+			}
+			
+		}
+	}
+divs = null; // empty the array to prevent memory leaks
+links = null; // empty the array to prevent memory leaks
+}

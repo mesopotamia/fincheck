@@ -1,0 +1,99 @@
+
+function trim(inputString) {
+   // Removes leading and trailing spaces from the passed string. Also removes
+   // consecutive spaces and replaces it with one space. If something besides
+   // a string is passed in (null, custom object, etc.) then return the input.
+   if (typeof inputString != "string") { return inputString; }
+   var retValue = inputString;
+   var ch = retValue.substring(0, 1);
+   while (ch == " ") { // Check for spaces at the beginning of the string
+      retValue = retValue.substring(1, retValue.length);
+      ch = retValue.substring(0, 1);
+   }
+   ch = retValue.substring(retValue.length-1, retValue.length);
+   while (ch == " ") { // Check for spaces at the end of the string
+      retValue = retValue.substring(0, retValue.length-1);
+      ch = retValue.substring(retValue.length-1, retValue.length);
+   }
+   while (retValue.indexOf("  ") != -1) { // Note that there are two spaces in the string - look for multiple spaces within the string
+      retValue = retValue.substring(0, retValue.indexOf("  ")) + retValue.substring(retValue.indexOf("  ")+1, retValue.length); // Again, there are two spaces in each of the strings
+   }
+   return retValue; // Return the trimmed string back to the user
+} // Ends the "trim" function
+
+// this variable checks if the user has tried to login
+// this is to make the Login button (on the MyEquifax page) 
+// and the Submit buttons (on the Login Help page) disabled 
+// after it has been clicked by the user, so that the user will 
+// not be able to click it multiple times while the data migration is in progress
+
+var loginInProgress = false;
+
+function isLoginInProcess()
+{
+	if(loginInProgress == true)
+	{
+		return false;
+	}
+	else
+	{
+		loginInProgress = true;
+		return true;
+	}
+}
+
+function resetLoginInProcess()
+{
+	loginInProgress = false;
+}
+
+var orderInProgress = false;
+
+function isResetAllowed()
+{
+	if(orderInProgress == true)
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}	
+}
+
+function isOrderInProgress()
+{
+	if(orderInProgress == true)
+	{
+		return false;
+	}
+	else
+	{
+		orderInProgress = true;
+		return true;
+	}
+}
+
+function resetOrderInProgress()
+{
+	orderInProgress = false;
+}
+
+function popupChildWindow(url) 
+{
+    link = window.open(url,"Link","toolbar=0,location=0,directories=0,status=0,menubar=yes,scrollbars=yes,resizable=yes,width=600,height=450,left=250,top=50");
+    link.focus();
+    return true;
+}
+
+function saveGiftRecipientInfo(isGiftCertificate)
+{
+	if(isGiftCertificate ==  true)
+	{
+		document.forms[0].elements["giftRecipientName"].value=document.forms[2].elements["giftRecipientName"].value;
+		document.forms[0].elements["giftRecipientMessage"].value=document.forms[2].elements["giftRecipientMessage"].value;
+		document.forms[0].elements["giftRecipientEmail"].value=document.forms[2].elements["giftRecipientEmail"].value;
+		document.forms[0].elements["giftRecipientConfirmEmail"].value=document.forms[2].elements["giftRecipientConfirmEmail"].value;
+	}
+	return true;
+}

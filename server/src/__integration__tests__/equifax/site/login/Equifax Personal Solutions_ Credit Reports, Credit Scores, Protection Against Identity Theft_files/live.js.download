@@ -1,0 +1,562 @@
+//Live
+var opContentUrls=new Array();
+var opModulesArray=new Array();
+//var opCounterPagesUrls = new Array();
+//var opCountersUrls=new Array();
+var docLocation = document.location.toString();
+
+var productCompare = "https://by.essl.optimost.com/by/counter/633/-/23/event.js";
+var productDetails = "https://by.essl.optimost.com/by/counter/633/-/22/event.js";
+
+var orderConfirmationCounter = "https://by.essl.optimost.com/by/counter/633/-/3/event.js";
+var personalInfoCounter	= "https://by.essl.optimost.com/by/counter/633/-/5/event.js";
+var verificationInfoCounter  = "https://by.essl.optimost.com/by/counter/633/-/6/event.js";
+var authenticationCounter  = "https://by.essl.optimost.com/by/counter/633/-/7/event.js";
+var paymentSummaryCounter = "https://by.essl.optimost.com/by/counter/633/-/8/event.js";
+
+var factCreditSummary = "https://by.essl.optimost.com/by/counter/633/-/10/event.js";
+var factConfirmation = "https://by.essl.optimost.com/by/counter/633/-/11/event.js";
+
+
+var opCounterPagesUrls=new Array("http://www.equifax.com/home/en_us");
+var opCountersUrls=new Array(orderConfirmationCounter);
+
+var canOrderConfirmationCounter = "https://by.essl.optimost.com/by/counter/633/-/20/event.js";
+var canPaymentSummaryCounter = "https://by.essl.optimost.com/by/counter/633/-/19/event.js";
+var canFailAuth = "https://by.essl.optimost.com/by/counter/633/-/21/event.js";
+var canAuthentication = "https://by.essl.optimost.com/by/counter/633/-/18/event.js";
+var canVerificationInfo = "https://by.essl.optimost.com/by/counter/633/-/17/event.js";
+var canPersonalInfo = "https://by.essl.optimost.com/by/counter/633/-/16/event.js";
+
+if(typeof opPartnercode!= "undefined") {
+	optrial=(typeof(optrial)=="object"?optrial:{});
+	optrial.opPartnercode=opPartnercode; //15 Apirl, pass in partner code
+	if (typeof opProductcode!="undefined" && opProductcode!=null)
+	{
+		optrial.opProductcode=opProductcode;
+	}	
+}
+var canadaSubscription = false;
+var canadaPriceTest = false;
+if (typeof opPageIdentifier != "undefined")
+{
+	if(opPageIdentifier=="/can/psol/web/equifax homepage"){
+		canadaPriceTest = true;
+		canadaSubscription = true;
+	} else
+	if(opPageIdentifier=="/can/psol/web/product list"){
+		canadaPriceTest = true;
+		canadaSubscription = true;
+	} else
+	if(opPageIdentifier=="/can/psol/web/product detail - CAECS"){
+		canadaPriceTest = true;
+	} else
+	if(opPageIdentifier=="/can/psol/web/product detail - CACPO"){
+		canadaPriceTest = true;
+	} else
+	if(opPageIdentifier=="https://www.econsumer.equifax.ca/index_en.html "){
+		canadaPriceTest = true;
+	} else
+	if(opPageIdentifier=="https://www.econsumer.equifax.ca/index_fr.html"){
+		canadaPriceTest = true;
+	} else
+	if(opPageIdentifier=="/can/psol/web/compare products"){
+		canadaPriceTest = true;
+		canadaSubscription = true;
+	} else
+	if(opPageIdentifier=="can/psol/web/product detail - CW"){
+		canadaSubscription = true;
+	}
+	if(canadaPriceTest){
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/multipleproductpricetest.4ff/19/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productlistpagegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/multipleproductpricetest.4ff/19/content.js");
+		opModulesArray.push("body");
+	}
+	if(canadaSubscription){
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/subscriptionpricetest.aa9/20/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633subscriptionpricetestgum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/subscriptionpricetest.aa9/20/content.js");
+		opModulesArray.push("body2");
+	}
+	else if (docLocation.toLowerCase().indexOf("cs/satellite")!=-1 && typeof opPartnercode != "undefined" && opPartnercode.indexOf("HPH0")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/homepage.229/3/content.js";_o.ST=
+		"script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;_o.R(_o.opthrottle, "op633homepagegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/homepage.229/3/content.js");
+		opModulesArray.push("home");
+	}
+	else if (docLocation.toLowerCase().indexOf("/credit-score-watch/")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/scorewatchpricetest.6d5/26/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.R(1000,null,null,null);})();
+		opContentUrls.push(opPro+"/trial/633/p/scorewatchpricetest.6d5/26/content.js");
+		opModulesArray.push("Product compare page");
+	}
+}
+else
+{
+	if (docLocation.toLowerCase().indexOf("home")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/homepage.229/3/content.js";_o.ST=
+		"script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;_o.R(_o.opthrottle, "op633homepagegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/homepage.229/3/content.js");
+		opModulesArray.push("home");
+	}
+	else if (docLocation.toLowerCase().indexOf("/credit-product-list")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/productlistpage.148/4/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productlistpagegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/productlistpage.148/4/content.js");
+		opModulesArray.push("body");
+	}
+	else if (docLocation.toLowerCase().indexOf("/compare-products")!=-1)
+	{
+	/*
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/productcompare.dbd/11/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productcomparegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/productcompare.dbd/11/content.js");
+		opModulesArray.push("body");
+	*/
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/scorewatchpricetest.6d5/26/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.R(1000,null,null,null);})();
+		opContentUrls.push(opPro+"/trial/633/p/scorewatchpricetest.6d5/26/content.js");
+		opModulesArray.push("Product compare page");
+	}
+	if (typeof opPageName!= "undefined" && opPageName=="/us/psol/web/checkout - payment summary")
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/paymentsummary.b5c/6/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633paymentsummarygum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/paymentsummary.b5c/6/content.js");
+		opModulesArray.push("body");
+	}
+	if (typeof opProductcode!= "undefined" && opProductcode=="ESN3" && typeof opPageName!= "undefined" && opPageName=="/us/psol/web/checkout - personal info")
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/registrationstep1.fe2/7/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "opqa") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633registrationstep1gum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/registrationstep1.fe2/7/content.js");
+		opModulesArray.push("body");
+	}
+
+	if (docLocation.toLowerCase().indexOf("/freetrial")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/freetriallp.d52/14/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633freetriallpgum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/freetriallp.d52/14/content.js");
+		opModulesArray.push("body");
+	}
+	
+	if (docLocation.toLowerCase().indexOf("/credit-product-list")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/pricing.286/12/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productcomparegum", _o.SLD(), 2592000);})();
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/pricing-creditreportandscore.450/18/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productcomparegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/pricing.286/12/content.js");
+		opModulesArray.push("body");
+		opContentUrls.push(opPro+"/trial/633/p/pricing-creditreportandscore.450/18/content.js");
+		opModulesArray.push("crsprice");
+	}
+	
+	if (docLocation.toLowerCase().indexOf("/holidaycashgiveaway")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/pricing.286/12/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productlistpagegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/pricing.286/12/content.js");
+		opModulesArray.push("body");
+	}
+	
+	if (docLocation.toLowerCase().indexOf("/compare-products")!=-1)
+	{
+	/*
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/pricing.286/12/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productcomparegum", _o.SLD(), 2592000);})();
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/pricing-creditreportandscore.450/18/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productcomparegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/pricing.286/12/content.js");
+		opModulesArray.push("body");
+		opContentUrls.push(opPro+"/trial/633/p/pricing-creditreportandscore.450/18/content.js");
+		opModulesArray.push("crsprice");
+	*/
+	}
+	if (docLocation.toLowerCase().indexOf("/equifax-credit-score")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/pricing-creditreportandscore.450/18/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productcomparegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/pricing-creditreportandscore.450/18/content.js");
+		opModulesArray.push("crsprice");
+	}
+	if (docLocation.toLowerCase().indexOf("/3in1-credit-monitoring-3-scores")!=-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/pricing.286/12/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productcomparegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/pricing.286/12/content.js");
+		opModulesArray.push("body");
+	}
+	if (docLocation.toLowerCase().indexOf("/home")!=-1 && docLocation.toLowerCase().indexOf("en_dw")==-1)
+	{
+		var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+		(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/pricing.286/12/content.js";
+		_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.opthrottle = 1000;
+		if (location.href.indexOf("opqa=opqa") != -1 || _o.C["opqa"] == "true") _o.opthrottle = 1000;
+		_o.R(_o.opthrottle, "op633productcomparegum", _o.SLD(), 2592000);})();
+		opContentUrls.push(opPro+"/trial/633/p/pricing.286/12/content.js");
+		opModulesArray.push("body");
+	}
+}
+
+//splits traffic 40/60 for these two tests on all these pages
+if (location.pathname.toLowerCase()=="/advantage/" || location.pathname.toLowerCase()=="/premier/" || (docLocation.toLowerCase().indexOf("home")!=-1 && docLocation.toLowerCase().indexOf("en_dw")==-1) || (docLocation.toLowerCase().indexOf("/compare-products")!=-1 && docLocation.toLowerCase().indexOf("equifax.ca")==-1) || docLocation.toLowerCase().indexOf("credit-watch-gold/scores")!=-1){
+	var r = 0;
+	var r2 = 1000;
+	var b = Math.floor(Math.random()*1000);
+	if(!optimost.C["op633singlebureautestgum"] && !optimost.C["op633annualvsmonthlyplangum"]){
+		if(b<r){
+			optimost.SC("op633singlebureautestgum","mvt-yes",2592000,optimost.SLD());
+			optimost.SC("op633annualvsmonthlyplangum","mvt-no",2592000,optimost.SLD());
+			var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+			(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/singlebureautest.2e4/23/content.js";
+			_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.R(1000,null,null,null);})();
+			opContentUrls.push(opPro+"/trial/633/p/singlebureautest.2e4/23/content.js");
+			opModulesArray.push("bureau");
+		} else if(b<r2){
+			optimost.SC("op633annualvsmonthlyplangum","mvt-yes",2592000,optimost.SLD());
+			optimost.SC("op633singlebureautestgum","mvt-no",2592000,optimost.SLD());
+			var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+			(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/annualvsmonthlyplan.81a/25/content.js";
+			_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.R(1000,null,null,null);})();
+			opContentUrls.push(opPro+"/trial/633/p/annualvsmonthlyplan.81a/25/content.js");
+			opModulesArray.push("annual");
+		} else {
+			optimost.SC("op633annualvsmonthlyplangum","mvt-no",2592000,optimost.SLD());
+			optimost.SC("op633singlebureautestgum","mvt-no",2592000,optimost.SLD());
+		}
+	} else {
+		if(optimost.C["op633singlebureautestgum"]!="mvt-no"){
+			var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+			(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/singlebureautest.2e4/23/content.js";
+			_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.R(1000,null,null,null);})();
+			opContentUrls.push(opPro+"/trial/633/p/singlebureautest.2e4/23/content.js");
+			opModulesArray.push("bureau");
+		} else
+		if(optimost.C["op633annualvsmonthlyplangum"]!="mvt-no"){
+			var opPro = (("https:" == document.location.protocol) ? "https://by.essl.optimost.com/by" : "http://by.optimost.com");
+			(function(){var _o=optimost;_o.U=opPro+"/trial/633/p/annualvsmonthlyplan.81a/25/content.js";
+			_o.ST="script";_o.SA={"type":"text/javascript"};_o.B();_o.R(1000,null,null,null);})();
+			opContentUrls.push(opPro+"/trial/633/p/annualvsmonthlyplan.81a/25/content.js");
+			opModulesArray.push("annual");
+		}
+	}
+}
+
+function callCounter(opCtrURL,opPartnercode,opProductcode,opPrice)
+{
+	var _o=(typeof opcounter=="object")?opcounter:new Object;_o.D=document;_o.L=_o.D.location;_o.T=
+	new Date;_o.Q=new Object;_o.C=new Object;_o.U=opCtrURL;
+	_o.D_ts=Math.round(_o.T.getTime()/1000);_o.D_tzo=_o.T.getTimezoneOffset();_o.D_loc=_o.L.protocol+
+	"//"+_o.L.hostname+_o.L.pathname;_o.D_ckl=_o.D.cookie.length;_o.D_ref=_o.D.referrer;function 
+	_oI(){var s=_o.L.search;var c=_o.D.cookie;if(s.length>3){for(var a=s.substring(1).split("&")
+	,i=0,l=a.length;i<l;i++){var p=a[i].indexOf("=");if(p>0)_o.Q[a[i].substring(0,p)]=unescape(a[i].substring(
+	p+1));}}if(c.length>3){for(var a=c.split(";"),i=0,b=a.length;i<b;i++){var v=a[i].split("=");
+	while(v[0].substring(0,1)==" ")v[0]=v[0].substring(1,v[0].length);if(v.length==2)_o.C[v[0]]=
+	unescape(v[1]);}}}function _oS(){var o=new Object;for(var n in _o)o[n]=_o[n];o.D=o.L=o.T=o.Q=o.C=
+	o.U=null;var q='';for(var n in o)if(o[n]!=null && o[n]!="")q+=(q.length>0?"&":(_o.U.indexOf(
+	"?")>0?"&":"?"))+n+"="+escape(o[n]);return _o.U+q;}_oI();for(var n in _o.Q)if(n.substring(
+	0,2)=="op")_o[n]=_o.Q[n];for(var n in _o.C)if(n.substring(0,2)=="op")_o[n]=_o.C[n];_o.D.write(
+	'<'+'script type="text/javascript" src="'+_oS()+'"><\/script>');window.optimostCounter=_o;window.optimostCounter_oS=_oS;
+}
+
+
+
+function opRunCounters(){
+	opcounter=(typeof(opcounter)=="object"?opcounter:{});
+	if (typeof opPageName!= "undefined" && opPageName=="/us/psol/web/checkout - order confirmation")
+	{//May have multiple parameters to pass, not 100% sure.
+		if (typeof opPartnercode!= "undefined")opcounter.opPartnercode=opPartnercode;
+		if (typeof opZip!= "undefined")opcounter.opZip=opZip;
+		if (typeof opProductcode!= "undefined"){
+			opProductcodeArr = opProductcode.split(",");
+		}
+		else opProductcodeArr=[];//if it does not exist, set as an empty array
+		if (typeof opPrice!= "undefined"){
+			opPriceArr = opPrice.split(",");
+		}
+		else opPriceArr=[];		
+		if (opProductcodeArr.length==opPriceArr.length &&opPriceArr.length>0){
+			for (var i=0;i<opProductcodeArr.length;i++){
+				opcounter.opProductcodeArr=opProductcodeArr[i];
+				opcounter.opPriceArr=opPriceArr[i];
+				callCounter(orderConfirmationCounter);
+			}			
+		}
+		else {
+			opcounter.opProductcodeArr=opProductcodeArr[0];
+			opcounter.opPriceArr=opPriceArr[0];
+			callCounter(orderConfirmationCounter);
+		}	
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/us/psol/web/checkout - personal info"){
+		if (typeof opPartnercode!= "undefined")opcounter.opPartnercode=opPartnercode;
+		if (typeof opZip!= "undefined")opcounter.opZip=opZip;
+		if (typeof opProductcode!= "undefined"){
+			opProductcodeArr = opProductcode.split(",");
+		}
+		else opProductcodeArr=[];//if it does not exist, set as an empty array
+		if (typeof opPrice!= "undefined"){
+			opPriceArr = opPrice.split(",");
+		}
+		else opPriceArr=[];		
+		if (opProductcodeArr.length==opPriceArr.length &&opPriceArr.length>0){
+			for (var i=0;i<opProductcodeArr.length;i++){
+				opcounter.opProductcodeArr=opProductcodeArr[i];
+				opcounter.opPriceArr=opPriceArr[i];
+				callCounter(personalInfoCounter);
+			}			
+		}
+		else {
+			opcounter.opProductcodeArr=opProductcodeArr[0];
+			opcounter.opPriceArr=opPriceArr[0];
+			callCounter(personalInfoCounter);
+		}
+	}
+	else if (location.pathname.toLowerCase()=="/compare-products/"){
+		callCounter(productCompare);
+	}
+	else if (location.pathname.toLowerCase()=="/advantage/"){
+		callCounter(productDetails);	
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/us/psol/web/checkout - verification info"){
+		callCounter(verificationInfoCounter);	
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/us/psol/web/checkout - authentication"){  	
+		callCounter(authenticationCounter);		
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/us/psol/web/checkout - payment summary"){
+		if (typeof opPartnercode!= "undefined")opcounter.opPartnercode=opPartnercode;
+		if (typeof opZip!= "undefined")opcounter.opZip=opZip;
+		if (typeof opProductcode!= "undefined"){
+			opProductcodeArr = opProductcode.split(",");
+		}
+		else opProductcodeArr=[];//if it does not exist, set as an empty array
+		if (typeof opPrice!= "undefined"){
+			opPriceArr = opPrice.split(",");
+		}
+		else opPriceArr=[];		
+		if (opProductcodeArr.length==opPriceArr.length &&opPriceArr.length>0){
+			for (var i=0;i<opProductcodeArr.length;i++){
+				opcounter.opProductcodeArr=opProductcodeArr[i];
+				opcounter.opPriceArr=opPriceArr[i];
+				callCounter(paymentSummaryCounter);
+			}			
+		}
+		else {
+			opcounter.opProductcodeArr=opProductcodeArr[0];
+			opcounter.opPriceArr=opPriceArr[0];
+			callCounter(paymentSummaryCounter);
+		}
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/us/psol/fact/FACT - Credit Summary"){
+		callCounter(factCreditSummary);	
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/us/psol/fact/FACT - Confirmation"){
+		callCounter(factConfirmation);	
+	}
+	else if (typeof opPageName!= "undefined" && opPageName.indexOf("/can/psol/web/checkout - order confirmation")!=-1)
+	{
+		if (opPageName.indexOf("existing")!=-1){
+			opcounter.opExisting="true";
+		} else {
+			opcounter.opExisting="false";
+		}
+		if (typeof opPartnercode!= "undefined")opcounter.opPartnercode=opPartnercode;
+		if (typeof opZip!= "undefined")opcounter.opZip=opZip;
+		if (typeof opProductcode!= "undefined"){
+			opProductcodeArr = opProductcode.split(",");
+		}
+		else opProductcodeArr=[];//if it does not exist, set as an empty array
+		if (typeof opPrice!= "undefined"){
+			opPriceArr = opPrice.split(",");
+		}
+		else opPriceArr=[];		
+		if (opProductcodeArr.length==opPriceArr.length &&opPriceArr.length>0){
+			for (var i=0;i<opProductcodeArr.length;i++){
+				opcounter.opProductcodeArr=opProductcodeArr[i];
+				opcounter.opPriceArr=opPriceArr[i];
+				callCounter(canOrderConfirmationCounter);
+			}			
+		}
+		else {
+			opcounter.opProductcodeArr=opProductcodeArr[0];
+			opcounter.opPriceArr=opPriceArr[0];
+			callCounter(canOrderConfirmationCounter);
+		}	
+	}
+	else if (typeof opPageName!= "undefined" && opPageName.indexOf("/can/psol/web/checkout - payment summary")!=-1)
+	{
+		if (opPageName.indexOf("existing")!=-1){
+			opcounter.opExisting="true";
+		} else {
+			opcounter.opExisting="false";
+		}
+		if (typeof opPartnercode!= "undefined")opcounter.opPartnercode=opPartnercode;
+		if (typeof opZip!= "undefined")opcounter.opZip=opZip;
+		if (typeof opProductcode!= "undefined"){
+			opProductcodeArr = opProductcode.split(",");
+		}
+		else opProductcodeArr=[];//if it does not exist, set as an empty array
+		if (typeof opPrice!= "undefined"){
+			opPriceArr = opPrice.split(",");
+		}
+		else opPriceArr=[];		
+		if (opProductcodeArr.length==opPriceArr.length &&opPriceArr.length>0){
+			for (var i=0;i<opProductcodeArr.length;i++){
+				opcounter.opProductcodeArr=opProductcodeArr[i];
+				opcounter.opPriceArr=opPriceArr[i];
+				callCounter(canPaymentSummaryCounter);
+			}			
+		}
+		else {
+			opcounter.opProductcodeArr=opProductcodeArr[0];
+			opcounter.opPriceArr=opPriceArr[0];
+			callCounter(canPaymentSummaryCounter);
+		}	
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/can/psol/web/checkout - personal info"){
+		if (opPageName.indexOf("existing")!=-1){
+			opcounter.opExisting="true";
+		} else {
+			opcounter.opExisting="false";
+		}
+		if (typeof opPartnercode!= "undefined")opcounter.opPartnercode=opPartnercode;
+		if (typeof opZip!= "undefined")opcounter.opZip=opZip;
+		if (typeof opProductcode!= "undefined"){
+			opProductcodeArr = opProductcode.split(",");
+		}
+		else opProductcodeArr=[];//if it does not exist, set as an empty array
+		if (typeof opPrice!= "undefined"){
+			opPriceArr = opPrice.split(",");
+		}
+		else opPriceArr=[];		
+		if (opProductcodeArr.length==opPriceArr.length &&opPriceArr.length>0){
+			for (var i=0;i<opProductcodeArr.length;i++){
+				opcounter.opProductcodeArr=opProductcodeArr[i];
+				opcounter.opPriceArr=opPriceArr[i];
+				callCounter(canPersonalInfo);
+			}			
+		}
+		else {
+			opcounter.opProductcodeArr=opProductcodeArr[0];
+			opcounter.opPriceArr=opPriceArr[0];
+			callCounter(canPersonalInfo);
+		}
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/can/psol/web/checkout - verification info"){
+		if (opPageName.indexOf("existing")!=-1){
+			opcounter.opExisting="true";
+		} else {
+			opcounter.opExisting="false";
+		}
+		if (typeof opPartnercode!= "undefined")opcounter.opPartnercode=opPartnercode;
+		if (typeof opZip!= "undefined")opcounter.opZip=opZip;
+		if (typeof opProductcode!= "undefined"){
+			opProductcodeArr = opProductcode.split(",");
+		}
+		else opProductcodeArr=[];//if it does not exist, set as an empty array
+		if (typeof opPrice!= "undefined"){
+			opPriceArr = opPrice.split(",");
+		}
+		else opPriceArr=[];		
+		if (opProductcodeArr.length==opPriceArr.length &&opPriceArr.length>0){
+			for (var i=0;i<opProductcodeArr.length;i++){
+				opcounter.opProductcodeArr=opProductcodeArr[i];
+				opcounter.opPriceArr=opPriceArr[i];
+				callCounter(canVerificationInfo);
+			}			
+		}
+		else {
+			opcounter.opProductcodeArr=opProductcodeArr[0];
+			opcounter.opPriceArr=opPriceArr[0];
+			callCounter(canVerificationInfo);
+		}
+	}
+	else if (typeof opPageName!= "undefined" && opPageName=="/can/psol/web/checkout - authentication"){
+		if (opPageName.indexOf("existing")!=-1){
+			opcounter.opExisting="true";
+		} else {
+			opcounter.opExisting="false";
+		}
+		if (typeof opPartnercode!= "undefined")opcounter.opPartnercode=opPartnercode;
+		if (typeof opZip!= "undefined")opcounter.opZip=opZip;
+		if (typeof opProductcode!= "undefined"){
+			opProductcodeArr = opProductcode.split(",");
+		}
+		else opProductcodeArr=[];//if it does not exist, set as an empty array
+		if (typeof opPrice!= "undefined"){
+			opPriceArr = opPrice.split(",");
+		}
+		else opPriceArr=[];		
+		if (opProductcodeArr.length==opPriceArr.length &&opPriceArr.length>0){
+			for (var i=0;i<opProductcodeArr.length;i++){
+				opcounter.opProductcodeArr=opProductcodeArr[i];
+				opcounter.opPriceArr=opPriceArr[i];
+				callCounter(canAuthentication);	
+			}			
+		}
+		else {
+			opcounter.opProductcodeArr=opProductcodeArr[0];
+			opcounter.opPriceArr=opPriceArr[0];
+			callCounter(canAuthentication);	
+		}
+	}
+	else if (typeof opPageName!= "undefined" && opPageName.indexOf("/can/psol/web/error - fail authentication")!=-1){
+		callCounter(canFailAuth);	
+	}
+}
+
+function opFiringCounters(val) {
+	// Not Defined
+	}

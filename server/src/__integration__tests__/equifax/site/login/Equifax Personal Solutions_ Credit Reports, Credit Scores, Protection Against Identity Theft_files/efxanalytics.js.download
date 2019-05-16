@@ -1,0 +1,111 @@
+function readCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0;i < ca.length;i++) {
+    var c = ca[i];
+    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+    if (c.indexOf(nameEQ) == 0) {
+        return c.substring(nameEQ.length,c.length);
+    }
+  }
+  return null;
+}
+
+function createUrl(e_r,e_pa,e_pr,e_h,e_op,e_es,e_cref){
+	var e_sess='';
+	var e_sess_f='';
+	createUrl(e_r,e_pa,e_pr,e_h,e_op,e_es,e_cref,e_sess,e_sess_f);
+	}
+	
+function createUrl(e_r,e_pa,e_pr,e_h,e_op,e_es,e_cref,e_sess){
+	var e_sess_f='';
+	createUrl(e_r,e_pa,e_pr,e_h,e_op,e_es,e_cref,e_sess,e_sess_f);
+	}
+
+function createUrl(e_r,e_pa,e_pr,e_h,e_op,e_es,e_cref,e_sess,e_sess_fatwire){
+	var url="https://www.equifax.com/cs7/Satellite?pagename=EFX/Analytics/EFXAnalyticsEngine&";
+	var e_tid= readCookie("tid");
+	var e_pcd=readCookie("pcd");
+	if(e_r){
+		url=url+"e_r="+escape(e_r)+"&";
+	}
+	if(e_pa){
+		url=url+"e_pa="+e_pa+"&";
+	}
+	if(e_pr){
+		url=url+"e_pr="+e_pr+"&";
+	}
+	
+	if(e_h){
+		url=url+"e_h="+escape(e_h)+"&";
+	}
+       
+	if(e_op){
+		url=url+"e_op="+e_op+"&";
+	}
+	if(e_tid){
+		url=url+"e_tid="+e_tid+"&";
+	}
+	if(e_pcd){
+		url=url+"e_pcd="+e_pcd+"&";
+	}
+	if(e_es){
+		url=url+"e_es="+e_es+"&";
+	}
+	
+	if(e_cref){
+		url += "e_cref="+e_cref+"&";
+	}
+
+	if(e_sess){
+		url += "e_sess="+e_sess+"&";
+	}
+	
+	if(e_sess_fatwire){
+		url += "e_sess_fatwire="+e_sess_fatwire;
+	}
+	
+	document.write('<iframe src="'+url+ '" width="1" height="1" frameborder="0"></iframe>');
+}
+
+
+function setc( name, value, expires, path, domain, secure ){
+	var today = new Date();
+	today.setTime( today.getTime() );
+
+	if ( expires )
+	{
+	expires = expires * 1000 * 60 * 60 * 24;
+	}
+	var expires_date = new Date( today.getTime() + (expires) );
+
+	document.cookie = name + "=" +escape( value ) +
+	( ( expires ) ? ";expires=" + expires_date.toUTCString() : "" ) +
+	( ( path ) ? ";path=" + path : "" ) +
+	( ( domain ) ? ";domain=" + domain : "" ) +
+	( ( secure ) ? ";secure" : "" );
+}
+
+function trackingCookies(partner){
+	var domain = '.equifax.com';
+	if(!readCookie("tid")){
+		var utid=0;
+		var time=new Date();
+		var startTime = time.getTime();
+		utid=Math.floor(Math.random()*1000000000)+startTime;
+		setc('tid',utid,90,'/','.equifax.ca','');
+		if(!readCookie("tid")){
+			 var httpSynchupUrl = "http://www.consumer.equifax.ca/partnerca/synchup.jsp?"+"partner="+partner+"&utid="+utid;
+	         document.write('<iframe src="'+httpSynchupUrl+ '" width="1" height="1" frameborder="0"></iframe>');
+		}
+		setc('tid',utid,90,'/',domain,'');	
+	}
+	setc('pcd',partner,90,'/',domain,'');	
+	setc('pcd',partner,90,'/','.equifax.ca','');		
+}
+
+function synchUp(partner,utid){
+	var domain = '.equifax.ca';
+	setc('tid',utid,90,'/',domain,'');
+	setc('pcd',partner,90,'/',domain,'');	
+}

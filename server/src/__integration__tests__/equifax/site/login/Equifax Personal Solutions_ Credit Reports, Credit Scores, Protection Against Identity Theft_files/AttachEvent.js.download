@@ -1,0 +1,50 @@
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	AttachEvent.js - AttachEvent 1.1 - allows multiple onEvent functions
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	(c) Copyright 2003, Aleksandar Vacic, aleck@sezampro.yu, www.aplus.co.yu
+	## This work is licensed under the Creative Commons Attribution-ShareAlike License.
+	## To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Only for ONLOAD, ONRESIZE. add other events if you need them. Load this script at the page begin.	
+	Add your functions to queue like this:
+	- AE_AttachEvent("onload", "functionName");		//	DO NOT include brackets "()"
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+function AE_AttachEventSetup(oObj) {
+	oObj.aeFN = new Array();
+	oObj.attachEvent = AE_AttachEventFn;
+	window.onload = AE_WindowOnload;
+	window.onresize = AE_WindowOnresize;
+}
+
+function AE_AttachEventFn(sEvent, fpNotify) {
+	if (this.aeFN[sEvent])
+		this.aeFN[sEvent][this.aeFN[sEvent].length] = fpNotify;
+	else {
+		this.aeFN[sEvent] = new Array();
+		this.aeFN[sEvent][this.aeFN[sEvent].length] = fpNotify;
+	}
+}
+
+function AE_AttachEvent(sEvent, fpNotify) {
+	if (!(sEvent == "onload" || sEvent == "onresize")) return;
+	AE_oWindow.attachEvent(sEvent, fpNotify);
+}
+
+function AE_PlayEvent(sEvent) {
+	eval("window." + sEvent);
+	if (AE_oWindow.aeFN[sEvent])
+		for (var i=0;i<AE_oWindow.aeFN[sEvent].length;i++)
+			eval(AE_oWindow.aeFN[sEvent][i] + "()");
+}
+
+function AE_WindowOnload() {
+	AE_PlayEvent("onload");
+}
+
+function AE_WindowOnresize() {
+	AE_PlayEvent("onresize");
+}
+
+var AE_oWindow = new Object();
+AE_AttachEventSetup(AE_oWindow);

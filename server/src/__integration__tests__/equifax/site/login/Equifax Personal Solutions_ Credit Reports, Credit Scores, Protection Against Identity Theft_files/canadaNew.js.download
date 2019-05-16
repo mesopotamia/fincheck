@@ -1,0 +1,391 @@
+
+/* ################  NEW MEMBER SERVICE DROP DOWN SCRIPT  ############## */
+
+function flyout2(targetID,targetChildTag,toggle,targetLevel) {
+	target = document.getElementById(targetID);
+	targetLink = target.getElementsByTagName("a").item(0);
+	child = target.getElementsByTagName(targetChildTag);
+	if(targetChildTag == "li") {
+		loopCount = 0;
+		loopLength = child.length;
+	} else {
+		loopCount = 1;
+		loopLength = 1;
+	}
+	if(child != null) {
+		for(i=loopCount;i<loopLength;i++) {
+			if(toggle == 0){
+					
+					if(targetID=="Resources") {
+					// end hiding the dropdown object
+					} else {						
+					}
+
+				child.item(i).style.display = "block";
+				if(targetLevel) {
+					if(targetLevel == "parent") {
+						bgColor = "#b5cfe7";
+						targetLink.style.color = "#333";
+					} else {
+						bgColor = "#eff7ff";
+					}
+					targetLink.style.backgroundColor = bgColor;
+				}
+			} else {
+				
+				child.item(i).style.display = "none";
+				if(targetLevel) {
+					if(targetLevel == "parent") {
+						targetLink.style.color = "#224f65";
+					}
+					targetLink.style.backgroundColor = "#fff";
+				}
+			}
+		}
+	}
+}
+
+
+/* ################  NEW ALERT SUMMARY FILTER DROP DOWN LISTS  ############## */
+
+	jQuery(document).ready(function() {
+
+       /*    	jQuery(".dropDownList2 dt a").click(function(event) {
+				event.preventDefault();
+				jQuery(this).closest('dt').siblings('dd').find('ul').toggle();
+				jQuery(".dropDownList2 dt").css('border-bottom', 'dotted #b1b1b1 1px');
+             });
+                        
+            jQuery(".dropDownList2 dd ul li a").click(function(event) {
+				event.preventDefault();
+                var text = jQuery(this).text();
+                jQuery(this).closest('dd').siblings('dt').find('span').text(text);
+				jQuery(".dropDownList2 dt").css('border-bottom', 'none');
+                jQuery(this).closest('ul').hide();
+             });
+                      */  
+            jQuery(document).bind('click', function(e) {
+            	try{
+            		var jQueryclicked = jQuery(e.target);
+            		if (! jQueryclicked.parents().hasClass("dropDownList2"))
+            			jQuery(".dropDownList2 dd ul").hide();
+            	}catch(err){}
+            });
+	
+	
+	/*
+			jQuery(".dropDownList dt a").click(function(event) {
+				event.preventDefault(); 
+				var jQuerydropdown = jQuery(this).parent().parent();
+				var selectedText = jQuery(this).text();
+				jQuerydropdown.find("dd ul a").filter( function(){
+					if( jQuery(this).text() == selectedText ){
+					   jQuery(this).parent().hide();
+					}else{
+					   jQuery(this).parent().show();
+					}
+				});
+				jQuerydropdown.find("dd ul").toggle();
+				jQuerydropdown.find("dt").css('border-bottom', 'dotted #b1b1b1 1px');
+			});
+			*/
+			jQuery(".dropDownList dd ul li a").click(function(event) {
+				event.preventDefault();
+				var jQuerydropdown = jQuery(this).parent().parent().parent().parent();
+				var text = jQuery(this).html();
+				jQuerydropdown.find(".current").show();
+				jQuerydropdown.find(".archived").hide();
+				jQuerydropdown.find("dt a span").html(text);
+				jQuerydropdown.find("dt").css('border-bottom', 'none');
+				jQuerydropdown.find("dd ul").hide();
+			});
+			jQuery(document).bind('click', function(e) {
+				try{
+					var jQueryclicked = jQuery(e.target);
+					if (! jQueryclicked.parents().hasClass("dropDownList"))
+						jQuery(".dropDownList dd ul").hide();
+				}catch(err){}
+			});
+	
+	});
+	
+
+/* ################  NEW ALERT SUMMARY-ALERT DESCRIPTION TOGGLE SCRIPT  ############## */
+
+/* For English page */
+	jQuery(document).ready(function(){
+	
+		jQuery("a.en_alertDetails").click(function(e){
+			jQuery(this).parent().nextAll("div.alertPrgf").toggle();
+			jQuery(this).text(jQuery(this).text()=="View alert details"?"Hide alert details":"View alert details");
+			if(jQuery(this).hasClass("alertDetailsDown")){
+				jQuery(this).addClass("alertDetailsUp").removeClass("alertDetailsDown");
+			}
+			else{
+				jQuery(this).addClass("alertDetailsDown").removeClass("alertDetailsUp");
+			}
+		});
+		
+	});
+	
+/* For French page */
+	jQuery(document).ready(function(){
+	
+		jQuery("a.fr_alertDetails").click(function(e){
+			jQuery(this).parent().nextAll("div.alertPrgf").toggle();
+			jQuery(this).text(jQuery(this).text()=="Visualiser les details de l'alerte"?"Masquer les details de l'alerte":"Visualiser les details de l'alerte");
+			if(jQuery(this).hasClass("alertDetailsDown")){
+				jQuery(this).addClass("alertDetailsUp").removeClass("alertDetailsDown");
+			}
+			else{
+				jQuery(this).addClass("alertDetailsDown").removeClass("alertDetailsUp");
+			}
+		});
+		
+	});
+	
+	
+/* ################  NEW PRODUCT VIEW: ALERTS VIEW ALL TOGGLE SCRIPT  ############## */
+
+/* For English page */
+	jQuery(document).ready(function(){
+	
+		jQuery("#en_showAllAlerts").click(function(e){
+			e.preventDefault();
+			if(jQuery(this).text()=="Show all"){
+				jQuery(".alertPrgf").show();
+				jQuery(".en_alertDetails").text("Hide alert details").addClass("alertDetailsUp").removeClass("alertDetailsDown");
+				jQuery(this).text("Hide all");
+				jQuery(this).addClass("detailsHiding").removeClass("detailsShowing");
+			}
+			else{
+				jQuery(".alertPrgf").hide();
+				jQuery(".en_alertDetails").text("View alert details").addClass("alertDetailsDown").removeClass("alertDetailsUp");
+				jQuery(this).text("Show all");
+				jQuery(this).addClass("detailsShowing").removeClass("detailsHiding");
+			}
+				
+			
+		});
+		
+	});
+	
+/* For French page */
+	jQuery(document).ready(function(){
+	
+		jQuery("#fr_showAllAlerts").click(function(e){
+			e.preventDefault();
+			if(jQuery(this).text()=="Show all"){
+				jQuery(".alertPrgf").show();
+				jQuery(".fr_alertDetails").text("Masquer les details de l'alerte").addClass("alertDetailsUp").removeClass("alertDetailsDown");
+				jQuery(this).text("Hide all");
+				jQuery(this).addClass("detailsHiding").removeClass("detailsShowing");
+			}
+			else{
+				jQuery(".alertPrgf").hide();
+				jQuery(".fr_alertDetails").text("Visualiser les details de l'alerte").addClass("alertDetailsDown").removeClass("alertDetailsUp");
+				jQuery(this).text("Show all");
+				jQuery(this).addClass("detailsShowing").removeClass("detailsHiding");
+			}
+				
+			
+		});
+		
+	});
+	
+
+/* ################  NEW ALERT SUMMARY-RIGHT PORTLET-CONTACT US TOGGLE SCRIPT  ############## */
+
+	jQuery(document).ready(function(){
+		
+		jQuery("dt.cListItem").click(function(e){
+			e.preventDefault();
+			jQuery(this).next("dd").toggle();
+			if(jQuery(this).hasClass("dtOpen")){
+				jQuery(this).addClass("dtClose").removeClass("dtOpen");
+			}
+			else{
+				jQuery(this).addClass("dtOpen").removeClass("dtClose");
+			}
+			return false;
+		});
+		
+	});
+	
+	
+/* ################  ALERT SUMMARY MORE DETAILS POPUP CALL SCRIPT  ############## */
+
+jQuery(document).ready(function(){
+
+	jQuery(".moreDetails").click(function(evt){
+		evt.preventDefault();
+		var newID=jQuery(this).attr("id");
+		jQuery("#moreDetail_"+newID).jqm({overlay: 60,modal: true,overlayClass: 'jqmOverlay'});
+		jQuery("#moreDetail_"+newID).jqmShow();
+		
+	});
+	
+});
+
+
+/* ################  ALERT SUMMARY IDENTITY THEFT SUMMARY SCRIPT  ############## */
+
+jQuery(document).ready(function(){
+
+	jQuery(".idTheftLink").click(function(evt){
+		evt.preventDefault();
+		jQuery("#idTheftSummary").jqm({overlay: 60,modal: true,overlayClass: 'jqmOverlay'});
+		jQuery("#idTheftSummary").jqmShow();
+		
+	});
+	
+});
+	
+	
+/* ################  NEW PRODUCT VIEW: ALERTS TOGGLE ALERT INFO SCRIPT  ############## */
+
+/* For English page */
+	jQuery(document).ready(function(){
+	
+		jQuery("a.en_alertInfoStatus").click(function(e){
+			e.preventDefault();
+			jQuery(this).parent().parent().next("div").toggle();
+			jQuery(this).text(jQuery(this).text()=="Hide Details"?"View Details":"Hide Details");
+			if(jQuery(this).text()=="View Details"){
+			//if(jQuery(this).hasClass("detailsHide")){
+				jQuery(this).addClass("detailsShow").removeClass("detailsHide");
+				jQuery(this).attr("title","View Details");
+			}
+			else{
+				jQuery(this).addClass("detailsHide").removeClass("detailsShow");
+				jQuery(this).attr("title","Hide Details");
+			}
+		});
+		
+	});
+	
+/* For French page */
+	jQuery(document).ready(function(){
+	
+		jQuery("a.fr_alertInfoStatus").click(function(e){
+			e.preventDefault();
+			jQuery(this).parent().parent().next("div").toggle();
+			jQuery(this).text(jQuery(this).text()=="Masquer les d\xE9tails"?"Visualiser les details":"Masquer les d\xE9tails");
+			if(jQuery(this).text()=="Visualiser les details"){
+			//if(jQuery(this).hasClass("detailsHide")){
+				jQuery(this).addClass("detailsShow").removeClass("detailsHide");
+				jQuery(this).attr("title","Visualiser les details");
+			}
+			else{
+				jQuery(this).addClass("detailsHide").removeClass("detailsShow");
+				jQuery(this).attr("title","Masquer les d\xE9tails");
+			}
+		});
+		
+	});
+	
+	/* For English page - Adjustments */
+	jQuery(document).ready(function(){
+	
+		jQuery("a.en_alertInfoStatusDiv").click(function(e){
+			e.preventDefault();
+			jQuery(this).parent().parent().parent().next("div").toggle();
+			jQuery(this).text(jQuery(this).text()=="Hide Details"?"View Details":"Hide Details");
+			if(jQuery(this).text()=="View Details"){
+			//if(jQuery(this).hasClass("detailsHide")){
+				jQuery(this).addClass("detailsShow").removeClass("detailsHide");
+				jQuery(this).attr("title","View Details");
+			}
+			else{
+				jQuery(this).addClass("detailsHide").removeClass("detailsShow");
+				jQuery(this).attr("title","Hide Details");
+			}
+		});
+		
+	});
+	
+/* For French page - Adjustments */
+	jQuery(document).ready(function(){
+	
+		jQuery("a.fr_alertInfoStatusDiv").click(function(e){
+			e.preventDefault();
+			jQuery(this).parent().parent().parent().next("div").toggle();
+			jQuery(this).text(jQuery(this).text()=="Masquer les d\xE9tails"?"Visualiser les details":"Masquer les d\xE9tails");
+			if(jQuery(this).text()=="Visualiser les details"){
+			//if(jQuery(this).hasClass("detailsHide")){
+				jQuery(this).addClass("detailsShow").removeClass("detailsHide");
+				jQuery(this).attr("title","Visualiser les details");
+			}
+			else{
+				jQuery(this).addClass("detailsHide").removeClass("detailsShow");
+				jQuery(this).attr("title","Masquer les d\xE9tails");
+			}
+		});
+		
+	});
+	
+	
+/* ################  NEW PRODUCT VIEW: ALERTS VIEW ALL TOGGLE SCRIPT  ############## */
+
+/* For English page */
+	jQuery(document).ready(function(){
+	
+		jQuery("#en_viewAllDetails").click(function(e){
+			e.preventDefault();
+			if(jQuery(this).text()=="View All Details"){
+				jQuery(".alertTypeInfo").show();
+				jQuery(".en_alertInfoStatus").text("Hide Details").addClass("detailsHide").removeClass("detailsShow");
+				jQuery(".en_alertInfoStatusDiv").text("Hide Details").addClass("detailsHide").removeClass("detailsShow");
+				jQuery(this).text("Hide All Details");
+				jQuery(this).attr("title","Hide All Details");
+				jQuery(".en_alertInfoStatusDiv").attr("title","Hide Details");
+				jQuery(this).addClass("detailsHide").removeClass("detailsShow");
+			}
+			else{
+				jQuery(".alertTypeInfo").hide();
+				jQuery(".en_alertInfoStatus").text("View Details").addClass("detailsShow").removeClass("detailsHide");
+				jQuery(".en_alertInfoStatusDiv").text("View Details").addClass("detailsShow").removeClass("detailsHide");
+				jQuery(this).text("View All Details");
+				jQuery(this).attr("title","View All Details");
+				jQuery(".en_alertInfoStatusDiv").attr("title","View Details");
+				jQuery(this).addClass("detailsShow").removeClass("detailsHide");
+			}
+				
+			
+		});
+		
+	});
+	
+/* For French page */
+	jQuery(document).ready(function(){
+	
+		jQuery("#fr_viewAllDetails").click(function(e){
+			e.preventDefault();
+			if(jQuery(this).text()=="Visualiser tous les d\xE9tails"){
+				jQuery(".alertTypeInfo").show();
+				jQuery(".fr_alertInfoStatus").text("Masquer les d\xE9tails").addClass("detailsHide").removeClass("detailsShow");
+				jQuery(".fr_alertInfoStatusDiv").text("Masquer les d\xE9tails").addClass("detailsHide").removeClass("detailsShow");
+				jQuery(this).text("Masquer tous les d\xE9tails");
+				jQuery(this).attr("title","Masquer tous les d\xE9tails");
+				jQuery(".fr_alertInfoStatusDiv").attr("title","Masquer les d\xE9tails");
+				jQuery(this).addClass("detailsHide").removeClass("detailsShow");
+			}
+			else{
+				jQuery(".alertTypeInfo").hide();
+				jQuery(".fr_alertInfoStatus").text("Visualiser les details").addClass("detailsShow").removeClass("detailsHide");
+				jQuery(".fr_alertInfoStatusDiv").text("Visualiser les details").addClass("detailsShow").removeClass("detailsHide");
+				jQuery(this).text("Visualiser tous les d\xE9tails");
+				jQuery(this).attr("title","Visualiser tous les d\xE9tails");
+				jQuery(".fr_alertInfoStatusDiv").attr("title","Visualiser les details");
+				jQuery(this).addClass("detailsShow").removeClass("detailsHide");
+			}
+				
+			
+		});
+		
+	});
+	
+
+	
+
+	
