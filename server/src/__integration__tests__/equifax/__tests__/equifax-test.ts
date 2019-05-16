@@ -3,9 +3,9 @@ import config from '../fixtures/actions.config';
 import {init} from "../../../index";
 
 test('get score', async() => {
-    const page = await init();
+    const page = await init(true);
     const extractor = config.extractor;
     await executeActions(page, config.actions);
     const result = await extract(page, extractor.selector);
     expect(result).toEqual('Thank you for your order, Joe!');
-});
+}, 30000);
