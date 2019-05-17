@@ -1,5 +1,4 @@
 import {init} from "./index";
-import {getSummary} from "./institutions/cibc";
 import {getScore} from "./institutions/equifax";
 import {executeActions, extract, navigate, replaceValuesInActions} from "./helpers/actions";
 import {Page} from "puppeteer";
