@@ -25,15 +25,13 @@ app.use(async(err, req, res, next) => {
 });
 app.get('/summary', async (req, res, next) => {
     const {username, password} = req.query;
-    console.log('got query', req.query);
     try {
         page = await init(false);
         const actions = CIBCActions.actions;
         const extractor = CIBCActions.extractor;
         const newActions = replaceValuesInActions(actions, {username, password});
         await executeActions(page, newActions);
-        console.log('new actions');
-        const result = await extract(page, extractor.selector);
+        const result = await extract(page, extractor);
         res.send(result);
     }
     catch(e) {
@@ -57,28 +55,13 @@ app.get('/credit-score', async (req, res, next) => {
         next(e)
     }
 });
-app.post('/query', async(req, res, next) => {
-    const body = req.body;
-    const {selector, url} = body;
-    try {
-        page = await init(false);
-        await navigate(page, url);
-        const result = await extract(page, selector);
-        res.send(result);
-        await page.browser().close();
-    }
-    catch(e) {
-        next(e);
-    }
-});
 app.post('/actions', async(req, res, next) => {
     try {
         page = await init(true);
         const actions: Action[] = req.body.actions;
         const extractor: Extractor = req.body.extractor;
         await executeActions(page, actions);
-        console.log('selector', extractor.selector);
-        const result = await extract(page, extractor.selector);
+        const result = await extract(page, extractor);
         res.send(result);
     }
     catch(e) {
