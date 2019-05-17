@@ -1,9 +1,10 @@
 import {init} from "./index";
 import {getScore} from "./institutions/equifax";
-import {executeActions, extract, navigate, replaceValuesInActions} from "./helpers/actions";
+import {executeActions, replaceValuesInActions} from "./helpers/actions";
 import {Page} from "puppeteer";
 import {Action, Extractor} from "./typings";
 import CIBCActions from './institutions/cibc/actions.config';
+import {extract} from "./helpers/extraction";
 const bodyParser = require('body-parser');
 const express = require('express');
 const timeout = require('connect-timeout');
@@ -26,7 +27,7 @@ app.use(async(err, req, res, next) => {
 app.get('/summary', async (req, res, next) => {
     const {username, password} = req.query;
     try {
-        page = await init(false);
+        page = await init(true);
         const actions = CIBCActions.actions;
         const extractor = CIBCActions.extractor;
         const newActions = replaceValuesInActions(actions, {username, password});

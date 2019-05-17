@@ -1,10 +1,11 @@
-import {executeActions, extract, replaceValuesInActions} from "../../../helpers/actions";
+import {executeActions, replaceValuesInActions} from "../../../helpers/actions";
 import updateScoreConfig from '../fixtures/update-score.config';
 import getScoreConfig from '../fixtures/get-score-config';
 import multipleExtractions from '../fixtures/multiple-extractions-config';
 
 
 import {init} from "../../../index";
+import {extract} from "../../../helpers/extraction";
 
 test('update score', async() => {
     const page = await init(true);
