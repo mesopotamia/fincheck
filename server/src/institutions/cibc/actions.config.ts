@@ -22,11 +22,13 @@ export default {
     "extractor": [
         {
             "selector": ".panels.box div:nth-child(3) .detail-container .category-balance",
-            "propName": "liabilities"
+            "propName": "liabilities",
+            formatters: [{type: 'convertToNumber'}]
         },
         {
             "selector": ".panels.box div:nth-child(2) .detail-container .category-balance",
-            "propName": "assets"
+            "propName": "assets",
+            formatters: [{type: 'convertToNumber'}]
         }
     ]
 }

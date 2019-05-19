@@ -1,10 +1,19 @@
-import {Extractor} from "../typings";
+import {Extractor, Formatter} from "../typings";
 import {Page} from "puppeteer";
+import formatters from './formatters';
 
-const extractItem = async(page: Page, extractor: Extractor) => {
+export const extractItem = async(page: Page | any, extractor: Extractor) => {
     const {selector} = extractor;
     await page.waitForSelector(selector);
-    return await page.evaluate((selector) => document.querySelector(selector).textContent, selector);
+    let result = await page.evaluate((selector) => document.querySelector(selector).textContent, selector);
+    if (extractor.formatters.length > 0) {
+        extractor.formatters.forEach((formatter: Formatter) => {
+            console.log(formatter.type);
+           result = formatters[formatter.type](result);
+        });
+        return result;
+    }
+    return result;
 };
 export const extract = async (page, extractors: Extractor | Extractor[]) => {
     if (Array.isArray(extractors)) {
