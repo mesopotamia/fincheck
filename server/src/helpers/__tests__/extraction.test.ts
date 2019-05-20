@@ -1,5 +1,6 @@
 import {Extractor, ExtractorType, formatterTypes} from "../../typings";
 import {extractItem} from "../extraction";
+import {pageMock} from "../__mocks__/page";
 
 test('apply formatting to extractor', async() => {
     const extractor: Extractor = {
@@ -8,10 +9,7 @@ test('apply formatting to extractor', async() => {
         propName: 'prop1',
         type: ExtractorType.textContent
     };
-    const mockPage = {
-        waitForSelector: () => Promise.resolve('whatever'),
-        evaluate: () => Promise.resolve('$1000')
-    };
-    const result = await extractItem(mockPage, extractor);
+    spyOn(pageMock, 'evaluate').and.returnValue(Promise.resolve('$1000'));
+    const result = await extractItem(pageMock, extractor);
     expect(result).toEqual('$1,000');
 });
