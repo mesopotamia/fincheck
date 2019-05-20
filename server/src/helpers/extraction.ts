@@ -7,9 +7,9 @@ export const extractItem = async(page: Page | any, extractor: Extractor) => {
     await page.waitForSelector(selector);
     let result = await page.evaluate((selector) => document.querySelector(selector).textContent, selector);
     result = result.trim();
-    if (extractor.formatters.length > 0) {
-        extractor.formatters.forEach((formatter: Formatter) => {
-            console.log(formatter.type);
+    let extractorFormatters = extractor.formatters || [];
+    if (extractorFormatters.length > 0) {
+        extractorFormatters.forEach((formatter: Formatter) => {
            result = formatters[formatter.type](result);
         });
         return result;
