@@ -11,3 +11,7 @@ interface AccountSummary {
   liabilities: number;
   netWorth?: number
 }
+interface CreditScore {
+  score: string;
+  description: string;
+}

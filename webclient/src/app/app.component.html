@@ -3,3 +3,8 @@
     <fc-login class="config" loginType="CIBC" (loginEvent)="onLogin($event)"></fc-login>
 </fc-toggler>
 
+<fc-toggler>
+  <fc-credit-score [description]="creditScore?.description" [score]="creditScore?.score"></fc-credit-score>
+  <fc-login class="config" loginType="EQUIFAX" (loginEvent)="onLogin($event)"></fc-login>
+</fc-toggler>
+
