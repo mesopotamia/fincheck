@@ -10,6 +10,8 @@ export async function login(
     await usernameHandle.type(username);
     await passwordHandle.type(password);
     console.log('entered credentials');
+
+
     await Promise.all([
         page.waitForNavigation({waitUntil: "networkidle2"}),
         page.keyboard.press('Enter')

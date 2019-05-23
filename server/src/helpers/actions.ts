@@ -1,5 +1,5 @@
 import {Page} from "puppeteer";
-import {Action, ActionType, Extractor} from "../typings";
+import {Action, ActionType} from "../typings";
 
 
 export const navigate = async (page: Page, url: string) => {
@@ -34,6 +34,9 @@ export const executeActions = async(page: Page, actions: Action[]) => {
                 break;
             case ActionType.typeIntoField:
                 await typeIntoField(page, action.selector, action.value);
+                break;
+            case ActionType.enter:
+                await pressEnter(page);
                 break;
         }
     }

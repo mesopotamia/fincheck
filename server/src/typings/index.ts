@@ -7,7 +7,8 @@ export interface Action {
 export enum ActionType {
     click = 'click',
     navigate = 'navigate',
-    typeIntoField = 'typeIntoField'
+    typeIntoField = 'typeIntoField',
+    enter = 'enter'
 }
 export interface Extractor {
     selector: string;

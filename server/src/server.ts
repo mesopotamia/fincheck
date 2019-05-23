@@ -5,6 +5,7 @@ import {Page} from "puppeteer";
 import {Action, Extractor} from "./typings";
 import CIBCActions from './institutions/cibc/actions.config';
 import {extract} from "./helpers/extraction";
+
 const bodyParser = require('body-parser');
 const express = require('express');
 const timeout = require('connect-timeout');
@@ -25,14 +26,10 @@ app.use(async(err, req, res, next) => {
     await page.browser().close();
     res.send('error');
 });
-app.get('/summary', async (req, res, next) => {
-    const {username, password} = req.query;
+const getResults = async (actions: Action[], extractor: Extractor | Extractor[], req, res, next) => {
     try {
-        page = await init(true);
-        const actions = CIBCActions.actions;
-        const extractor = CIBCActions.extractor;
-        const newActions = replaceValuesInActions(actions, {username, password});
-        await executeActions(page, newActions);
+        page = await init(false);
+        await executeActions(page, actions);
         const result = await extract(page, extractor);
         res.send(result);
     }
@@ -42,6 +39,13 @@ app.get('/summary', async (req, res, next) => {
     finally {
         await page.browser().close();
     }
+};
+app.get('/summary', async (req, res, next) => {
+    const {username, password} = req.query;
+    const actions = CIBCActions.actions;
+    const newActions = replaceValuesInActions(actions, {username, password});
+    const extractor = CIBCActions.extractor;
+    await getResults(newActions, extractor, req, res, next);
 });
 app.get('/credit-score', async (req, res, next) => {
     const {username, password} = req.query;
