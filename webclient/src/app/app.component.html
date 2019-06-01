@@ -1,10 +1,19 @@
-<fc-toggler>
-    <fc-networth [netWorth]="accountSummary?.netWorth" [liabilities]="accountSummary?.liabilities" [assets]="accountSummary?.assets"></fc-networth>
-    <fc-login class="config" loginType="CIBC" (loginEvent)="onLogin($event)"></fc-login>
-</fc-toggler>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <fc-toggler>
+        <fc-networth [netWorth]="accountSummary?.netWorth" [liabilities]="accountSummary?.liabilities" [assets]="accountSummary?.assets"></fc-networth>
+        <fc-login class="config" loginType="CIBC" (loginEvent)="onLogin($event)"></fc-login>
+      </fc-toggler>
+    </div>
+    <div class="col-sm-6">
+      <fc-toggler>
+        <fc-credit-score [description]="creditScore?.description" [score]="creditScore?.score"></fc-credit-score>
+        <fc-login class="config" loginType="EQUIFAX" (loginEvent)="onLogin($event)"></fc-login>
+      </fc-toggler>
+    </div>
+  </div>
+</div>
 
-<fc-toggler>
-  <fc-credit-score [description]="creditScore?.description" [score]="creditScore?.score"></fc-credit-score>
-  <fc-login class="config" loginType="EQUIFAX" (loginEvent)="onLogin($event)"></fc-login>
-</fc-toggler>
+
 

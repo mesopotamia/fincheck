@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {AccountsService} from "./accounts.service";
 import {HttpClient} from "@angular/common/http";
+import {DbService} from "./db.service";
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,9 @@ import {HttpClient} from "@angular/common/http";
 export class AppComponent {
   accountSummary: AccountSummary;
   creditScore: CreditScore;
-  constructor(private accountsService: AccountsService, private httpClient: HttpClient) {
+  constructor(private accountsService: AccountsService,
+              private httpClient: HttpClient,
+              private dbService: DbService) {
     this.accountSummary = {
       netWorth: Number(localStorage.getItem('netWorth')),
       liabilities: Number(localStorage.getItem('liabilities')),
@@ -38,8 +41,8 @@ export class AppComponent {
     this.httpClient.get<CreditScore>(url).subscribe((credit: CreditScore) => {
       this.creditScore.score = credit.score;
       this.creditScore.description = credit['status'];
-      localStorage.setItem('score', credit.score);
-      localStorage.setItem('description', credit.description);
+      localStorage.setItem('score', this.creditScore.score);
+      localStorage.setItem('description', this.creditScore.description);
     })
   }
   getSummary(loginModel: LoginModel) {
