@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import {AccountsService} from "./accounts.service";
 import {HttpClient} from "@angular/common/http";
+import dexie from 'dexie';
 import {DbService} from "./db.service";
+import {NetWorth} from "../types/database";
 
 @Component({
   selector: 'app-root',
@@ -13,7 +15,7 @@ export class AppComponent {
   creditScore: CreditScore;
   constructor(private accountsService: AccountsService,
               private httpClient: HttpClient,
-              private dbService: DbService) {
+              public dbService: DbService) {
     this.accountSummary = {
       netWorth: Number(localStorage.getItem('netWorth')),
       liabilities: Number(localStorage.getItem('liabilities')),
@@ -22,7 +24,8 @@ export class AppComponent {
     this.creditScore = {
       score: localStorage.getItem('score'),
       description: localStorage.getItem('description')
-    }
+    };
+    window['Dexie'] = dexie;
   }
   onLogin(event: LoginEvent) {
     switch (event.type) {
@@ -46,16 +49,13 @@ export class AppComponent {
     })
   }
   getSummary(loginModel: LoginModel) {
-    return this.accountsService.getSummary(loginModel).subscribe((accountSummary: AccountSummary) => {
+    return this.accountsService.getSummary(loginModel).subscribe(async(accountSummary: AccountSummary) => {
       const {assets, liabilities} = accountSummary;
       const netWorth = assets - liabilities;
-      this.accountSummary = {
-        ...accountSummary,
-        netWorth
-      };
-      localStorage.setItem('assets', String(assets));
-      localStorage.setItem('liabilities', String(liabilities));
-      localStorage.setItem('netWorth', String(netWorth));
+      await this.dbService.updateNetWorth({liabilities, netWorth, source: 'CIBC', assets});
     })
+  }
+  async getNetWorth(source: string): Promise<NetWorth> {
+    return await this.dbService.getNetWorthBySource(source);
   }
 }
