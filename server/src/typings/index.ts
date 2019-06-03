@@ -8,13 +8,18 @@ export enum ActionType {
     click = 'click',
     navigate = 'navigate',
     typeIntoField = 'typeIntoField',
-    enter = 'enter'
+    enter = 'enter',
+    waitForDuration = 'waitForDuration'
 }
 export interface Extractor {
     selector: string;
     type?: ExtractorType.textContent | any,
     propName?: string;
     formatters?: Formatter[];
+    iFrame?: {
+      name?: string;
+      url?: string;
+    }
 }
 export enum ExtractorType {
     textContent

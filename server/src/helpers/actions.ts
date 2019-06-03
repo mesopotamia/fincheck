@@ -23,6 +23,9 @@ export const typeIntoField = async (page: Page, selector: string, value: string)
     const field = await page.$(selector);
     await field.type(value);
 };
+export const waitForDuration = async (page: Page, duration: string) => {
+    await page.waitFor(Number(duration));
+};
 export const executeActions = async(page: Page, actions: Action[]) => {
     for(const action of actions) {
         switch(action.type) {
@@ -37,6 +40,9 @@ export const executeActions = async(page: Page, actions: Action[]) => {
                 break;
             case ActionType.enter:
                 await pressEnter(page);
+                break;
+            case ActionType.waitForDuration:
+                await waitForDuration(page, action.value);
                 break;
         }
     }

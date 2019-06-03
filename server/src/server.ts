@@ -5,6 +5,7 @@ import {Page} from "puppeteer";
 import {Action, Extractor} from "./typings";
 import CIBCActions from './institutions/cibc/actions.config';
 import {extract} from "./helpers/extraction";
+import {extractor as mesoMMExtractor, actions as mesoMMActions} from './institutions/td/meso-mm.config';
 
 const bodyParser = require('body-parser');
 const express = require('express');
@@ -37,7 +38,7 @@ const getResults = async (actions: Action[], extractor: Extractor | Extractor[],
         next(e);
     }
     finally {
-        await page.browser().close();
+        // await page.browser().close();
     }
 };
 app.get('/summary', async (req, res, next) => {
@@ -46,6 +47,11 @@ app.get('/summary', async (req, res, next) => {
     const newActions = replaceValuesInActions(actions, {username, password});
     const extractor = CIBCActions.extractor;
     await getResults(newActions, extractor, req, res, next);
+});
+app.get('/td/mesoMM/netWorth', async (req, res, next) => {
+    const {username, password} = req.query;
+    const newActions = replaceValuesInActions(mesoMMActions, {username, password});
+    await getResults(newActions, mesoMMExtractor, req, res, next);
 });
 app.get('/credit-score', async (req, res, next) => {
     const {username, password} = req.query;

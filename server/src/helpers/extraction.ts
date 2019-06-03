@@ -1,8 +1,16 @@
 import {Extractor, Formatter} from "../typings";
-import {Page} from "puppeteer";
+import {Frame, Page} from "puppeteer";
 import formatters from './formatters';
 
 export const extractItem = async(page: Page | any, extractor: Extractor) => {
+    if (extractor.iFrame) {
+        const frames = await page.frames() as Frame[];
+        frames.forEach(f => {
+            if (f.name() === extractor.iFrame.name) {
+                page = f;
+            }
+        });
+    }
     const {selector} = extractor;
     await page.waitForSelector(selector);
     let result = await page.evaluate((selector) => document.querySelector(selector).textContent, selector);
