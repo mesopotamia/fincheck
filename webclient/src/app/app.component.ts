@@ -3,7 +3,6 @@ import {AccountsService} from "./accounts.service";
 import {HttpClient} from "@angular/common/http";
 import dexie from 'dexie';
 import {DbService} from "./db.service";
-import {NetWorth} from "../types/database";
 
 @Component({
   selector: 'app-root',
@@ -11,16 +10,10 @@ import {NetWorth} from "../types/database";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  accountSummary: AccountSummary;
   creditScore: CreditScore;
   constructor(private accountsService: AccountsService,
               private httpClient: HttpClient,
               public dbService: DbService) {
-    this.accountSummary = {
-      netWorth: Number(localStorage.getItem('netWorth')),
-      liabilities: Number(localStorage.getItem('liabilities')),
-      assets: Number(localStorage.getItem('assets'))
-    };
     this.creditScore = {
       score: localStorage.getItem('score'),
       description: localStorage.getItem('description')
@@ -32,7 +25,17 @@ export class AppComponent {
       case 'CIBC':
         console.log('calling CIBC');
         console.log('with credentials', event.loginModel);
-        this.getSummary(event.loginModel);
+        this.getSummary(event);
+        break;
+      case 'TDMesoMM':
+        console.log('calling TD Meso MM');
+        console.log('with credentials', event.loginModel);
+        this.getSummary(event);
+        break;
+      case 'TDMesoHolding':
+        console.log('calling TD Meso Holding');
+        console.log('with credentials', event.loginModel);
+        this.getSummary(event);
         break;
       case 'EQUIFAX':
         this.getScore(event.loginModel);
@@ -48,14 +51,11 @@ export class AppComponent {
       localStorage.setItem('description', this.creditScore.description);
     })
   }
-  getSummary(loginModel: LoginModel) {
-    return this.accountsService.getSummary(loginModel).subscribe(async(accountSummary: AccountSummary) => {
+  getSummary({loginModel, type}: LoginEvent) {
+    return this.accountsService.getSummary(loginModel, type).subscribe(async(accountSummary: AccountSummary) => {
       const {assets, liabilities} = accountSummary;
       const netWorth = assets - liabilities;
-      await this.dbService.updateNetWorth({liabilities, netWorth, source: 'CIBC', assets});
+      await this.dbService.updateNetWorth({liabilities, netWorth, source: type, assets});
     })
-  }
-  async getNetWorth(source: string): Promise<NetWorth> {
-    return await this.dbService.getNetWorthBySource(source);
   }
 }

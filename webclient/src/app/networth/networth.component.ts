@@ -9,6 +9,7 @@ export class NetworthComponent implements OnInit {
   @Input() netWorth;
   @Input() liabilities;
   @Input() assets;
+  @Input() accountName: string;
   constructor() { }
 
   ngOnInit() {

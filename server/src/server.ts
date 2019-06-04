@@ -6,6 +6,7 @@ import {Action, Extractor} from "./typings";
 import CIBCActions from './institutions/cibc/actions.config';
 import {extract} from "./helpers/extraction";
 import {extractor as mesoMMExtractor, actions as mesoMMActions} from './institutions/td/meso-mm.config';
+import {extractor as mesoHoldExtractor, actions as mesoHoldActions} from './institutions/td/meso-hold.config';
 
 const bodyParser = require('body-parser');
 const express = require('express');
@@ -52,6 +53,11 @@ app.get('/td/mesoMM/netWorth', async (req, res, next) => {
     const {username, password} = req.query;
     const newActions = replaceValuesInActions(mesoMMActions, {username, password});
     await getResults(newActions, mesoMMExtractor, req, res, next);
+});
+app.get('/td/mesoHolding/netWorth', async (req, res, next) => {
+    const {username, password} = req.query;
+    const newActions = replaceValuesInActions(mesoHoldActions, {username, password});
+    await getResults(newActions, mesoHoldExtractor, req, res, next);
 });
 app.get('/credit-score', async (req, res, next) => {
     const {username, password} = req.query;

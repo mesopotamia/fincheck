@@ -1,27 +1,39 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <fc-toggler>
-        <fc-networth [netWorth]="dbService.getNetWorthBySource('CIBC')?.netWorth" [liabilities]="dbService.getNetWorthBySource('CIBC')?.liabilities" [assets]="dbService.getNetWorthBySource('CIBC')?.assets"></fc-networth>
+        <fc-networth accountName="CIBC - Personal" [netWorth]="dbService.getNetWorthBySource('CIBC')?.netWorth"
+                     [liabilities]="dbService.getNetWorthBySource('CIBC')?.liabilities"
+                     [assets]="dbService.getNetWorthBySource('CIBC')?.assets"></fc-networth>
         <fc-login class="config" loginType="CIBC" (loginEvent)="onLogin($event)"></fc-login>
       </fc-toggler>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <fc-toggler>
         <fc-credit-score [description]="creditScore?.description" [score]="creditScore?.score"></fc-credit-score>
         <fc-login class="config" loginType="EQUIFAX" (loginEvent)="onLogin($event)"></fc-login>
       </fc-toggler>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <!--<fc-toggler>
-        <fc-networth [netWorth]="accountSummary?.netWorth" [liabilities]="accountSummary?.liabilities" [assets]="accountSummary?.assets"></fc-networth>
-        <fc-login class="config" loginType="CIBC" (loginEvent)="onLogin($event)"></fc-login>
-      </fc-toggler>-->
+    <div class="col-sm-4">
+      <fc-toggler>
+        <fc-networth accountName="TD - Meso MM" [netWorth]="dbService.getNetWorthBySource('TDMesoMM')?.netWorth"
+                     [liabilities]="dbService.getNetWorthBySource('TDMesoMM')?.liabilities"
+                     [assets]="dbService.getNetWorthBySource('TDMesoMM')?.assets"></fc-networth>
+        <fc-login class="config" loginType="TDMesoMM" (loginEvent)="onLogin($event)"></fc-login>
+      </fc-toggler>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <fc-toggler>
+        <fc-networth accountName="TD - Meso Holding" [netWorth]="dbService.getNetWorthBySource('TDMesoHolding')?.netWorth"
+                     [liabilities]="dbService.getNetWorthBySource('TDMesoHolding')?.liabilities"
+                     [assets]="dbService.getNetWorthBySource('TDMesoHolding')?.assets"></fc-networth>
+        <fc-login class="config" loginType="TDMesoHolding" (loginEvent)="onLogin($event)"></fc-login>
+      </fc-toggler>
+    </div>
   </div>
+</div>
 
 
 

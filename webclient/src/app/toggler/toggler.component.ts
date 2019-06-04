@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./toggler.component.scss']
 })
 export class TogglerComponent implements OnInit {
-  shouldShow = false;
+  shouldShow = true;
   constructor() { }
 
   ngOnInit() {

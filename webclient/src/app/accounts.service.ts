@@ -8,7 +8,18 @@ import {Observable} from "rxjs/index";
 export class AccountsService {
 
   constructor(private httpClient: HttpClient) { }
-  getSummary({username, password}: LoginModel): Observable<AccountSummary> {
-    return this.httpClient.get<AccountSummary>(`http://localhost:3000/summary?username=${username}&password=${password}`);
+  getSummary({username, password}: LoginModel, type: string): Observable<AccountSummary> {
+    const baseUrl = AccountsService.getUrl(type);
+    return this.httpClient.get<AccountSummary>(`${baseUrl}?username=${username}&password=${password}`);
+  }
+  static getUrl(type: string) {
+    switch(type) {
+      case 'CIBC':
+        return 'http://localhost:3000/summary';
+      case 'TDMesoMM':
+        return 'http://localhost:3000/td/mesoMM/netWorth';
+      case 'TDMesoHolding':
+        return 'http://localhost:3000/td/mesoHolding/netWorth';
+    }
   }
 }
