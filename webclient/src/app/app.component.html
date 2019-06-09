@@ -10,8 +10,10 @@
     </div>
     <div class="col-sm-4">
       <fc-toggler>
-        <fc-credit-score [description]="creditScore?.description" [score]="creditScore?.score"></fc-credit-score>
-        <fc-login class="config" loginType="EQUIFAX" (loginEvent)="onLogin($event)"></fc-login>
+        <fc-networth accountName="TD - Meso Holding" [netWorth]="dbService.getNetWorthBySource('TDMesoHolding')?.netWorth"
+                     [liabilities]="dbService.getNetWorthBySource('TDMesoHolding')?.liabilities"
+                     [assets]="dbService.getNetWorthBySource('TDMesoHolding')?.assets"></fc-networth>
+        <fc-login class="config" loginType="TDMesoHolding" (loginEvent)="onLogin($event)"></fc-login>
       </fc-toggler>
     </div>
     <div class="col-sm-4">
@@ -26,10 +28,8 @@
   <div class="row">
     <div class="col-sm-4">
       <fc-toggler>
-        <fc-networth accountName="TD - Meso Holding" [netWorth]="dbService.getNetWorthBySource('TDMesoHolding')?.netWorth"
-                     [liabilities]="dbService.getNetWorthBySource('TDMesoHolding')?.liabilities"
-                     [assets]="dbService.getNetWorthBySource('TDMesoHolding')?.assets"></fc-networth>
-        <fc-login class="config" loginType="TDMesoHolding" (loginEvent)="onLogin($event)"></fc-login>
+        <fc-credit-score [description]="creditScore?.description" [score]="creditScore?.score"></fc-credit-score>
+        <fc-login class="config" loginType="EQUIFAX" (loginEvent)="onLogin($event)"></fc-login>
       </fc-toggler>
     </div>
   </div>

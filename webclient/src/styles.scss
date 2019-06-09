@@ -6,3 +6,6 @@ body {
 img {
   max-width: 100%;
 }
+.row + .row {
+  margin-top: 10px;
+}

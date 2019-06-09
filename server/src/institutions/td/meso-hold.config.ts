@@ -29,7 +29,7 @@ export const extractor: Extractor[] = [
         iFrame: {
             name: 'tddetails'
         },
-        selector: '#td-layout-contentarea > div.td-layout-column.td-layout-grid12.td-layout-column-last div > div.td-layout-column.td-layout-grid12.td-layout-column-first > div > table:nth-child(1) > tbody > tr:nth-child(2) > td.td-copy-align-right',
+        selector: '#td-layout-contentarea div:nth-child(3) div div:nth-child(10) table tr:nth-child(2) td',
         propName: 'assets',
         formatters: [{type: 'convertToNumber'}]
     },
