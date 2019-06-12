@@ -8,6 +8,7 @@ import {NetWorth} from "../types/database";
 export class DbService {
   private db;
   public netWorthList: NetWorth[] = [];
+  public properties: Property[] = [];
   constructor() {
     this.init();
   }
@@ -15,9 +16,17 @@ export class DbService {
     try {
       this.db = await new Dexie('fincheck');
       await this.db.version(1).stores({
-        netWorth: 'source, liabilities, assets, netWorth'
+        netWorth: 'source, liabilities, assets, netWorth',
+        properties: '++id, marketValue, address, avatar, mortgage'
       });
       await this.getNetWorthListFromDB();
+      await this.db.properties.put({
+        avatar: 'whatever2',
+        marketValue: '600',
+        address: '',
+        mortgage: '23'
+      });
+      this.properties = await this.db.properties.toArray();
     }
     catch(e) {
       console.log('my error');

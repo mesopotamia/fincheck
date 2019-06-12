@@ -15,3 +15,17 @@ interface CreditScore {
   score: string;
   description: string;
 }
+interface Mortgage {
+  originalAmount: number;
+  currentBalance: number;
+  regularPaymentAmount: number;
+  paymentDayOfMonth: number;
+  termOfLoanInMonths: number;
+}
+interface Property {
+  id: string;
+  marketValue: number;
+  address: string;
+  avatar: string;
+  mortgage: Mortgage;
+}

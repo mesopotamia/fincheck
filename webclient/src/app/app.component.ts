@@ -3,7 +3,6 @@ import {AccountsService} from "./accounts.service";
 import {HttpClient} from "@angular/common/http";
 import dexie from 'dexie';
 import {DbService} from "./db.service";
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
