@@ -19,7 +19,7 @@ export class DbService {
         netWorth: 'source, liabilities, assets, netWorth',
         properties: '++id, marketValue, address, avatar, mortgage'
       });
-      await this.getNetWorthListFromDB();
+      this.netWorthList = await this.db.netWorth.toArray();
       await this.db.properties.put({
         avatar: 'whatever2',
         marketValue: '600',
@@ -34,11 +34,9 @@ export class DbService {
     }
     window['db'] = this.db;
   }
-  async getNetWorthListFromDB() {
-    this.netWorthList = await this.db.netWorth.toArray();
-  }
   async updateNetWorth(changes: NetWorth) {
     await this.db.netWorth.put(changes);
+    this.netWorthList = await this.db.netWorth.toArray();
   }
   getNetWorthBySource(source: string) {
     return this.netWorthList.find((item) => item.source === source);

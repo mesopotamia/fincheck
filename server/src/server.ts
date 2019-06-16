@@ -39,7 +39,7 @@ const getResults = async (actions: Action[], extractor: Extractor | Extractor[],
         next(e);
     }
     finally {
-        // await page.browser().close();
+        await page.browser().close();
     }
 };
 app.get('/summary', async (req, res, next) => {
