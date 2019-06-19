@@ -7,10 +7,12 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 })
 export class LoginComponent implements OnInit {
   @Input() loginType: string;
+  @Input() username = '';
   @Output() loginEvent: EventEmitter<LoginEvent> = new EventEmitter();
   model = { username: '', password: ''};
 
   ngOnInit() {
+    this.model.username = this.username;
   }
   onSubmit() {
     this.loginEvent.emit({

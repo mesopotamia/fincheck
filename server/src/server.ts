@@ -63,7 +63,7 @@ app.get('/credit-score', async (req, res, next) => {
     const {username, password} = req.query;
     console.log('got query', req.query);
     try {
-        page = await init(true);
+        page = await init(false);
         const score = await getScore(page, 'https://www.econsumer.equifax.ca/canadaotc/showmyequifax.ehtml?locale_code=en_ca&_ga=2.19025976.1079285246.1555198618-331063922.1555198618', {username, password});
         console.log('got score', score);
         await page.browser().close();

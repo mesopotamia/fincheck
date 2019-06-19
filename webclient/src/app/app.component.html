@@ -5,7 +5,7 @@
         <fc-networth accountName="CIBC - Personal" [netWorth]="dbService.getNetWorthBySource('CIBC')?.netWorth"
                      [liabilities]="dbService.getNetWorthBySource('CIBC')?.liabilities"
                      [assets]="dbService.getNetWorthBySource('CIBC')?.assets"></fc-networth>
-        <fc-login class="config" loginType="CIBC" (loginEvent)="onLogin($event)"></fc-login>
+        <fc-login username="4506445707158836" class="config" loginType="CIBC" (loginEvent)="onLogin($event)"></fc-login>
       </fc-toggler>
     </div>
     <div class="col-sm-4">
@@ -13,7 +13,7 @@
         <fc-networth accountName="TD - Meso Holding" [netWorth]="dbService.getNetWorthBySource('TDMesoHolding')?.netWorth"
                      [liabilities]="dbService.getNetWorthBySource('TDMesoHolding')?.liabilities"
                      [assets]="dbService.getNetWorthBySource('TDMesoHolding')?.assets"></fc-networth>
-        <fc-login class="config" loginType="TDMesoHolding" (loginEvent)="onLogin($event)"></fc-login>
+        <fc-login username="1305688900490" class="config" loginType="TDMesoHolding" (loginEvent)="onLogin($event)"></fc-login>
       </fc-toggler>
     </div>
     <div class="col-sm-4">
@@ -21,7 +21,7 @@
         <fc-networth accountName="TD - Meso MM" [netWorth]="dbService.getNetWorthBySource('TDMesoMM')?.netWorth"
                      [liabilities]="dbService.getNetWorthBySource('TDMesoMM')?.liabilities"
                      [assets]="dbService.getNetWorthBySource('TDMesoMM')?.assets"></fc-networth>
-        <fc-login class="config" loginType="TDMesoMM" (loginEvent)="onLogin($event)"></fc-login>
+        <fc-login username="1305688900490" class="config" loginType="TDMesoMM" (loginEvent)="onLogin($event)"></fc-login>
       </fc-toggler>
     </div>
   </div>
@@ -29,7 +29,7 @@
     <div class="col-sm-4">
       <fc-toggler>
         <fc-credit-score [description]="creditScore?.description" [score]="creditScore?.score"></fc-credit-score>
-        <fc-login class="config" loginType="EQUIFAX" (loginEvent)="onLogin($event)"></fc-login>
+        <fc-login username="aziz.marwan@gmail.com" class="config" loginType="EQUIFAX" (loginEvent)="onLogin($event)"></fc-login>
       </fc-toggler>
     </div>
   </div>
