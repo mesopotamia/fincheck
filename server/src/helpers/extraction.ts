@@ -2,7 +2,13 @@ import {Extractor, Formatter} from "../typings";
 import {Frame, Page} from "puppeteer";
 import formatters from './formatters';
 
-export const extractItem = async(page: Page | any, extractor: Extractor) => {
+const applyFormatting = (extractorFormatters: Formatter[], result: string) => {
+    extractorFormatters.forEach((formatter: Formatter) => {
+        result = formatters[formatter.type](result);
+    });
+    return result;
+};
+export const extractItem = async(page: Page | any, extractor: Extractor): Promise<string> => {
     if (extractor.iFrame) {
         const frames = await page.frames() as Frame[];
         frames.forEach(f => {
@@ -17,10 +23,7 @@ export const extractItem = async(page: Page | any, extractor: Extractor) => {
     result = result.trim();
     let extractorFormatters = extractor.formatters || [];
     if (extractorFormatters.length > 0) {
-        extractorFormatters.forEach((formatter: Formatter) => {
-           result = formatters[formatter.type](result);
-        });
-        return result;
+        result = applyFormatting(extractorFormatters, result)
     }
     return result;
 };

@@ -1,4 +1,4 @@
-export interface Action {
+export type Action = {
     selector?: string;
     url?: string;
     type?: any;
@@ -11,7 +11,7 @@ export enum ActionType {
     enter = 'enter',
     waitForDuration = 'waitForDuration'
 }
-export interface Extractor {
+export type Extractor = {
     selector: string;
     type?: ExtractorType.textContent | any,
     propName?: string;
@@ -24,7 +24,7 @@ export interface Extractor {
 export enum ExtractorType {
     textContent
 }
-export interface Formatter {
+export type Formatter = {
     type: string;
     options?: any;
 }

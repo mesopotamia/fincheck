@@ -6,17 +6,17 @@ export default {
         },
         {
             "type": "typeIntoField",
-            "selector": "#blq-content > div:nth-child(3) > div:nth-child(2) > div > div.full-bleed-position > div > div > div.column.large-3.medium-3.small-12.hide-for-medium-only.hide-for-small-only.large-offset-1.end.opacity-100.bg-cover > div > div > div > div.desktop.color-bg-global-2.small-12 > form > div.card-number input",
+            "selector": "#blq-content > div:nth-child(3) form > div.card-number input",
             "value": "${username}"
         },
         {
             "type": "typeIntoField",
-            "selector": "#blq-content > div:nth-child(3) > div:nth-child(2) > div > div.full-bleed-position > div > div > div.column.large-3.medium-3.small-12.hide-for-medium-only.hide-for-small-only.large-offset-1.end.opacity-100.bg-cover > div > div > div > div.desktop.color-bg-global-2.small-12 > form > div.password input",
+            "selector": "#blq-content > div:nth-child(3) form > div.password input",
             "value": "${password}"
         },
         {
             "type": "click",
-            "selector": "#blq-content > div:nth-child(3) > div:nth-child(2) > div > div.full-bleed-position > div > div > div.column.large-3.medium-3.small-12.hide-for-medium-only.hide-for-small-only.large-offset-1.end.opacity-100.bg-cover > div > div > div > div.desktop.color-bg-global-2.small-12 > form > div.buttons > div:nth-child(2) button"
+            "selector": "#blq-content > div:nth-child(3) button"
         }
     ],
     "extractor": [
