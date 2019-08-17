@@ -2,7 +2,7 @@ export default {
     "actions": [
         {
             "type": "navigate",
-            "url": "http://localhost:8080"
+            "url": "http://localhost:8081/equifax"
         }
     ],
     "extractor": [

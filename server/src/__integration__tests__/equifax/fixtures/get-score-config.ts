@@ -4,7 +4,7 @@ export default {
     "actions": [
         {
             "type": "navigate",
-            "url": "http://localhost:8080/login/index.htm"
+            "url": "http://localhost:8081/equifax/login/index.htm"
         },
         {
             selector: '#userName',

@@ -7,7 +7,7 @@
     "build": "rimraf dist && tsc && node dist/index.js",
     "start": "nodemon --exec ts-node -r dotenv/config src/server.ts --watch src",
     "start:graphql": "nodemon --exec ts-node -r dotenv/config src/graphql-server.ts --watch src",
-    "runEquifaxMock": "http-server src/__integration__tests__/equifax/site",
+    "integration:mock-server": "http-server --p 8081 src/__integration__tests__/sites",
     "test": "jest",
     "coverage": "jest --coverage"
   },
