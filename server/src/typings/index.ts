@@ -16,6 +16,7 @@ export type Extractor = {
     type?: ExtractorType.textContent | any,
     propName?: string;
     formatters?: Formatter[];
+    isPlural?: boolean;
     iFrame?: {
       name?: string;
       url?: string;
