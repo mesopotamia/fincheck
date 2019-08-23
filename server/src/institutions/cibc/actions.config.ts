@@ -32,3 +32,42 @@ export default {
         }
     ]
 }
+
+export const transactionsConfig = {
+
+    "actions": [
+        {
+            "type": "navigate",
+            "url": "https://www.cibc.com/en/personal-banking.html"
+        },
+        {
+            "type": "typeIntoField",
+            "selector": "#blq-content > div:nth-child(3) form > div.card-number input",
+            "value": "${username}"
+        },
+        {
+            "type": "typeIntoField",
+            "selector": "#blq-content > div:nth-child(3) form > div.password input",
+            "value": "${password}"
+        },
+        {
+            "type": "click",
+            "selector": "#blq-content > div:nth-child(3) button"
+        },
+        {
+            "type": "click",
+            "selector": ".account-name"
+        },
+        {
+            "type": "click",
+            "selector": ".option-bar li:nth-child(3)"
+        }
+    ],
+    "extractor": [
+        {
+            "selector": "tbody .transactions .transactionDescription",
+            "isPlural": true,
+            "propName": "transactions"
+        }
+    ]
+};

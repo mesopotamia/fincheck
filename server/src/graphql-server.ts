@@ -1,8 +1,7 @@
 import {executeActions, replaceValuesInActions} from "./helpers/actions";
 import {init} from "./index";
 import {extract} from "./helpers/extraction";
-import {Action, ActionType, Extractor, ExtractorType} from "./typings";
-import cibcConfig from "../src/institutions/cibc/actions.config";
+import cibcConfig, {transactionsConfig} from "../src/institutions/cibc/actions.config";
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const {buildSchema} = require('graphql');
@@ -10,7 +9,8 @@ const {buildSchema} = require('graphql');
 const schema = buildSchema(`
     type Financial {
         summary: Summary,
-        detail: Summary
+        detail: Summary,
+        transactions: [String]
     }
     type Summary {
         liabilities: String!,
@@ -40,7 +40,7 @@ const root = {
         const page = await init(false);
         await executeActions(page, actions);
         const extraction = await extract(page, extractors);
-        return extraction.header;
+        return extraction['header'];
     },
     cibc: ({username, password}) => ({
         summary: async () => {
@@ -49,6 +49,14 @@ const root = {
             const page = await init(false);
             await executeActions(page, actionsWithCredentials);
             return await extract(page, extractor);
+        },
+        transactions: async () => {
+            const {actions, extractor} = transactionsConfig;
+            const actionsWithCredentials = replaceValuesInActions(actions, {username, password});
+            const page = await init(false);
+            await executeActions(page, actionsWithCredentials);
+            const results =  await extract(page, extractor);
+            return results['transactions'];
         },
         detail: async () => {
             const {actions, extractor} = cibcConfig;
