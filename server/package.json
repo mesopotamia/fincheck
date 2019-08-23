@@ -9,7 +9,8 @@
     "start:graphql": "nodemon --exec ts-node -r dotenv/config src/graphql-server.ts --watch src",
     "integration:mock-server": "http-server --p 8081 src/__integration__tests__/sites",
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "generate:graph": "npx arkit src/ -o docs/diagram.svg"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,8 @@
     "@types/node": "^10.12.18",
     "@types/numeral": "0.0.25",
     "@types/puppeteer": "^1.12.3",
+    "arkit": "^1.6.2",
+    "dependency-cruiser": "^5.0.1",
     "jest": "^23.6.0",
     "nodemon": "^1.18.9",
     "rimraf": "^2.6.3",
