@@ -61,6 +61,10 @@ export const transactionsConfig = {
         {
             "type": "click",
             "selector": ".option-bar li:nth-child(3)"
+        },
+        {
+            "type": "waitForDuration",
+            "value": "2000"
         }
     ],
     "extractor": [

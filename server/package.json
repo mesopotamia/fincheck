@@ -7,6 +7,7 @@
     "build": "rimraf dist && tsc && node dist/index.js",
     "start": "nodemon --exec ts-node -r dotenv/config src/server.ts --watch src",
     "start:graphql": "nodemon --exec ts-node -r dotenv/config src/graphql-server.ts --watch src",
+    "start:surgeon": "nodemon --exec ts-node -r dotenv/config src/surgeon.ts --watch src",
     "integration:mock-server": "http-server --p 8081 src/__integration__tests__/sites",
     "test": "jest",
     "coverage": "jest --coverage",
@@ -40,6 +41,7 @@
     "express-graphql": "^0.9.0",
     "graphql": "^14.4.2",
     "numeral": "^2.0.6",
-    "puppeteer": "^1.19.0"
+    "puppeteer": "^1.19.0",
+    "surgeon": "^3.15.4"
   }
 }
